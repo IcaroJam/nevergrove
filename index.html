@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			:root {
+				/* RED - MAPLE */
+				--bgr0: #1f1818ff;
+				--bgr1: #2a2220ff;
+				--bgr2: #352b29ff;
+				--bgr3: #3e3532ff;
+				--bgr4: #473b39ff;
+				--bgr5: #544646ff;
+				--bgr6: #625556ff;
+				--grayr0: #7c7878ff;
+				--grayr1: #8e8686ff;
+				--grayr2: #a59b9bff;
+
+				/* YELLOW - ASPEN */
+				--bgy0: #1f1b18ff;
+				--bgy1: #28231fff;
+				--bgy2: #352f2aff;
+				--bgy3: #3f3933ff;
+				--bgy4: #4b433cff;
+				--bgy5: #564f44ff;
+				--bgy6: #666156ff;
+				--grayy0: #7c7b78ff;
+				--grayy1: #8f8c85ff;
+				--grayy2: #a6a39aff;
+
+				/* TEAL - EUCALYPTUS */
+				--bgt0: #1a1f21ff;
+				--bgt1: #24292eff;
+				--bgt2: #2d363aff;
+				--bgt3: #353f43ff;
+				--bgt4: #414b50ff;
+				--bgt5: #4a5556ff;
+				--bgt6: #596460ff;
+				--grayt0: #787c78ff;
+				--grayt1: #868e86ff;
+				--grayt2: #9ba59cff;
+
+				/* PURPLE - JACARANDA */
+				--bgp0: #19191fff;
+				--bgp1: #23232fff;
+				--bgp2: #2e313cff;
+				--bgp3: #373945ff;
+				--bgp4: #414250ff;
+				--bgp5: #4e4a56ff;
+				--bgp6: #655a65ff;
+				--grayp0: #7c787cff;
+				--grayp1: #8d868dff;
+				--grayp2: #a59ba5ff;
+
+				--bg0: var(--bgt0);
+				--bg1: var(--bgt1);
+				--bg2: var(--bgt2);
+				--bg3: var(--bgt3);
+				--bg4: var(--bgt4);
+				--bg5: var(--bgt5);
+				--bg6: var(--bgt6);
+				--gray0: var(--grayt0);
+				--gray1: var(--grayt1);
+				--gray2: var(--grayt2);
+
+				--accent: var(--teal);
+
+				--fg: #e6d9bcff;
+				--red: #e66d78ff;
+				--orange: #e69471ff;
+				--yellow: #e4bc77ff;
+				--green: #a1c787ff;
+				--teal: #7fc092ff;
+				--blue: #79adb7ff;
+				--purple: #c18abeff;
+				--visual: #443346ff;
+				--bg-red: #462e34ff;
+				--bg-orange: #46372fff;
+				--bg-yellow: #4b4537ff;
+				--bg-green: #3d4a3cff;
+				--bg-teal: #324944ff;
+				--bg-blue: #314351ff;
+				--bg-purple: #433955ff;
+
+
+
+				/* EVERFOREST */
+				/* --bg0: #1e2326ff;
+				--bg1: #272e33ff;
+				--bg2: #2e383cff;
+				--bg3: #374145ff;
+				--bg4: #414b50ff;
+				--bg5: #495156ff;
+				--bg6: #4f5b58ff;
+				--fg: #d3c6aaff;
+				--red: #e67e80ff;
+				--orange: #e69875ff;
+				--yellow: #dbbc7fff;
+				--green: #a7c080ff;
+				--teal: #83c092ff;
+				--blue: #7fbbb3ff;
+				--purple: #d699b6ff;
+				--gray0: #7a8478ff;
+				--gray1: #859289ff;
+				--gray2: #9da9a0ff;
+				--visual: #4c3743ff;
+				--bg-red: #493b40ff;
+				--bg-orange: #;
+				--bg-yellow: #45443cff;
+				--bg-green: #3c4841ff;
+				--bg-teal: #;
+				--bg-blue: #384b55ff;
+				--bg-purple: #463f48ff; */
+
+
+
+				--size: 8px;
+			}
+
+			body {
+				background-color: var(--bg1);
+				color: var(--fg);
+				font-family: monospace;
+				margin: 0;
+			}
+
+			p {
+				margin: 0;
+			}
+
+			button {
+				background-color: var(--bg3);
+				border: none;
+				color: inherit;
+				font-family: inherit;
+				padding: var(--size);
+
+				&#accent {
+					background-color: var(--accent);
+					color: var(--bg1);
+				}
+
+				&#maple:hover {
+					background-color: var(--bg-red);
+				}
+
+				&#aspen:hover {
+					background-color: var(--bg-yellow);
+				}
+
+				&#juniper:hover {
+					background-color: var(--bg-teal);
+				}
+
+				&#jacaranda:hover {
+					background-color: var(--bg-purple);
+				}
+			}
+
+			#variantChanger {
+				position: fixed;
+				right: var(--size);
+				top: var(--size);
+			}
+
+			#title {
+				background-color: var(--bg0);
+				padding: var(--size);
+			}
+
+			.pad { padding: var(--size); }
+			.redF { color: var(--red); }
+			.orgF { color: var(--orange); }
+			.yelF { color: var(--yellow); }
+			.grnF { color: var(--green); }
+			.telF { color: var(--teal); }
+			.bluF { color: var(--blue); }
+			.purF { color: var(--purple); }
+			.redB { background-color: var(--bg-red); }
+			.orgB { background-color: var(--bg-orange); }
+			.yelB { background-color: var(--bg-yellow); }
+			.grnB { background-color: var(--bg-green); }
+			.telB { background-color: var(--bg-teal); }
+			.bluB { background-color: var(--bg-blue); }
+			.purB { background-color: var(--bg-purple); }
+			.visB { background-color: var(--visual); }
+			.b0 { background-color: var(--bg0); }
+			.b1 { background-color: var(--bg1); }
+			.b2 { background-color: var(--bg2); }
+			.b3 { background-color: var(--bg3); }
+			.b4 { background-color: var(--bg4); }
+			.b5 { background-color: var(--bg5); }
+			.b6 { background-color: var(--bg6); }
+			.gr0F { color: var(--gray0); }
+			.gr1F { color: var(--gray1); }
+			.gr2F { color: var(--gray2); }
+			.gr0B { background-color: var(--gray0); }
+			.gr1B { background-color: var(--gray1); }
+			.gr2B { background-color: var(--gray2); }
+
+			.flex { display: flex; }
+			.gapped { gap: var(--size); }
+
+			.colorBox {
+				width: 80px;
+				padding: var(--size);
+				align-content: center;
+				text-align: center;
+			}
+		</style>
+
+		<script>
+			const colMap = {
+				"r": "red",
+				"y": "yellow",
+				"t": "teal",
+				"p": "purple"
+			}
+
+			function toCol(c) {
+				console.log("Changing to accent " + c)
+				document.documentElement.style.setProperty("--bg0", `var(--bg${c}0)`);
+				document.documentElement.style.setProperty("--bg1", `var(--bg${c}1)`);
+				document.documentElement.style.setProperty("--bg2", `var(--bg${c}2)`);
+				document.documentElement.style.setProperty("--bg3", `var(--bg${c}3)`);
+				document.documentElement.style.setProperty("--bg4", `var(--bg${c}4)`);
+				document.documentElement.style.setProperty("--bg5", `var(--bg${c}5)`);
+				document.documentElement.style.setProperty("--bg6", `var(--bg${c}6)`);
+				document.documentElement.style.setProperty("--gray0", `var(--gray${c}0)`);
+				document.documentElement.style.setProperty("--gray1", `var(--gray${c}1)`);
+				document.documentElement.style.setProperty("--gray2", `var(--gray${c}2)`);
+				document.documentElement.style.setProperty("--accent", `var(--${colMap[c]})`);
+			}
+		</script>
+	</head>
+
+
+
+	<body>
+		<div id="variantChanger">
+			<button id="accent">Accent</button>
+			&lt;-
+			<button id="maple" onclick="toCol('r')">Maple</button>
+			<button id="aspen" onclick="toCol('y')">Aspen</button>
+			<button id="juniper" onclick="toCol('t')">Eucalyptus</button>
+			<button id="jacaranda" onclick="toCol('p')">Jacaranda</button>
+		</div>
+		<p id="title">Nevergrove - An everforest inspired color palette</p>
+		<div class="pad">
+			<!-- lmao this is terrible but I reaaaally don't want to use a library -->
+			<!-- (shamelessly taken from the rust demo of vscodethemes.com) -->
+			<p><span class="orgF">struct</span> <span class="bluF">Point</span> {</p>
+			<p>&emsp;&emsp;x<span class="orgF">:</span> <span class="bluF">f64</span>,</p>
+			<p>}</p>
+			<br>
+			<p><span class="redF">impl </span><span class="bluF"">Point</span> {</p>
+			<p class="gr0F">&emsp;&emsp;// Calculate the difference and square root</p>
+			<p>&emsp;&emsp;<span class="redF">fn</span> <span class="grnF">calc</span>(<span class="orgF">&amp;</span><span class="purF">self</span>, other<span class="orgF">: &amp;</span><span class="bluF">Point</span>) <span class="orgF">-&gt;</span> <span class="bluF">f64</span> {</p>
+			<p>&emsp;&emsp;&emsp;&emsp;(<span class="purF">self</span><span class="orgF">.</span>x <span class="orgF">-</span> other<span class="orgF">.</span>x)<span class="orgF">.</span><span class="grnF">abs</span>()<span class="orgF">.</span><span class="grnF">sqrt</span>()</p>
+			<p>&emsp;&emsp;}</p>
+			<p>}</p>
+			<br>
+			<p><span class="redF">fn</span> <span class="grnF">main</span>() {</p>
+			<p>&emsp;&emsp;<span class="orgF">let</span> p <span class="orgF">=</span> <span class="bluF">Point</span> { x<span class="orgF">:</span> <span class="purF">4</span>.<span class="purF">0</span> };</p>
+			<p>&emsp;&emsp;<span class="grnF">println!</span>("<span class="yelF">Calc:</span>{<span class="yelF">:.2</span>}", p<span class="orgF">.</span><span class="grnF">calc</span>(<span class="orgF">&amp;</span><span class="bluF">Point</span> { x<span class="orgF">:</span> <span class="purF">2</span>.<span class="purF">0</span> }));</p>
+			<p>}</p>
+			<br>
+
+			<div class="flex gapped">
+				<div>
+					<p class="visB">This is a highlighted line :)</p>
+					<br>
+					<p class="redB"">RED</p>
+					<br>
+					<p class="orgB">ORANGE</p>
+					<br>
+					<p class="yelB">YELLOW</p>
+					<br>
+					<p class="grnB">GREEN</p>
+					<br>
+					<p class="telB">TEAL</p>
+					<br>
+					<p class="bluB">BLUE</p>
+					<br>
+					<p class="purB">PURPLE</p>
+				</div>
+				<div>
+					<br>
+					<br>
+					<p class="redF"">RED</p>
+					<br>
+					<p class="orgF">ORANGE</p>
+					<br>
+					<p class="yelF">YELLOW</p>
+					<br>
+					<p class="grnF">GREEN</p>
+					<br>
+					<p class="telF">TEAL</p>
+					<br>
+					<p class="bluF">BLUE</p>
+					<br>
+					<p class="purF">PURPLE</p>
+				</div>
+				<div>
+					<br>
+					<br>
+					<p class="redF redB"">RED</p>
+					<br>
+					<p class="orgF orgB">ORANGE</p>
+					<br>
+					<p class="yelF yelB">YELLOW</p>
+					<br>
+					<p class="grnF grnB">GREEN</p>
+					<br>
+					<p class="telF telB">TEAL</p>
+					<br>
+					<p class="bluF bluB">BLUE</p>
+					<br>
+					<p class="purF purB">PURPLE</p>
+				</div>
+			</div>
+			<br>
+			<div class="flex">
+				<div class="colorBox b0">
+					TestString
+					<span class="redB">-R-</span>
+					<span class="orgB">-O-</span>
+					<span class="yelB">-Y-</span>
+					<span class="grnB">-G-</span>
+					<span class="telB">-T-</span>
+					<span class="bluB">-B-</span>
+					<span class="purB">-P-</span>
+					<span class="redF">-R-</span>
+					<span class="orgF">-O-</span>
+					<span class="yelF">-Y-</span>
+					<span class="grnF">-G-</span>
+					<span class="telF">-T-</span>
+					<span class="bluF">-B-</span>
+					<span class="purF">-P-</span>
+				</div>
+				<div class="colorBox b1">
+					TestString
+					<span class="redB">-R-</span>
+					<span class="orgB">-O-</span>
+					<span class="yelB">-Y-</span>
+					<span class="grnB">-G-</span>
+					<span class="telB">-T-</span>
+					<span class="bluB">-B-</span>
+					<span class="purB">-P-</span>
+					<span class="redF">-R-</span>
+					<span class="orgF">-O-</span>
+					<span class="yelF">-Y-</span>
+					<span class="grnF">-G-</span>
+					<span class="telF">-T-</span>
+					<span class="bluF">-B-</span>
+					<span class="purF">-P-</span>
+				</div>
+				<div class="colorBox b2">
+					TestString
+					<span class="redB">-R-</span>
+					<span class="orgB">-O-</span>
+					<span class="yelB">-Y-</span>
+					<span class="grnB">-G-</span>
+					<span class="telB">-T-</span>
+					<span class="bluB">-B-</span>
+					<span class="purB">-P-</span>
+					<span class="redF">-R-</span>
+					<span class="orgF">-O-</span>
+					<span class="yelF">-Y-</span>
+					<span class="grnF">-G-</span>
+					<span class="telF">-T-</span>
+					<span class="bluF">-B-</span>
+					<span class="purF">-P-</span>
+				</div>
+				<div class="colorBox b3">
+					TestString
+					<span class="redB">-R-</span>
+					<span class="orgB">-O-</span>
+					<span class="yelB">-Y-</span>
+					<span class="grnB">-G-</span>
+					<span class="telB">-T-</span>
+					<span class="bluB">-B-</span>
+					<span class="purB">-P-</span>
+					<span class="redF">-R-</span>
+					<span class="orgF">-O-</span>
+					<span class="yelF">-Y-</span>
+					<span class="grnF">-G-</span>
+					<span class="telF">-T-</span>
+					<span class="bluF">-B-</span>
+					<span class="purF">-P-</span>
+				</div>
+				<div class="colorBox b4">
+					TestString
+					<span class="redB">-R-</span>
+					<span class="orgB">-O-</span>
+					<span class="yelB">-Y-</span>
+					<span class="grnB">-G-</span>
+					<span class="telB">-T-</span>
+					<span class="bluB">-B-</span>
+					<span class="purB">-P-</span>
+					<span class="redF">-R-</span>
+					<span class="orgF">-O-</span>
+					<span class="yelF">-Y-</span>
+					<span class="grnF">-G-</span>
+					<span class="telF">-T-</span>
+					<span class="bluF">-B-</span>
+					<span class="purF">-P-</span>
+				</div>
+				<div class="colorBox b5">
+					TestString
+					<span class="redB">-R-</span>
+					<span class="orgB">-O-</span>
+					<span class="yelB">-Y-</span>
+					<span class="grnB">-G-</span>
+					<span class="telB">-T-</span>
+					<span class="bluB">-B-</span>
+					<span class="purB">-P-</span>
+					<span class="redF">-R-</span>
+					<span class="orgF">-O-</span>
+					<span class="yelF">-Y-</span>
+					<span class="grnF">-G-</span>
+					<span class="telF">-T-</span>
+					<span class="bluF">-B-</span>
+					<span class="purF">-P-</span>
+				</div>
+				<div class="colorBox b6">
+					TestString
+					<span class="redB">-R-</span>
+					<span class="orgB">-O-</span>
+					<span class="yelB">-Y-</span>
+					<span class="grnB">-G-</span>
+					<span class="telB">-T-</span>
+					<span class="bluB">-B-</span>
+					<span class="purB">-P-</span>
+					<span class="redF">-R-</span>
+					<span class="orgF">-O-</span>
+					<span class="yelF">-Y-</span>
+					<span class="grnF">-G-</span>
+					<span class="telF">-T-</span>
+					<span class="bluF">-B-</span>
+					<span class="purF">-P-</span>
+				</div>
+			</div>
+			<br>
+			<div class="flex">
+				<div class="colorBox gr0B"></div>
+				<div class="colorBox gr1B"></div>
+				<div class="colorBox gr2B"></div>
+			</div>
+		</div>
+	</body>
+</html>
