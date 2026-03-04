@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="200mm"
+   height="120mm"
+   viewBox="0 0 200 120"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
@@ -24,15 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.9918578"
-     inkscape:cx="416.46364"
-     inkscape:cy="217.42344"
+     inkscape:zoom="1.4959289"
+     inkscape:cx="472.61604"
+     inkscape:cy="256.36245"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="layer1-1">
     <inkscape:grid
        id="grid1"
        units="mm"
@@ -817,163 +817,164 @@
        inkscape:path-effect="#path-effect1-4"
        sodipodi:type="rect"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(100,-29.99999)" />
+       transform="translate(100,-29.999989)"
+       inkscape:label="bgT0" />
     <path
-       style="fill:#24292e;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#262d31;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path1-5"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(110,-29.99999)" />
+       transform="translate(110,-29.999989)"
+       inkscape:label="bgT1" />
     <path
        style="fill:#2d363a;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path2-2"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(120,-29.99999)" />
+       transform="translate(120,-29.999989)"
+       inkscape:label="bgT2" />
     <path
        style="fill:#353f43;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path3-7"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(130,-29.99999)" />
+       transform="translate(130,-29.999989)"
+       inkscape:label="bgT3" />
     <path
        style="fill:#414b50;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path4-6"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(140,-29.99999)" />
+       transform="translate(140,-29.999989)"
+       inkscape:label="bgT4" />
     <path
        style="fill:#4a5556;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path5-1"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(150,-29.99999)" />
+       transform="translate(150,-29.999989)"
+       inkscape:label="bgT5" />
     <path
        style="fill:#596460;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path6-4"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(160,-29.99999)" />
-    <path
-       style="display:none;fill:#4c3743;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-       id="path7-2"
-       d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(70)" />
+       transform="translate(160,-29.999989)"
+       inkscape:label="bgT6" />
     <path
        style="fill:#443346;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path7-8-3"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect8-5"
        inkscape:original-d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(100,-19.999999)" />
-    <path
-       style="display:none;fill:#493b40;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-       id="path8-2"
-       d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(80)" />
+       transform="translate(100,-19.999999)"
+       inkscape:label="visual" />
     <path
        style="fill:#462e34;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path9-2"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(110,-19.999999)" />
+       transform="translate(110,-19.999999)"
+       inkscape:label="bg-red" />
     <path
        style="fill:#46372f;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path10-1"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(120,-19.999999)" />
+       transform="translate(120,-19.999999)"
+       inkscape:label="bg-orange" />
     <path
        style="fill:#4b4537;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path11-6"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(130,-19.999999)" />
+       transform="translate(130,-19.999999)"
+       inkscape:label="bg-yellow" />
     <path
        style="fill:#3d4a3c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path12-8"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(140,-19.999999)" />
+       transform="translate(140,-19.999999)"
+       inkscape:label="bg-green" />
     <path
        style="fill:#324944;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path13-5"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(150,-19.999999)" />
+       transform="translate(150,-19.999999)"
+       inkscape:label="bg-teal" />
+    <path
+       style="fill:#314351;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       id="path14"
+       d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
+       transform="translate(160,-19.999999)"
+       inkscape:label="bg-blue" />
+    <path
+       style="fill:#433955;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       id="path15"
+       d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
+       transform="translate(170,-19.999999)"
+       inkscape:label="bg-purple" />
     <path
        style="fill:#e6d9bc;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path19-7"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect20-5"
        inkscape:original-d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(100,-10)" />
+       transform="translate(100,-10)"
+       inkscape:label="fg" />
     <path
        style="fill:#e66d78;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path20-6"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(110,-10)" />
+       transform="translate(110,-10)"
+       inkscape:label="red" />
     <path
        style="fill:#e69471;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path21-1"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(120,-10)" />
+       transform="translate(120,-10)"
+       inkscape:label="orange" />
     <path
        style="fill:#e4bc77;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path22-8"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(130,-10)" />
+       transform="translate(130,-10)"
+       inkscape:label="yellow" />
     <path
        style="fill:#a1c787;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path23-9"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(140,-10)" />
+       transform="translate(140,-10)"
+       inkscape:label="green" />
     <path
        style="fill:#7fc092;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path24-2"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(150,-10)" />
+       transform="translate(150,-10)"
+       inkscape:label="teal" />
     <path
        transform="translate(160,-10)"
        style="fill:#79adb7;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path25-7"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
+       d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
+       inkscape:label="blue" />
     <path
        transform="translate(170,-10)"
        style="fill:#c18abe;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path26-9"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
+       d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
+       inkscape:label="purple" />
     <path
        style="fill:#7c7878;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path27-5"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect28-1"
        inkscape:original-d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(100)" />
+       transform="translate(100)"
+       inkscape:label="grayR0" />
     <path
        transform="translate(110)"
        style="fill:#8e8686;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path28-4"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
+       d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
+       inkscape:label="grayR1" />
     <path
        transform="translate(120)"
        style="fill:#a59b9b;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path29-3"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
-    <path
-       transform="translate(30,19.999998)"
-       style="display:none;fill:#d3c6aa;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-       id="path30-1"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
-    <path
-       transform="translate(40,19.999998)"
-       style="display:none;fill:#d3c6aa;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-       id="path31-2"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
-    <path
-       transform="translate(50,19.999998)"
-       style="display:none;fill:#d3c6aa;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-       id="path32-3"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
-    <path
-       transform="translate(60,19.999998)"
-       style="display:none;fill:#d3c6aa;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-       id="path33-3"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
-    <path
-       transform="translate(70,19.999998)"
-       style="display:none;fill:#d3c6aa;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-       id="path34-4"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
+       d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
+       inkscape:label="grayR2" />
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:0.8;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:center;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
@@ -991,17 +992,7 @@
    id="tspan66"
    style="font-size:4.23333px;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke-width:2" /></tspan></text>
     <path
-       style="fill:#314351;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-       id="path14"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(160,-19.999999)" />
-    <path
-       style="fill:#433955;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-       id="path15"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(170,-19.999999)" />
-    <path
-       style="fill:#1f1818;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#1f1919;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path16-4"
        width="10"
        height="9.999999"
@@ -1010,37 +1001,44 @@
        sodipodi:type="rect"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect39-6"
-       transform="translate(100,-49.999989)" />
+       transform="translate(100,-49.999989)"
+       inkscape:label="bgR0" />
     <path
-       style="fill:#2a2220;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#312825;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path17-2"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(110,-49.999989)" />
+       transform="translate(110,-49.999989)"
+       inkscape:label="bgR1" />
     <path
-       style="fill:#352b29;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#3a2e2c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path18-3"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(120,-49.999989)" />
+       transform="translate(120,-49.999989)"
+       inkscape:label="bgR2" />
     <path
-       style="fill:#3e3532;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#443b36;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path35-2"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(130,-49.999989)" />
+       transform="translate(130,-49.999989)"
+       inkscape:label="bgR3" />
     <path
-       style="fill:#473b39;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#50413f;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path36-2"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(140,-49.999989)" />
+       transform="translate(140,-49.999989)"
+       inkscape:label="bgR4" />
     <path
-       style="fill:#544646;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#554949;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path37-16"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(150,-49.999989)" />
+       transform="translate(150,-49.999989)"
+       inkscape:label="bgR5" />
     <path
        style="fill:#625556;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path38-8"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(160,-49.999989)" />
+       transform="translate(160,-49.999989)"
+       inkscape:label="bgR6" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
@@ -1054,7 +1052,7 @@
          rotate="0 0 0 0 0 0 0 0 0 0"
          sodipodi:role="line">Jacaranda</tspan></text>
     <path
-       style="fill:#19191f;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#1b1b22;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path40"
        width="10"
        height="9.999999"
@@ -1063,39 +1061,46 @@
        inkscape:path-effect="#path-effect47"
        sodipodi:type="rect"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(100,-19.99999)" />
+       transform="translate(100,-19.99999)"
+       inkscape:label="bgP0" />
     <path
-       style="fill:#23232f;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#262631;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path41"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(110,-19.99999)" />
+       transform="translate(110,-19.99999)"
+       inkscape:label="bgP1" />
     <path
-       style="fill:#2e313c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#2c2f3a;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path42"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(120,-19.99999)" />
+       transform="translate(120,-19.99999)"
+       inkscape:label="bgP2" />
     <path
        style="fill:#373945;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path43"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(130,-19.99999)" />
+       transform="translate(130,-19.99999)"
+       inkscape:label="bgP3" />
     <path
        style="fill:#414250;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path44"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(140,-19.99999)" />
+       transform="translate(140,-19.99999)"
+       inkscape:label="bgP4" />
     <path
-       style="fill:#4e4a56;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#4d4a56;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path45"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(150,-19.99999)" />
+       transform="translate(150,-19.99999)"
+       inkscape:label="bgP5" />
     <path
-       style="fill:#655a65;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#635963;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path46"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(160,-19.99999)" />
+       transform="translate(160,-19.99999)"
+       inkscape:label="bgP6" />
     <path
-       style="fill:#1f1b18;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#221e1b;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path53"
        width="10"
        height="9.999999"
@@ -1104,37 +1109,44 @@
        sodipodi:type="rect"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect60"
-       transform="translate(100,-39.999994)" />
+       transform="translate(100,-39.999994)"
+       inkscape:label="bgY0" />
     <path
-       style="fill:#28231f;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#312c25;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path54"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(110,-39.999994)" />
+       transform="translate(110,-39.999994)"
+       inkscape:label="bgY1" />
     <path
-       style="fill:#352f2a;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#3a322c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path55"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(120,-39.999994)" />
+       transform="translate(120,-39.999994)"
+       inkscape:label="bgY2" />
     <path
-       style="fill:#3f3933;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#443e36;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path56"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(130,-39.999994)" />
+       transform="translate(130,-39.999994)"
+       inkscape:label="bgY3" />
     <path
-       style="fill:#4b433c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#4f4740;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path57"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(140,-39.999994)" />
+       transform="translate(140,-39.999994)"
+       inkscape:label="bgY4" />
     <path
-       style="fill:#564f44;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#555149;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path58"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(150,-39.999994)" />
+       transform="translate(150,-39.999994)"
+       inkscape:label="bgY5" />
     <path
        style="fill:#666156;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path59"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
-       transform="translate(160,-39.999994)" />
+       transform="translate(160,-39.999994)"
+       inkscape:label="bgY6" />
     <path
        style="fill:none;fill-opacity:1;stroke:#c18abe;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 181,-8.9999964 v 7.99999999"
@@ -1149,8 +1161,8 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2"
          x="182.25772"
          y="-14.084977"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         sodipodi:role="line">Eucalyptus/Juniper</tspan></text>
+         rotate="0 0 0 0 0 0 0 0 0 0 0"
+         sodipodi:role="line">Eucalyptus</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#7fc092;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 81,60.999996 v 8"
@@ -1217,8 +1229,8 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2"
          x="142.25772"
          y="45.915035"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-         sodipodi:role="line">Eucalyptus/Juniper</tspan></text>
+         rotate="0 0 0 0 0 0 0 0 0 0 0"
+         sodipodi:role="line">Eucalyptus</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#7fc092;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 81,60.999996 v 8"
@@ -1263,50 +1275,59 @@
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect51"
        inkscape:original-d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(100,9.9999976)" />
+       transform="translate(100,9.9999976)"
+       inkscape:label="grayY0" />
     <path
        transform="translate(110,9.9999976)"
        style="fill:#8f8c85;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path48"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
+       d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
+       inkscape:label="grayY1" />
     <path
        transform="translate(120,9.9999976)"
        style="fill:#a6a39a;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path49"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
+       d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
+       inkscape:label="grayY2" />
     <path
        style="fill:#787c78;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path51"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect62"
        inkscape:original-d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(100,19.999997)" />
+       transform="translate(100,19.999997)"
+       inkscape:label="grayT0" />
     <path
        transform="translate(110,19.999997)"
        style="fill:#868e86;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path52"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
+       d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
+       inkscape:label="grayT1" />
     <path
        transform="translate(120,19.999997)"
        style="fill:#9ba59c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path60"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
+       d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
+       inkscape:label="grayT2" />
     <path
        style="fill:#7c787c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path62"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect66"
        inkscape:original-d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
-       transform="translate(100,30.000006)" />
+       transform="translate(100,30.000006)"
+       inkscape:label="grayP0" />
     <path
        transform="translate(110,30.000006)"
        style="fill:#8d868d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path63"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
+       d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
+       inkscape:label="grayP1" />
     <path
        transform="translate(120,30.000006)"
        style="fill:#a59ba5;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path64"
-       d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
+       d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
+       inkscape:label="grayP2" />
   </g>
 </svg>
