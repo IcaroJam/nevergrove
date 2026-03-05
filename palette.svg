@@ -868,43 +868,43 @@
        id="path9-2"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(110,-19.999999)"
-       inkscape:label="bg-red" />
+       inkscape:label="bgRed" />
     <path
        style="fill:#46372f;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path10-1"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(120,-19.999999)"
-       inkscape:label="bg-orange" />
+       inkscape:label="bgOrange" />
     <path
        style="fill:#4b4537;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path11-6"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(130,-19.999999)"
-       inkscape:label="bg-yellow" />
+       inkscape:label="bgYellow" />
     <path
        style="fill:#3d4a3c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path12-8"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(140,-19.999999)"
-       inkscape:label="bg-green" />
+       inkscape:label="bgGreen" />
     <path
        style="fill:#324944;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path13-5"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(150,-19.999999)"
-       inkscape:label="bg-teal" />
+       inkscape:label="bgTeal" />
     <path
        style="fill:#314351;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path14"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(160,-19.999999)"
-       inkscape:label="bg-blue" />
+       inkscape:label="bgBlue" />
     <path
        style="fill:#433955;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path15"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(170,-19.999999)"
-       inkscape:label="bg-purple" />
+       inkscape:label="bgPurple" />
     <path
        style="fill:#e6d9bc;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path19-7"

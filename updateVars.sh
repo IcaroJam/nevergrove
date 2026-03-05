@@ -1,75 +1,86 @@
 #!/bin/bash
 
+# Color Declaration ############################################################
+colors=(
+	bgR0
+	bgR1
+	bgR2
+	bgR3
+	bgR4
+	bgR5
+	bgR6
+	grayR0
+	grayR1
+	grayR2
+	bgY0
+	bgY1
+	bgY2
+	bgY3
+	bgY4
+	bgY5
+	bgY6
+	grayY0
+	grayY1
+	grayY2
+	bgT0
+	bgT1
+	bgT2
+	bgT3
+	bgT4
+	bgT5
+	bgT6
+	grayT0
+	grayT1
+	grayT2
+	bgP0
+	bgP1
+	bgP2
+	bgP3
+	bgP4
+	bgP5
+	bgP6
+	grayP0
+	grayP1
+	grayP2
+	fg
+	red
+	orange
+	yellow
+	green
+	teal
+	blue
+	purple
+	visual
+	bgRed
+	bgOrange
+	bgYellow
+	bgGreen
+	bgTeal
+	bgBlue
+	bgPurple
+)
+
+# Color Initialization #########################################################
 getCol () {
 	# Export the given argument in order to access it from perl as an environment variable
 	export LABEL=$1
 	# Asign the color to the variable passed as a string in $1
+	# the -0777 makes the matching multiline
 	local -n tmp=$1
-	tmp=$(perl -0777 -ne 'print $1 if /<.*fill:(#.{6}).*label="$ENV{LABEL}".*>/s' palette.svg)
+	tmp=$(perl -0777 -ne 'print $1 if /<.*fill:(#\w{6}).*label="$ENV{LABEL}".*>/s' palette.svg)
 }
 
-# Assign the color from the inkscape svg into variables with the passed name:
+for c in ${colors[@]}; do
+	getCol $c
+done
 
-getCol bgR0
-getCol bgR1
-getCol bgR2
-getCol bgR3
-getCol bgR4
-getCol bgR5
-getCol bgR6
-getCol grayR0
-getCol grayR1
-getCol grayR2
+# Assigning to CSS vars of the demo page #######################################
+replaceCSS () {
+	# The weird 0,/exp/ s//sub/ ensures sed only runs for the first match
+	sed -i "0,/\(^\s*--$1: \)\(#\w*\);$/ s//\1$2;/" index.html
+}
 
-getCol bgY0
-getCol bgY1
-getCol bgY2
-getCol bgY3
-getCol bgY4
-getCol bgY5
-getCol bgY6
-getCol grayY0
-getCol grayY1
-getCol grayY2
-
-getCol bgT0
-getCol bgT1
-getCol bgT2
-getCol bgT3
-getCol bgT4
-getCol bgT5
-getCol bgT6
-getCol grayT0
-getCol grayT1
-getCol grayT2
-
-getCol bgP0
-getCol bgP1
-getCol bgP2
-getCol bgP3
-getCol bgP4
-getCol bgP5
-getCol bgP6
-getCol grayP0
-getCol grayP1
-getCol grayP2
-
-getCol fg
-getCol red
-getCol orange
-getCol yellow
-getCol green
-getCol teal
-getCol blue
-getCol purple
-getCol visual
-getCol bgRed
-getCol bgOrange
-getCol bgYellow
-getCol bgGreen
-getCol bgTeal
-getCol bgBlue
-getCol bgPurple
-
-
-
+for c in ${colors[@]}; do
+	declare -n value="$c" # The value of the color stored in the variable of name $c
+	replaceCSS $c $value
+done
