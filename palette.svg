@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.4959289"
-     inkscape:cx="472.61604"
-     inkscape:cy="256.36245"
+     inkscape:cx="584.92085"
+     inkscape:cy="188.84587"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
@@ -790,13 +790,13 @@
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z" />
     <text
        xml:space="preserve"
-       style="font-size:4.23333px;line-height:0.8;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:center;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="font-size:4.23333px;line-height:0.8;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:center;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:middle;fill:#d3c6aa;fill-opacity:1;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers;stroke:#1e2326;stroke-opacity:1;stroke-dasharray:none"
        x="-59.933853"
        y="8.7502642"
        id="text34"
        transform="rotate(-90)"><tspan
          id="tspan34"
-         style="font-size:4.23333px;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke-width:2"
+         style="font-size:4.23333px;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;fill:#d3c6aa;fill-opacity:1;stroke-width:0.5;stroke:#1e2326;stroke-opacity:1;stroke-dasharray:none"
          x="-60"
          y="8.7502642"
          rotate="0 0 0 0 0 0 0 0 0 0 0"
@@ -806,7 +806,10 @@
      inkscape:label="Custom"
      inkscape:groupmode="layer"
      id="layer1-1"
-     transform="translate(8.0532465e-7,50)">
+     transform="translate(8.0532465e-7,50)"
+     inkscape:export-filename="layer1-1.png"
+     inkscape:export-xdpi="250"
+     inkscape:export-ydpi="250">
     <path
        style="fill:#1a1f21;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="rect1-1"
@@ -977,12 +980,12 @@
        inkscape:label="grayR2" />
     <text
        xml:space="preserve"
-       style="font-size:4.23333px;line-height:0.8;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:center;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="font-size:4.23333px;line-height:0.8;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:center;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:middle;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
        x="-10.002114"
        y="108.69603"
        id="text34-1"
        transform="rotate(-90)"><tspan
-         style="font-size:4.23333px;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke-width:2"
+         style="font-size:4.23333px;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
          x="-10.06826"
          y="108.69603"
          rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -990,7 +993,7 @@
          id="tspan1">Nevergrove<tspan
    rotate="0"
    id="tspan66"
-   style="font-size:4.23333px;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke-width:2" /></tspan></text>
+   style="font-size:4.23333px;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none" /></tspan></text>
     <path
        style="fill:#1f1919;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path16-4"
@@ -1041,12 +1044,12 @@
        inkscape:label="bgR6" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
        x="182.25772"
        y="-4.0849771"
        id="text40"><tspan
          id="tspan40"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
          x="182.25772"
          y="-4.0849771"
          rotate="0 0 0 0 0 0 0 0 0 0"
@@ -1153,12 +1156,12 @@
        id="path16" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
        x="182.25772"
        y="-14.084977"
        id="text16"><tspan
          id="tspan16"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
          x="182.25772"
          y="-14.084977"
          rotate="0 0 0 0 0 0 0 0 0 0 0"
@@ -1170,12 +1173,12 @@
        transform="translate(100,-79.999991)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
        x="182.25772"
        y="-24.084976"
        id="text17"><tspan
          id="tspan17"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
          x="182.25772"
          y="-24.084976"
          rotate="0 0 0 0 0 0"
@@ -1187,12 +1190,12 @@
        transform="translate(100,-89.999991)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
        x="182.25772"
        y="-34.084976"
        id="text18"><tspan
          id="tspan18"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
          x="182.25772"
          y="-34.084976"
          rotate="0 0 0 0 0 0"
@@ -1204,12 +1207,12 @@
        transform="translate(100,-99.999991)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
        x="142.25772"
        y="55.915035"
        id="text2"><tspan
          id="tspan2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
          x="142.25772"
          y="55.915035"
          rotate="0 0 0 0 0 0 0 0 0 0"
@@ -1221,12 +1224,12 @@
        transform="translate(60.000002,-9.9999894)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
        x="142.25772"
        y="45.915035"
        id="text36"><tspan
          id="tspan36"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
          x="142.25772"
          y="45.915035"
          rotate="0 0 0 0 0 0 0 0 0 0 0"
@@ -1238,12 +1241,12 @@
        transform="translate(60.000003,-19.999988)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
        x="142.25772"
        y="35.915035"
        id="text37"><tspan
          id="tspan37"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
          x="142.25772"
          y="35.915035"
          rotate="0 0 0 0 0 0"
@@ -1255,12 +1258,12 @@
        transform="translate(60.000003,-29.999988)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
        x="142.25772"
        y="25.915028"
        id="text38"><tspan
          id="tspan38"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke-width:0.5;stroke:#1a1f21;stroke-opacity:1;stroke-dasharray:none"
          x="142.25772"
          y="25.915028"
          rotate="0 0 0 0 0 0"
