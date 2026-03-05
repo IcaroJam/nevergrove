@@ -1,5 +1,6 @@
 # Nevergrove
 #### An everforest-inspired dark palette featuring deep, rich colors with the right amount of contrast.
+###### _See how it looks in the ![demo page](https://icarojam.github.io/nevergrove/)!!_
 
 ![An image featuring the various palette colors](palette.png)
 
