@@ -160,6 +160,16 @@
 				position: fixed;
 				right: var(--size);
 				top: var(--size);
+				padding: var(--size);
+				background-color: var(--bg0);
+				border: 2px solid var(--bg1);
+
+				&>p {
+					padding-bottom: var(--size);
+					margin-bottom: var(--size);
+					border-bottom: inherit;
+					text-align: center;
+				}
 			}
 
 			#title {
@@ -237,12 +247,15 @@
 
 	<body>
 		<div id="variantChanger">
-			<button id="accent">Accent</button>
-			&lt;-
-			<button id="maple" onclick="toCol('R')">Maple</button>
-			<button id="aspen" onclick="toCol('Y')">Aspen</button>
-			<button id="juniper" onclick="toCol('T')">Eucalyptus</button>
-			<button id="jacaranda" onclick="toCol('P')">Jacaranda</button>
+			<p>Variants</p>
+			<div>
+				<button id="accent">Accent</button>
+				&lt;-
+				<button id="maple" onclick="toCol('R')">Maple</button>
+				<button id="aspen" onclick="toCol('Y')">Aspen</button>
+				<button id="juniper" onclick="toCol('T')">Eucalyptus</button>
+				<button id="jacaranda" onclick="toCol('P')">Jacaranda</button>
+			</div>
 		</div>
 		<p id="title">Nevergrove - An everforest inspired color palette</p>
 		<div class="pad">
