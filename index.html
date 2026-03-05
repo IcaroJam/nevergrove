@@ -4,52 +4,52 @@
 		<style>
 			:root {
 				/* RED - MAPLE */
-				--bgR0: #1f1818ff;
-				--bgR1: #2a2220ff;
-				--bgR2: #352b29ff;
-				--bgR3: #3e3532ff;
-				--bgR4: #473b39ff;
-				--bgR5: #544646ff;
-				--bgR6: #625556ff;
-				--grayR0: #7c7878ff;
-				--grayR1: #8e8686ff;
-				--grayR2: #a59b9bff;
+				--bgR0: #1f1919;
+				--bgR1: #312825;
+				--bgR2: #3a2e2c;
+				--bgR3: #443b36;
+				--bgR4: #50413f;
+				--bgR5: #554949;
+				--bgR6: #625556;
+				--grayR0: #7c7878;
+				--grayR1: #8e8686;
+				--grayR2: #a59b9b;
 
 				/* YELLOW - ASPEN */
-				--bgY0: #1f1b18ff;
-				--bgY1: #28231fff;
-				--bgY2: #352f2aff;
-				--bgY3: #3f3933ff;
-				--bgY4: #4b433cff;
-				--bgY5: #564f44ff;
-				--bgY6: #666156ff;
-				--grayY0: #7c7b78ff;
-				--grayY1: #8f8c85ff;
-				--grayY2: #a6a39aff;
+				--bgY0: #221e1b;
+				--bgY1: #312c25;
+				--bgY2: #3a322c;
+				--bgY3: #443e36;
+				--bgY4: #4f4740;
+				--bgY5: #555149;
+				--bgY6: #666156;
+				--grayY0: #7c7b78;
+				--grayY1: #8f8c85;
+				--grayY2: #a6a39a;
 
 				/* TEAL - EUCALYPTUS */
-				--bgT0: #1a1f21ff;
-				--bgT1: #262d31ff;
-				--bgT2: #2d363aff;
-				--bgT3: #353f43ff;
-				--bgT4: #414b50ff;
-				--bgT5: #4a5556ff;
-				--bgT6: #596460ff;
-				--grayT0: #787c78ff;
-				--grayT1: #868e86ff;
-				--grayT2: #9ba59cff;
+				--bgT0: #1a1f21;
+				--bgT1: #262d31;
+				--bgT2: #2d363a;
+				--bgT3: #353f43;
+				--bgT4: #414b50;
+				--bgT5: #4a5556;
+				--bgT6: #596460;
+				--grayT0: #787c78;
+				--grayT1: #868e86;
+				--grayT2: #9ba59c;
 
 				/* PURPLE - JACARANDA */
-				--bgP0: #19191fff;
-				--bgP1: #262631ff;
-				--bgP2: #2e313cff;
-				--bgP3: #373945ff;
-				--bgP4: #414250ff;
-				--bgP5: #4e4a56ff;
-				--bgP6: #655a65ff;
-				--grayP0: #7c787cff;
-				--grayP1: #8d868dff;
-				--grayP2: #a59ba5ff;
+				--bgP0: #1b1b22;
+				--bgP1: #262631;
+				--bgP2: #2c2f3a;
+				--bgP3: #373945;
+				--bgP4: #414250;
+				--bgP5: #4d4a56;
+				--bgP6: #635963;
+				--grayP0: #7c787c;
+				--grayP1: #8d868d;
+				--grayP2: #a59ba5;
 
 				--bg0: var(--bgT0);
 				--bg1: var(--bgT1);
@@ -64,22 +64,22 @@
 
 				--accent: var(--teal);
 
-				--fg: #e6d9bcff;
-				--red: #e66d78ff;
-				--orange: #e69471ff;
-				--yellow: #e4bc77ff;
-				--green: #a1c787ff;
-				--teal: #7fc092ff;
-				--blue: #79adb7ff;
-				--purple: #c18abeff;
-				--visual: #443346ff;
-				--bgRed: #462e34ff;
-				--bgOrange: #46372fff;
-				--bgYellow: #4b4537ff;
-				--bgGreen: #3d4a3cff;
-				--bgTeal: #324944ff;
-				--bgBlue: #314351ff;
-				--bgPurple: #433955ff;
+				--fg: #e6d9bc;
+				--red: #e66d78;
+				--orange: #e69471;
+				--yellow: #e4bc77;
+				--green: #a1c787;
+				--teal: #7fc092;
+				--blue: #79adb7;
+				--purple: #c18abe;
+				--visual: #443346;
+				--bgRed: #462e34;
+				--bgOrange: #46372f;
+				--bgYellow: #4b4537;
+				--bgGreen: #3d4a3c;
+				--bgTeal: #324944;
+				--bgBlue: #314351;
+				--bgPurple: #433955;
 
 
 
@@ -210,10 +210,10 @@
 
 		<script>
 			const colMap = {
-				"r": "red",
-				"y": "yellow",
-				"t": "teal",
-				"p": "purple"
+				"R": "red",
+				"Y": "yellow",
+				"T": "teal",
+				"P": "purple"
 			}
 
 			function toCol(c) {
@@ -239,10 +239,10 @@
 		<div id="variantChanger">
 			<button id="accent">Accent</button>
 			&lt;-
-			<button id="maple" onclick="toCol('r')">Maple</button>
-			<button id="aspen" onclick="toCol('y')">Aspen</button>
-			<button id="juniper" onclick="toCol('t')">Eucalyptus</button>
-			<button id="jacaranda" onclick="toCol('p')">Jacaranda</button>
+			<button id="maple" onclick="toCol('R')">Maple</button>
+			<button id="aspen" onclick="toCol('Y')">Aspen</button>
+			<button id="juniper" onclick="toCol('T')">Eucalyptus</button>
+			<button id="jacaranda" onclick="toCol('P')">Jacaranda</button>
 		</div>
 		<p id="title">Nevergrove - An everforest inspired color palette</p>
 		<div class="pad">
