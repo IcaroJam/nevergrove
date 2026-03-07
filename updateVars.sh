@@ -9,6 +9,7 @@ colors=(
 	bgR4
 	bgR5
 	bgR6
+	visR
 	grayR0
 	grayR1
 	grayR2
@@ -19,6 +20,7 @@ colors=(
 	bgY4
 	bgY5
 	bgY6
+	visY
 	grayY0
 	grayY1
 	grayY2
@@ -29,6 +31,7 @@ colors=(
 	bgT4
 	bgT5
 	bgT6
+	visT
 	grayT0
 	grayT1
 	grayT2
@@ -39,6 +42,7 @@ colors=(
 	bgP4
 	bgP5
 	bgP6
+	visP
 	grayP0
 	grayP1
 	grayP2
@@ -50,7 +54,7 @@ colors=(
 	teal
 	blue
 	purple
-	visual
+	fgDim
 	bgRed
 	bgOrange
 	bgYellow

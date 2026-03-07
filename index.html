@@ -8,9 +8,10 @@
 				--bgR1: #312825;
 				--bgR2: #3a2e2c;
 				--bgR3: #443b36;
-				--bgR4: #50413f;
+				--bgR4: #4f4140;
 				--bgR5: #554949;
 				--bgR6: #625556;
+				--visR: #3b4f4d;
 				--grayR0: #7c7878;
 				--grayR1: #8e8686;
 				--grayR2: #a59b9b;
@@ -23,6 +24,7 @@
 				--bgY4: #4f4740;
 				--bgY5: #555149;
 				--bgY6: #666156;
+				--visY: #3f495a;
 				--grayY0: #7c7b78;
 				--grayY1: #8f8c85;
 				--grayY2: #a6a39a;
@@ -35,6 +37,7 @@
 				--bgT4: #414b50;
 				--bgT5: #4a5556;
 				--bgT6: #596460;
+				--visT: #503a46;
 				--grayT0: #787c78;
 				--grayT1: #868e86;
 				--grayT2: #9ba59c;
@@ -47,6 +50,7 @@
 				--bgP4: #414250;
 				--bgP5: #4d4a56;
 				--bgP6: #635963;
+				--visP: #4f443b;
 				--grayP0: #7c787c;
 				--grayP1: #8d868d;
 				--grayP2: #a59ba5;
@@ -58,6 +62,7 @@
 				--bg4: var(--bgT4);
 				--bg5: var(--bgT5);
 				--bg6: var(--bgT6);
+				--vis: var(--visT);
 				--gray0: var(--grayT0);
 				--gray1: var(--grayT1);
 				--gray2: var(--grayT2);
@@ -72,7 +77,7 @@
 				--teal: #7fc092;
 				--blue: #79adb7;
 				--purple: #c18abe;
-				--visual: #443346;
+				--fgDim: #918978;
 				--bgRed: #462e34;
 				--bgOrange: #46372f;
 				--bgYellow: #4b4537;
@@ -192,7 +197,7 @@
 			.telB { background-color: var(--bgTeal); }
 			.bluB { background-color: var(--bgBlue); }
 			.purB { background-color: var(--bgPurple); }
-			.visB { background-color: var(--visual); }
+			.visB { background-color: var(--vis); }
 			.b0 { background-color: var(--bg0); }
 			.b1 { background-color: var(--bg1); }
 			.b2 { background-color: var(--bg2); }
@@ -216,6 +221,23 @@
 				align-content: center;
 				text-align: center;
 			}
+
+			.exampleBtn {
+				height: fit-content;
+				border: 2px solid var(--bg4);
+
+				&.disabled {
+					background-color: var(--bg2);
+					border-color: var(--bg3);
+					color: var(--fgDim);
+				}
+
+				&.pressed {
+					background-color: var(--accent);
+					border-color: var(--bg6);
+					color: var(--bg0);
+				}
+			}
 		</style>
 
 		<script>
@@ -235,6 +257,7 @@
 				document.documentElement.style.setProperty("--bg4", `var(--bg${c}4)`);
 				document.documentElement.style.setProperty("--bg5", `var(--bg${c}5)`);
 				document.documentElement.style.setProperty("--bg6", `var(--bg${c}6)`);
+				document.documentElement.style.setProperty("--vis", `var(--vis${c})`);
 				document.documentElement.style.setProperty("--gray0", `var(--gray${c}0)`);
 				document.documentElement.style.setProperty("--gray1", `var(--gray${c}1)`);
 				document.documentElement.style.setProperty("--gray2", `var(--gray${c}2)`);
@@ -329,6 +352,11 @@
 					<p class="bluF bluB">BLUE</p>
 					<br>
 					<p class="purF purB">PURPLE</p>
+				</div>
+				<div>
+					<button class="exampleBtn disabled">Disabled button</button>
+					<button class="exampleBtn">Normal button</button>
+					<button class="exampleBtn pressed">Pressed button</button>
 				</div>
 			</div>
 			<br>
