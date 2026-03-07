@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.9918577"
-     inkscape:cx="433.17568"
-     inkscape:cy="277.25249"
+     inkscape:zoom="2.1155629"
+     inkscape:cx="524.68304"
+     inkscape:cy="219.09062"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
@@ -840,9 +840,9 @@
      inkscape:groupmode="layer"
      id="layer1-1"
      transform="translate(8.0532465e-7,50)"
-     inkscape:export-filename="layer1-1.png"
-     inkscape:export-xdpi="250"
-     inkscape:export-ydpi="250">
+     inkscape:export-filename="palette.png"
+     inkscape:export-xdpi="275"
+     inkscape:export-ydpi="275">
     <path
        style="fill:#1a1f21;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="rect1-1"
@@ -1045,7 +1045,7 @@
        transform="translate(100,-49.999989)"
        inkscape:label="bgR0" />
     <path
-       style="fill:#312825;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#312725;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path17-2"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(110,-49.999989)"
@@ -1057,7 +1057,7 @@
        transform="translate(120,-49.999989)"
        inkscape:label="bgR2" />
     <path
-       style="fill:#443b36;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#443836;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path35-2"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(130,-49.999989)"
@@ -1153,25 +1153,25 @@
        transform="translate(100,-39.999994)"
        inkscape:label="bgY0" />
     <path
-       style="fill:#312c25;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#312b25;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path54"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(110,-39.999994)"
        inkscape:label="bgY1" />
     <path
-       style="fill:#3a322c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#3a332c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path55"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(120,-39.999994)"
        inkscape:label="bgY2" />
     <path
-       style="fill:#443e36;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#443d36;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path56"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(130,-39.999994)"
        inkscape:label="bgY3" />
     <path
-       style="fill:#4f4740;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:#4f4840;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path57"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(140,-39.999994)"
