@@ -10,6 +10,14 @@ colors=(
 	bgR5
 	bgR6
 	visR
+	fgRDim
+	bgRRed
+	bgROrange
+	bgRYellow
+	bgRGreen
+	bgRTeal
+	bgRBlue
+	bgRPurple
 	grayR0
 	grayR1
 	grayR2
@@ -21,6 +29,14 @@ colors=(
 	bgY5
 	bgY6
 	visY
+	fgYDim
+	bgYRed
+	bgYOrange
+	bgYYellow
+	bgYGreen
+	bgYTeal
+	bgYBlue
+	bgYPurple
 	grayY0
 	grayY1
 	grayY2
@@ -32,6 +48,14 @@ colors=(
 	bgT5
 	bgT6
 	visT
+	fgTDim
+	bgTRed
+	bgTOrange
+	bgTYellow
+	bgTGreen
+	bgTTeal
+	bgTBlue
+	bgTPurple
 	grayT0
 	grayT1
 	grayT2
@@ -43,6 +67,14 @@ colors=(
 	bgP5
 	bgP6
 	visP
+	fgPDim
+	bgPRed
+	bgPOrange
+	bgPYellow
+	bgPGreen
+	bgPTeal
+	bgPBlue
+	bgPPurple
 	grayP0
 	grayP1
 	grayP2
@@ -54,14 +86,6 @@ colors=(
 	teal
 	blue
 	purple
-	fgDim
-	bgRed
-	bgOrange
-	bgYellow
-	bgGreen
-	bgTeal
-	bgBlue
-	bgPurple
 )
 
 # Color Initialization #########################################################
