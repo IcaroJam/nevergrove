@@ -3,14 +3,15 @@
 
 <svg
    width="210mm"
-   height="150mm"
-   viewBox="0 0 210 150"
+   height="260mm"
+   viewBox="0 0 210 260"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    sodipodi:docname="palette.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -23,10 +24,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     showgrid="true"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="194.45436"
-     inkscape:cy="759.07911"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="422.99999"
+     inkscape:cy="425.49999"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
@@ -46,10 +47,766 @@
        opacity="0.14901961"
        empspacing="10"
        enabled="true"
-       visible="true" />
+       visible="false" />
   </sodipodi:namedview>
   <defs
      id="defs1">
+    <linearGradient
+       id="swatch84"
+       inkscape:swatch="solid"
+       inkscape:label="grayR2">
+      <stop
+         style="stop-color:#a59b9b;stop-opacity:1;"
+         offset="0"
+         id="stop84" />
+    </linearGradient>
+    <linearGradient
+       id="swatch83"
+       inkscape:swatch="solid"
+       inkscape:label="grayR1">
+      <stop
+         style="stop-color:#8e8686;stop-opacity:1;"
+         offset="0"
+         id="stop83" />
+    </linearGradient>
+    <linearGradient
+       id="swatch82"
+       inkscape:swatch="solid"
+       inkscape:label="grayR0">
+      <stop
+         style="stop-color:#7c7878;stop-opacity:1;"
+         offset="0"
+         id="stop82" />
+    </linearGradient>
+    <linearGradient
+       id="swatch81"
+       inkscape:swatch="solid"
+       inkscape:label="visR">
+      <stop
+         style="stop-color:#364d48;stop-opacity:1;"
+         offset="0"
+         id="stop81" />
+    </linearGradient>
+    <linearGradient
+       id="swatch80"
+       inkscape:swatch="solid"
+       inkscape:label="bgR6">
+      <stop
+         style="stop-color:#625556;stop-opacity:1;"
+         offset="0"
+         id="stop80" />
+    </linearGradient>
+    <linearGradient
+       id="swatch79"
+       inkscape:swatch="solid"
+       inkscape:label="bgR5">
+      <stop
+         style="stop-color:#554949;stop-opacity:1;"
+         offset="0"
+         id="stop79" />
+    </linearGradient>
+    <linearGradient
+       id="swatch78"
+       inkscape:swatch="solid"
+       inkscape:label="bgR4">
+      <stop
+         style="stop-color:#4f4140;stop-opacity:1;"
+         offset="0"
+         id="stop78" />
+    </linearGradient>
+    <linearGradient
+       id="swatch77"
+       inkscape:swatch="solid"
+       inkscape:label="bgR3">
+      <stop
+         style="stop-color:#443836;stop-opacity:1;"
+         offset="0"
+         id="stop77" />
+    </linearGradient>
+    <linearGradient
+       id="swatch76"
+       inkscape:swatch="solid"
+       inkscape:label="bgR2">
+      <stop
+         style="stop-color:#3a2e2c;stop-opacity:1;"
+         offset="0"
+         id="stop76" />
+    </linearGradient>
+    <linearGradient
+       id="swatch75"
+       inkscape:swatch="solid"
+       inkscape:label="bgR1">
+      <stop
+         style="stop-color:#312725;stop-opacity:1;"
+         offset="0"
+         id="stop75" />
+    </linearGradient>
+    <linearGradient
+       id="swatch74"
+       inkscape:swatch="solid"
+       inkscape:label="bgR0">
+      <stop
+         style="stop-color:#1f1919;stop-opacity:1;"
+         offset="0"
+         id="stop74" />
+    </linearGradient>
+    <linearGradient
+       id="swatch73"
+       inkscape:swatch="solid"
+       inkscape:label="bgRPurple">
+      <stop
+         style="stop-color:#4e3445;stop-opacity:1;"
+         offset="0"
+         id="stop73" />
+    </linearGradient>
+    <linearGradient
+       id="swatch72"
+       inkscape:swatch="solid"
+       inkscape:label="bgRBlue">
+      <stop
+         style="stop-color:#384044;stop-opacity:1;"
+         offset="0"
+         id="stop72" />
+    </linearGradient>
+    <linearGradient
+       id="swatch71"
+       inkscape:swatch="solid"
+       inkscape:label="bgRTeal">
+      <stop
+         style="stop-color:#394939;stop-opacity:1;"
+         offset="0"
+         id="stop71" />
+    </linearGradient>
+    <linearGradient
+       id="swatch70"
+       inkscape:swatch="solid"
+       inkscape:label="bgRGreen">
+      <stop
+         style="stop-color:#464b34;stop-opacity:1;"
+         offset="0"
+         id="stop70" />
+    </linearGradient>
+    <linearGradient
+       id="swatch69"
+       inkscape:swatch="solid"
+       inkscape:label="bgRYellow">
+      <stop
+         style="stop-color:#544430;stop-opacity:1;"
+         offset="0"
+         id="stop69" />
+    </linearGradient>
+    <linearGradient
+       id="swatch68"
+       inkscape:swatch="solid"
+       inkscape:label="bgROrange">
+      <stop
+         style="stop-color:#54372d;stop-opacity:1;"
+         offset="0"
+         id="stop68" />
+    </linearGradient>
+    <linearGradient
+       id="swatch67"
+       inkscape:swatch="solid"
+       inkscape:label="bgRRed">
+      <stop
+         style="stop-color:#542e30;stop-opacity:1;"
+         offset="0"
+         id="stop67" />
+    </linearGradient>
+    <linearGradient
+       id="swatch66"
+       inkscape:swatch="solid"
+       inkscape:label="fgRDim">
+      <stop
+         style="stop-color:#877b6f;stop-opacity:1;"
+         offset="0"
+         id="stop66" />
+    </linearGradient>
+    <linearGradient
+       id="swatch65"
+       inkscape:swatch="solid"
+       inkscape:label="grayY2">
+      <stop
+         style="stop-color:#a6a39a;stop-opacity:1;"
+         offset="0"
+         id="stop65" />
+    </linearGradient>
+    <linearGradient
+       id="swatch64"
+       inkscape:swatch="solid"
+       inkscape:label="grayY1">
+      <stop
+         style="stop-color:#8f8c85;stop-opacity:1;"
+         offset="0"
+         id="stop64" />
+    </linearGradient>
+    <linearGradient
+       id="swatch63"
+       inkscape:swatch="solid"
+       inkscape:label="grayY0">
+      <stop
+         style="stop-color:#7c7b78;stop-opacity:1;"
+         offset="0"
+         id="stop63" />
+    </linearGradient>
+    <linearGradient
+       id="swatch62"
+       inkscape:swatch="solid"
+       inkscape:label="visY">
+      <stop
+         style="stop-color:#3f485c;stop-opacity:1;"
+         offset="0"
+         id="stop62" />
+    </linearGradient>
+    <linearGradient
+       id="swatch61"
+       inkscape:swatch="solid"
+       inkscape:label="bgY6">
+      <stop
+         style="stop-color:#666156;stop-opacity:1;"
+         offset="0"
+         id="stop61" />
+    </linearGradient>
+    <linearGradient
+       id="swatch60"
+       inkscape:swatch="solid"
+       inkscape:label="bgY5">
+      <stop
+         style="stop-color:#555149;stop-opacity:1;"
+         offset="0"
+         id="stop60" />
+    </linearGradient>
+    <linearGradient
+       id="swatch59"
+       inkscape:swatch="solid"
+       inkscape:label="bgY4">
+      <stop
+         style="stop-color:#4f4840;stop-opacity:1;"
+         offset="0"
+         id="stop59" />
+    </linearGradient>
+    <linearGradient
+       id="swatch58"
+       inkscape:swatch="solid"
+       inkscape:label="bgY3">
+      <stop
+         style="stop-color:#443d36;stop-opacity:1;"
+         offset="0"
+         id="stop58" />
+    </linearGradient>
+    <linearGradient
+       id="swatch57"
+       inkscape:swatch="solid"
+       inkscape:label="bgY2">
+      <stop
+         style="stop-color:#3a332c;stop-opacity:1;"
+         offset="0"
+         id="stop57" />
+    </linearGradient>
+    <linearGradient
+       id="swatch56"
+       inkscape:swatch="solid"
+       inkscape:label="bgY1">
+      <stop
+         style="stop-color:#312b25;stop-opacity:1;"
+         offset="0"
+         id="stop56" />
+    </linearGradient>
+    <linearGradient
+       id="swatch55"
+       inkscape:swatch="solid"
+       inkscape:label="bgY0">
+      <stop
+         style="stop-color:#221e1b;stop-opacity:1;"
+         offset="0"
+         id="stop55" />
+    </linearGradient>
+    <linearGradient
+       id="swatch54"
+       inkscape:swatch="solid"
+       inkscape:label="bgYPurple">
+      <stop
+         style="stop-color:#4e3745;stop-opacity:1;"
+         offset="0"
+         id="stop54" />
+    </linearGradient>
+    <linearGradient
+       id="swatch53"
+       inkscape:swatch="solid"
+       inkscape:label="bgYBlue">
+      <stop
+         style="stop-color:#384344;stop-opacity:1;"
+         offset="0"
+         id="stop53" />
+    </linearGradient>
+    <linearGradient
+       id="swatch52"
+       inkscape:swatch="solid"
+       inkscape:label="bgYTeal">
+      <stop
+         style="stop-color:#394c39;stop-opacity:1;"
+         offset="0"
+         id="stop52" />
+    </linearGradient>
+    <linearGradient
+       id="swatch51"
+       inkscape:swatch="solid"
+       inkscape:label="bgYGreen">
+      <stop
+         style="stop-color:#464e34;stop-opacity:1;"
+         offset="0"
+         id="stop51" />
+    </linearGradient>
+    <linearGradient
+       id="swatch50"
+       inkscape:swatch="solid"
+       inkscape:label="bgYYellow">
+      <stop
+         style="stop-color:#544730;stop-opacity:1;"
+         offset="0"
+         id="stop50" />
+    </linearGradient>
+    <linearGradient
+       id="swatch49"
+       inkscape:swatch="solid"
+       inkscape:label="bgYOrange">
+      <stop
+         style="stop-color:#543a2d;stop-opacity:1;"
+         offset="0"
+         id="stop49" />
+    </linearGradient>
+    <linearGradient
+       id="swatch48"
+       inkscape:swatch="solid"
+       inkscape:label="bgYRed">
+      <stop
+         style="stop-color:#543130;stop-opacity:1;"
+         offset="0"
+         id="stop48" />
+    </linearGradient>
+    <linearGradient
+       id="swatch47"
+       inkscape:swatch="solid"
+       inkscape:label="fgYDim">
+      <stop
+         style="stop-color:#877d6f;stop-opacity:1;"
+         offset="0"
+         id="stop47" />
+    </linearGradient>
+    <linearGradient
+       id="swatch46"
+       inkscape:swatch="solid"
+       inkscape:label="grayT2">
+      <stop
+         style="stop-color:#9ba59c;stop-opacity:1;"
+         offset="0"
+         id="stop46" />
+    </linearGradient>
+    <linearGradient
+       id="swatch45"
+       inkscape:swatch="solid"
+       inkscape:label="grayT1">
+      <stop
+         style="stop-color:#868e86;stop-opacity:1;"
+         offset="0"
+         id="stop45" />
+    </linearGradient>
+    <linearGradient
+       id="swatch44"
+       inkscape:swatch="solid"
+       inkscape:label="grayT0">
+      <stop
+         style="stop-color:#787c78;stop-opacity:1;"
+         offset="0"
+         id="stop44" />
+    </linearGradient>
+    <linearGradient
+       id="swatch43"
+       inkscape:swatch="solid"
+       inkscape:label="visT">
+      <stop
+         style="stop-color:#4f344b;stop-opacity:1;"
+         offset="0"
+         id="stop43" />
+    </linearGradient>
+    <linearGradient
+       id="swatch42"
+       inkscape:swatch="solid"
+       inkscape:label="bgT6">
+      <stop
+         style="stop-color:#596460;stop-opacity:1;"
+         offset="0"
+         id="stop42" />
+    </linearGradient>
+    <linearGradient
+       id="swatch41"
+       inkscape:swatch="solid"
+       inkscape:label="bgT5">
+      <stop
+         style="stop-color:#4a5556;stop-opacity:1;"
+         offset="0"
+         id="stop41" />
+    </linearGradient>
+    <linearGradient
+       id="swatch40"
+       inkscape:swatch="solid"
+       inkscape:label="bgT4">
+      <stop
+         style="stop-color:#414b50;stop-opacity:1;"
+         offset="0"
+         id="stop40" />
+    </linearGradient>
+    <linearGradient
+       id="swatch39"
+       inkscape:swatch="solid"
+       inkscape:label="bgT3">
+      <stop
+         style="stop-color:#353f43;stop-opacity:1;"
+         offset="0"
+         id="stop39" />
+    </linearGradient>
+    <linearGradient
+       id="swatch38"
+       inkscape:swatch="solid"
+       inkscape:label="bgT2">
+      <stop
+         style="stop-color:#2d363a;stop-opacity:1;"
+         offset="0"
+         id="stop38" />
+    </linearGradient>
+    <linearGradient
+       id="swatch37"
+       inkscape:swatch="solid"
+       inkscape:label="bgT1">
+      <stop
+         style="stop-color:#262d31;stop-opacity:1;"
+         offset="0"
+         id="stop37" />
+    </linearGradient>
+    <linearGradient
+       id="swatch36"
+       inkscape:swatch="solid"
+       inkscape:label="bgT0">
+      <stop
+         style="stop-color:#1a1f21;stop-opacity:1;"
+         offset="0"
+         id="stop36" />
+    </linearGradient>
+    <linearGradient
+       id="swatch35"
+       inkscape:swatch="solid"
+       inkscape:label="bgTPurple">
+      <stop
+         style="stop-color:#45394e;stop-opacity:1;"
+         offset="0"
+         id="stop35" />
+    </linearGradient>
+    <linearGradient
+       id="swatch34"
+       inkscape:swatch="solid"
+       inkscape:label="bgTBlue">
+      <stop
+         style="stop-color:#2f454d;stop-opacity:1;"
+         offset="0"
+         id="stop34" />
+    </linearGradient>
+    <linearGradient
+       id="swatch33"
+       inkscape:swatch="solid"
+       inkscape:label="bgTTeal">
+      <stop
+         style="stop-color:#304e42;stop-opacity:1;"
+         offset="0"
+         id="stop33" />
+    </linearGradient>
+    <linearGradient
+       id="swatch32"
+       inkscape:swatch="solid"
+       inkscape:label="bgTGreen">
+      <stop
+         style="stop-color:#3d503d;stop-opacity:1;"
+         offset="0"
+         id="stop32" />
+    </linearGradient>
+    <linearGradient
+       id="swatch31"
+       inkscape:swatch="solid"
+       inkscape:label="bgTYellow">
+      <stop
+         style="stop-color:#4b4939;stop-opacity:1;"
+         offset="0"
+         id="stop31" />
+    </linearGradient>
+    <linearGradient
+       id="swatch30"
+       inkscape:swatch="solid"
+       inkscape:label="bgTOrange">
+      <stop
+         style="stop-color:#4b3c36;stop-opacity:1;"
+         offset="0"
+         id="stop30" />
+    </linearGradient>
+    <linearGradient
+       id="swatch29"
+       inkscape:swatch="solid"
+       inkscape:label="bgTRed">
+      <stop
+         style="stop-color:#4b3339;stop-opacity:1;"
+         offset="0"
+         id="stop29" />
+    </linearGradient>
+    <linearGradient
+       id="swatch28"
+       inkscape:swatch="solid"
+       inkscape:label="fgTDim">
+      <stop
+         style="stop-color:#827e75;stop-opacity:1;"
+         offset="0"
+         id="stop28" />
+    </linearGradient>
+    <linearGradient
+       id="swatch27"
+       inkscape:swatch="solid"
+       inkscape:label="grayP2">
+      <stop
+         style="stop-color:#a59ba5;stop-opacity:1;"
+         offset="0"
+         id="stop27" />
+    </linearGradient>
+    <linearGradient
+       id="swatch26"
+       inkscape:swatch="solid"
+       inkscape:label="grayP1">
+      <stop
+         style="stop-color:#8d868d;stop-opacity:1;"
+         offset="0"
+         id="stop26" />
+    </linearGradient>
+    <linearGradient
+       id="swatch25"
+       inkscape:swatch="solid"
+       inkscape:label="grayP0">
+      <stop
+         style="stop-color:#7c787c;stop-opacity:1;"
+         offset="0"
+         id="stop25" />
+    </linearGradient>
+    <linearGradient
+       id="swatch24"
+       inkscape:swatch="solid"
+       inkscape:label="visP">
+      <stop
+         style="stop-color:#4f4736;stop-opacity:1;"
+         offset="0"
+         id="stop24" />
+    </linearGradient>
+    <linearGradient
+       id="swatch23"
+       inkscape:swatch="solid"
+       inkscape:label="bgP6">
+      <stop
+         style="stop-color:#635963;stop-opacity:1;"
+         offset="0"
+         id="stop23" />
+    </linearGradient>
+    <linearGradient
+       id="swatch22"
+       inkscape:swatch="solid"
+       inkscape:label="bgP5">
+      <stop
+         style="stop-color:#4d4a56;stop-opacity:1;"
+         offset="0"
+         id="stop22" />
+    </linearGradient>
+    <linearGradient
+       id="swatch21"
+       inkscape:swatch="solid"
+       inkscape:label="bgP4">
+      <stop
+         style="stop-color:#414250;stop-opacity:1;"
+         offset="0"
+         id="stop21" />
+    </linearGradient>
+    <linearGradient
+       id="swatch20"
+       inkscape:swatch="solid"
+       inkscape:label="bgP3">
+      <stop
+         style="stop-color:#373945;stop-opacity:1;"
+         offset="0"
+         id="stop20" />
+    </linearGradient>
+    <linearGradient
+       id="swatch19"
+       inkscape:swatch="solid"
+       inkscape:label="bgP2">
+      <stop
+         style="stop-color:#2c2f3a;stop-opacity:1;"
+         offset="0"
+         id="stop19" />
+    </linearGradient>
+    <linearGradient
+       id="swatch18"
+       inkscape:swatch="solid"
+       inkscape:label="bgP1">
+      <stop
+         style="stop-color:#262631;stop-opacity:1;"
+         offset="0"
+         id="stop18" />
+    </linearGradient>
+    <linearGradient
+       id="swatch17"
+       inkscape:swatch="solid"
+       inkscape:label="bgP0">
+      <stop
+         style="stop-color:#1b1b22;stop-opacity:1;"
+         offset="0"
+         id="stop17" />
+    </linearGradient>
+    <linearGradient
+       id="swatch16"
+       inkscape:swatch="solid"
+       inkscape:label="bgPPurple">
+      <stop
+         style="stop-color:#45334e;stop-opacity:1;"
+         offset="0"
+         id="stop16" />
+    </linearGradient>
+    <linearGradient
+       id="swatch15"
+       inkscape:swatch="solid"
+       inkscape:label="bgPBlue">
+      <stop
+         style="stop-color:#314351;stop-opacity:1;"
+         offset="0"
+         id="stop15" />
+    </linearGradient>
+    <linearGradient
+       id="swatch14"
+       inkscape:swatch="solid"
+       inkscape:label="bgPTeal">
+      <stop
+         style="stop-color:#304841;stop-opacity:1;"
+         offset="0"
+         id="stop14" />
+    </linearGradient>
+    <linearGradient
+       id="swatch13"
+       inkscape:swatch="solid"
+       inkscape:label="bgPGreen">
+      <stop
+         style="stop-color:#3d4a3d;stop-opacity:1;"
+         offset="0"
+         id="stop13" />
+    </linearGradient>
+    <linearGradient
+       id="swatch12"
+       inkscape:swatch="solid"
+       inkscape:label="bgPYellow">
+      <stop
+         style="stop-color:#4b4339;stop-opacity:1;"
+         offset="0"
+         id="stop12" />
+    </linearGradient>
+    <linearGradient
+       id="swatch11"
+       inkscape:swatch="solid"
+       inkscape:label="bgPOrange">
+      <stop
+         style="stop-color:#4b3636;stop-opacity:1;"
+         offset="0"
+         id="stop11" />
+    </linearGradient>
+    <linearGradient
+       id="swatch10"
+       inkscape:swatch="solid"
+       inkscape:label="bgPRed">
+      <stop
+         style="stop-color:#4b2d39;stop-opacity:1;"
+         offset="0"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       id="swatch9"
+       inkscape:swatch="solid"
+       inkscape:label="fgPDim">
+      <stop
+         style="stop-color:#827b75;stop-opacity:1;"
+         offset="0"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       id="swatch8"
+       inkscape:swatch="solid"
+       inkscape:label="purple">
+      <stop
+         style="stop-color:#c586c2;stop-opacity:1;"
+         offset="0"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="swatch7"
+       inkscape:swatch="solid"
+       inkscape:label="blue">
+      <stop
+         style="stop-color:#75aabb;stop-opacity:1;"
+         offset="0"
+         id="stop7" />
+    </linearGradient>
+    <linearGradient
+       id="swatch6"
+       inkscape:swatch="solid"
+       inkscape:label="teal">
+      <stop
+         style="stop-color:#7dc296;stop-opacity:1;"
+         offset="0"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="swatch5"
+       inkscape:swatch="solid"
+       inkscape:label="green">
+      <stop
+         style="stop-color:#a1cc82;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="swatch4"
+       inkscape:swatch="solid"
+       inkscape:label="yellow">
+      <stop
+         style="stop-color:#e4bc77;stop-opacity:1;"
+         offset="0"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="swatch3"
+       inkscape:swatch="solid"
+       inkscape:label="orange">
+      <stop
+         style="stop-color:#e69471;stop-opacity:1;"
+         offset="0"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       id="swatch2"
+       inkscape:swatch="solid"
+       inkscape:label="red">
+      <stop
+         style="stop-color:#e66d78;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="swatch1"
+       inkscape:swatch="solid"
+       inkscape:label="fg">
+      <stop
+         style="stop-color:#e6d9bc;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+    </linearGradient>
     <inkscape:path-effect
        effect="tiling"
        id="path-effect121"
@@ -1342,6 +2099,762 @@
        random_gap_y="false"
        random_gap_x="false"
        transformorigin="" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch1"
+       id="linearGradient1"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch2"
+       id="linearGradient2"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch3"
+       id="linearGradient3"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch4"
+       id="linearGradient4"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient5"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch6"
+       id="linearGradient6"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch7"
+       id="linearGradient7"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch8"
+       id="linearGradient8"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch9"
+       id="linearGradient9"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch10"
+       id="linearGradient10"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch11"
+       id="linearGradient11"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch12"
+       id="linearGradient12"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch13"
+       id="linearGradient13"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch14"
+       id="linearGradient14"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch15"
+       id="linearGradient15"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch16"
+       id="linearGradient16"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch17"
+       id="linearGradient17"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch18"
+       id="linearGradient18"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch19"
+       id="linearGradient19"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch20"
+       id="linearGradient20"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch21"
+       id="linearGradient21"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch22"
+       id="linearGradient22"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch23"
+       id="linearGradient23"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch24"
+       id="linearGradient24"
+       x1="110"
+       y1="85.000008"
+       x2="120"
+       y2="85.000008"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch25"
+       id="linearGradient25"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch26"
+       id="linearGradient26"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch27"
+       id="linearGradient27"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch28"
+       id="linearGradient28"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch29"
+       id="linearGradient29"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch30"
+       id="linearGradient30"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch31"
+       id="linearGradient31"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch32"
+       id="linearGradient32"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch33"
+       id="linearGradient33"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch34"
+       id="linearGradient34"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch35"
+       id="linearGradient35"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch36"
+       id="linearGradient36"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch37"
+       id="linearGradient37"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch38"
+       id="linearGradient38"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch39"
+       id="linearGradient39"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch40"
+       id="linearGradient40"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch41"
+       id="linearGradient41"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch42"
+       id="linearGradient42"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch43"
+       id="linearGradient43"
+       x1="110"
+       y1="75"
+       x2="120"
+       y2="75"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch44"
+       id="linearGradient44"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch45"
+       id="linearGradient45"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch46"
+       id="linearGradient46"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch47"
+       id="linearGradient47"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch48"
+       id="linearGradient48"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch49"
+       id="linearGradient49"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch50"
+       id="linearGradient50"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch51"
+       id="linearGradient51"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch52"
+       id="linearGradient52"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch53"
+       id="linearGradient53"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch54"
+       id="linearGradient54"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch55"
+       id="linearGradient55"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch56"
+       id="linearGradient56"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch57"
+       id="linearGradient57"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch58"
+       id="linearGradient58"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch59"
+       id="linearGradient59"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch60"
+       id="linearGradient60"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch61"
+       id="linearGradient61"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch62"
+       id="linearGradient62"
+       x1="110"
+       y1="65"
+       x2="120"
+       y2="65"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch63"
+       id="linearGradient63"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch64"
+       id="linearGradient64"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch65"
+       id="linearGradient65"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch66"
+       id="linearGradient66"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch67"
+       id="linearGradient67"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch68"
+       id="linearGradient68"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch69"
+       id="linearGradient69"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch70"
+       id="linearGradient70"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch71"
+       id="linearGradient71"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch72"
+       id="linearGradient72"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch73"
+       id="linearGradient73"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch74"
+       id="linearGradient74"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch75"
+       id="linearGradient75"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch76"
+       id="linearGradient76"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch77"
+       id="linearGradient77"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch78"
+       id="linearGradient78"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch79"
+       id="linearGradient79"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch80"
+       id="linearGradient80"
+       x1="10"
+       y1="14.999999"
+       x2="20"
+       y2="14.999999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch81"
+       id="linearGradient81"
+       x1="110"
+       y1="54.999996"
+       x2="120"
+       y2="54.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch82"
+       id="linearGradient82"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch83"
+       id="linearGradient83"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch84"
+       id="linearGradient84"
+       x1="10"
+       y1="24.999996"
+       x2="20"
+       y2="24.999996"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Everforest"
@@ -1527,7 +3040,7 @@
          sodipodi:role="line">Everforest</tspan></text>
   </g>
   <g
-     inkscape:label="Custom"
+     inkscape:label="Nevergrove"
      inkscape:groupmode="layer"
      id="layer1-1"
      transform="translate(8.0532465e-7,50)"
@@ -1535,7 +3048,7 @@
      inkscape:export-xdpi="275"
      inkscape:export-ydpi="275">
     <path
-       style="fill:#1a1f21;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient36);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="rect1-1"
        width="10"
        height="9.999999"
@@ -1547,48 +3060,48 @@
        transform="translate(100,-9.9999993)"
        inkscape:label="bgT0" />
     <path
-       style="fill:#262d31;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient37);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path1-5"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(110,-9.9999993)"
        inkscape:label="bgT1" />
     <path
-       style="fill:#2d363a;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient38);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path2-2"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(120,-9.9999993)"
        inkscape:label="bgT2" />
     <path
-       style="fill:#353f43;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient39);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path3-7"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(130,-9.9999993)"
        inkscape:label="bgT3" />
     <path
-       style="fill:#414b50;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient40);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path4-6"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(140,-9.9999993)"
        inkscape:label="bgT4" />
     <path
-       style="fill:#4a5556;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient41);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path5-1"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(150,-9.9999993)"
        inkscape:label="bgT5" />
     <path
-       style="fill:#596460;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient42);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path6-4"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(160,-9.9999993)"
        inkscape:label="bgT6" />
     <path
-       style="fill:#364d48;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient81);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path7-8-3-8"
        d="m 110,49.999997 h 10 v 9.999999 h -10 z"
        inkscape:label="visR" />
     <path
-       style="fill:#827b75;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient9);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path7-8-3-2"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect8-5-6"
@@ -1596,49 +3109,49 @@
        transform="translate(100,10.000001)"
        inkscape:label="fgPDim" />
     <path
-       style="fill:#4b2d39;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient10);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path9-2-4"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(110,10.000001)"
        inkscape:label="bgPRed" />
     <path
-       style="fill:#4b3636;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient11);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path10-1-8"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(120,10.000001)"
        inkscape:label="bgPOrange" />
     <path
-       style="fill:#4b4339;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient12);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path11-6-6"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(130,10.000001)"
        inkscape:label="bgPYellow" />
     <path
-       style="fill:#3d4a3d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient13);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path12-8-5"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(140,10.000001)"
        inkscape:label="bgPGreen" />
     <path
-       style="fill:#304841;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient14);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path13-5-0"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(150,10.000001)"
        inkscape:label="bgPTeal" />
     <path
-       style="fill:#314351;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient15);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path14-9"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(160,10.000001)"
        inkscape:label="bgPBlue" />
     <path
-       style="fill:#45334e;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient16);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path15-0"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(170,10.000001)"
        inkscape:label="bgPPurple" />
     <path
-       style="fill:#e6d9bc;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient1);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path19-7"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect20-5"
@@ -1646,49 +3159,49 @@
        transform="translate(100,20)"
        inkscape:label="fg" />
     <path
-       style="fill:#e66d78;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient2);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path20-6"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(110,20)"
        inkscape:label="red" />
     <path
-       style="fill:#e69471;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient3);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path21-1"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(120,20)"
        inkscape:label="orange" />
     <path
-       style="fill:#e4bc77;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient4);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path22-8"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(130,20)"
        inkscape:label="yellow" />
     <path
-       style="fill:#a1cc82;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient5);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path23-9"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(140,20)"
        inkscape:label="green" />
     <path
-       style="fill:#7dc296;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient6);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path24-2"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(150,20)"
        inkscape:label="teal" />
     <path
        transform="translate(160,20)"
-       style="fill:#75aabb;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient7);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path25-7"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="blue" />
     <path
        transform="translate(170,20)"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#c586c2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#linearGradient8);fill-rule:nonzero;stroke:none;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
        id="path26-9"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="purple" />
     <path
-       style="fill:#7c7878;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient82);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path27-5"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect28-1"
@@ -1697,24 +3210,24 @@
        inkscape:label="grayR0" />
     <path
        transform="translate(120,30)"
-       style="fill:#8e8686;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient83);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path28-4"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayR1" />
     <path
        transform="translate(130,30)"
-       style="fill:#a59b9b;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient84);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path29-3"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayR2" />
     <text
        xml:space="preserve"
-       style="font-size:4.23333px;line-height:0.8;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:center;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:middle;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-size:4.23333px;line-height:0.8;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:center;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:middle;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="-45.002117"
        y="107.69603"
        id="text34-1"
        transform="rotate(-90)"><tspan
-         style="font-size:4.23333px;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-size:4.23333px;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="-45.068264"
          y="107.69603"
          rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -1722,9 +3235,9 @@
          id="tspan1">Nevergrove<tspan
    rotate="0"
    id="tspan66"
-   style="font-size:4.23333px;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" /></tspan></text>
+   style="font-size:4.23333px;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" /></tspan></text>
     <path
-       style="fill:#1f1919;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient74);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path16-4"
        width="10"
        height="9.999999"
@@ -1736,55 +3249,55 @@
        transform="translate(100,-49.999999)"
        inkscape:label="bgR0" />
     <path
-       style="fill:#312725;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient75);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path17-2"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(110,-49.999999)"
        inkscape:label="bgR1" />
     <path
-       style="fill:#3a2e2c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient76);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path18-3"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(120,-49.999999)"
        inkscape:label="bgR2" />
     <path
-       style="fill:#443836;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient77);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path35-2"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(130,-49.999999)"
        inkscape:label="bgR3" />
     <path
-       style="fill:#4f4140;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient78);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path36-2"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(140,-49.999999)"
        inkscape:label="bgR4" />
     <path
-       style="fill:#554949;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient79);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path37-16"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(150,-49.999999)"
        inkscape:label="bgR5" />
     <path
-       style="fill:#625556;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient80);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path38-8"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(160,-49.999999)"
        inkscape:label="bgR6" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="192.25772"
        y="30.915018"
        id="text40"><tspan
          id="tspan40"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="192.25772"
          y="30.915018"
          rotate="0 0 0 0 0 0 0 0 0 0"
          sodipodi:role="line">Jacaranda</tspan></text>
     <path
-       style="fill:#1b1b22;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient17);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path40"
        width="10"
        height="9.999999"
@@ -1796,43 +3309,43 @@
        transform="translate(100,10.00001)"
        inkscape:label="bgP0" />
     <path
-       style="fill:#262631;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient18);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path41"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(110,10.00001)"
        inkscape:label="bgP1" />
     <path
-       style="fill:#2c2f3a;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient19);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path42"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(120,10.00001)"
        inkscape:label="bgP2" />
     <path
-       style="fill:#373945;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient20);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path43"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(130,10.00001)"
        inkscape:label="bgP3" />
     <path
-       style="fill:#414250;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient21);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path44"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(140,10.00001)"
        inkscape:label="bgP4" />
     <path
-       style="fill:#4d4a56;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient22);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path45"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(150,10.00001)"
        inkscape:label="bgP5" />
     <path
-       style="fill:#635963;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient23);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path46"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(160,10.00001)"
        inkscape:label="bgP6" />
     <path
-       style="fill:#221e1b;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient55);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path53"
        width="10"
        height="9.999999"
@@ -1844,169 +3357,169 @@
        transform="translate(100,-30.000004)"
        inkscape:label="bgY0" />
     <path
-       style="fill:#312b25;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient56);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path54"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(110,-30.000004)"
        inkscape:label="bgY1" />
     <path
-       style="fill:#3a332c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient57);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path55"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(120,-30.000004)"
        inkscape:label="bgY2" />
     <path
-       style="fill:#443d36;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient58);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path56"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(130,-30.000004)"
        inkscape:label="bgY3" />
     <path
-       style="fill:#4f4840;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient59);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path57"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(140,-30.000004)"
        inkscape:label="bgY4" />
     <path
-       style="fill:#555149;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient60);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path58"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(150,-30.000004)"
        inkscape:label="bgY5" />
     <path
-       style="fill:#666156;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient61);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path59"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(160,-30.000004)"
        inkscape:label="bgY6" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#c18abe;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:url(#swatch8);fill-opacity:1;stroke:#c18abe;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="M 191,21 V 38.999999"
        id="path16"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="192.25772"
        y="10.915018"
        id="text16"><tspan
          id="tspan16"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="192.25772"
          y="10.915018"
          rotate="0 0 0 0 0 0 0 0 0 0 0"
          sodipodi:role="line">Eucalyptus</tspan></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:#7fc092;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:url(#swatch6);fill-opacity:1;stroke:#7fc092;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 81.000001,55.999996 v 18"
        id="path17"
        transform="translate(110,-54.999996)"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="192.25772"
        y="-9.0849838"
        id="text17"><tspan
          id="tspan17"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="192.25772"
          y="-9.0849838"
          rotate="0 0 0 0 0 0"
          sodipodi:role="line">Aspen</tspan></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:#e4bc77;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:url(#swatch4);fill-opacity:1;stroke:#e4bc77;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="M 81.000001,56 V 74"
        id="path18"
        transform="translate(110,-75)"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch74);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="192.25772"
        y="-29.084988"
        id="text18"><tspan
          id="tspan18"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch74);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="192.25772"
          y="-29.084988"
          rotate="0 0 0 0 0 0"
          sodipodi:role="line">Maple</tspan></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:#e66d78;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:url(#swatch2);fill-opacity:1;stroke:#e66d78;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="M 81.000001,56 V 74"
        id="path35"
        transform="translate(110,-95)"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="152.25772"
        y="85.915039"
        id="text2"><tspan
          id="tspan2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="152.25772"
          y="85.915039"
          rotate="0 0 0 0 0 0 0 0 0 0"
          sodipodi:role="line">Jacaranda</tspan></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:#c18abe;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:url(#swatch8);fill-opacity:1;stroke:#c18abe;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 81,60.999996 v 8"
        id="path36"
        transform="translate(70.000002,20.000014)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="152.25772"
        y="75.915039"
        id="text36"><tspan
          id="tspan36"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="152.25772"
          y="75.915039"
          rotate="0 0 0 0 0 0 0 0 0 0 0"
          sodipodi:role="line">Eucalyptus</tspan></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:#7fc092;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:url(#swatch6);fill-opacity:1;stroke:#7fc092;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 81,60.999996 v 8"
        id="path37"
        transform="translate(70.000003,10.000016)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="152.25772"
        y="65.915039"
        id="text37"><tspan
          id="tspan37"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="152.25772"
          y="65.915039"
          rotate="0 0 0 0 0 0"
          sodipodi:role="line">Aspen</tspan></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:#e4bc77;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:url(#swatch4);fill-opacity:1;stroke:#e4bc77;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 81,60.999996 v 8"
        id="path38"
        transform="translate(70.000003,1.57086e-5)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:0.8;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch74);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="152.25772"
        y="55.915031"
        id="text38"><tspan
          id="tspan38"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Averia Libre';-inkscape-font-specification:'Averia Libre';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch74);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="152.25772"
          y="55.915031"
          rotate="0 0 0 0 0 0"
          sodipodi:role="line">Maple</tspan></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:#e66d78;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:url(#swatch2);fill-opacity:1;stroke:#e66d78;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 151,51.000012 v 8"
        id="path39" />
     <path
-       style="fill:#7c7b78;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient63);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path47"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect51"
@@ -2015,18 +3528,18 @@
        inkscape:label="grayY0" />
     <path
        transform="translate(120,40.000002)"
-       style="fill:#8f8c85;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient64);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path48"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayY1" />
     <path
        transform="translate(130,40.000002)"
-       style="fill:#a6a39a;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient65);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path49"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayY2" />
     <path
-       style="fill:#787c78;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient44);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path51"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect62"
@@ -2035,18 +3548,18 @@
        inkscape:label="grayT0" />
     <path
        transform="translate(120,50.000001)"
-       style="fill:#868e86;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient45);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path52"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayT1" />
     <path
        transform="translate(130,50.000001)"
-       style="fill:#9ba59c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient46);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path60"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayT2" />
     <path
-       style="fill:#7c787c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient25);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path62"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect66"
@@ -2055,33 +3568,33 @@
        inkscape:label="grayP0" />
     <path
        transform="translate(120,60.00001)"
-       style="fill:#8d868d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient26);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path63"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayP1" />
     <path
        transform="translate(130,60.00001)"
-       style="fill:#a59ba5;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient27);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path64"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayP2" />
     <path
-       style="fill:#3f485c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient62);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path50"
        d="m 110,60 h 10 v 9.999999 h -10 z"
        inkscape:label="visY" />
     <path
-       style="fill:#4f344b;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient43);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path61"
        d="m 110,69.999999 h 10 v 9.999999 h -10 z"
        inkscape:label="visT" />
     <path
-       style="fill:#4f4736;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient24);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path65"
        d="m 110,80.000008 h 10 v 9.999999 h -10 z"
        inkscape:label="visP" />
     <path
-       style="fill:#827e75;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient28);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path79"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect87"
@@ -2089,49 +3602,49 @@
        transform="translate(100,-9.9999883)"
        inkscape:label="fgTDim" />
     <path
-       style="fill:#4b3339;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient29);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path80"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(110,-9.9999883)"
        inkscape:label="bgTRed" />
     <path
-       style="fill:#4b3c36;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient30);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path81"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(120,-9.9999883)"
        inkscape:label="bgTOrange" />
     <path
-       style="fill:#4b4939;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient31);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path82"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(130,-9.9999883)"
        inkscape:label="bgTYellow" />
     <path
-       style="fill:#3d503d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient32);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path83"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(140,-9.9999883)"
        inkscape:label="bgTGreen" />
     <path
-       style="fill:#304e42;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient33);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path84"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(150,-9.9999883)"
        inkscape:label="bgTTeal" />
     <path
-       style="fill:#2f454d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient34);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path85"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(160,-9.9999883)"
        inkscape:label="bgTBlue" />
     <path
-       style="fill:#45394e;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient35);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path86"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(170,-9.9999883)"
        inkscape:label="bgTPurple" />
     <path
-       style="fill:#877d6f;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient47);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path87"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect95"
@@ -2139,49 +3652,49 @@
        transform="translate(100,-29.999997)"
        inkscape:label="fgYDim" />
     <path
-       style="fill:#543130;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient48);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path88"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(110,-29.999997)"
        inkscape:label="bgYRed" />
     <path
-       style="fill:#543a2d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient49);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path89"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(120,-29.999997)"
        inkscape:label="bgYOrange" />
     <path
-       style="fill:#544730;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient50);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path90"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(130,-29.999997)"
        inkscape:label="bgYYellow" />
     <path
-       style="fill:#464e34;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient51);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path91"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(140,-29.999997)"
        inkscape:label="bgYGreen" />
     <path
-       style="fill:#394c39;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient52);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path92"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(150,-29.999997)"
        inkscape:label="bgYTeal" />
     <path
-       style="fill:#384344;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient53);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path93"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(160,-29.999997)"
        inkscape:label="bgYBlue" />
     <path
-       style="fill:#4e3745;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient54);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path94"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(170,-29.999997)"
        inkscape:label="bgYPurple" />
     <path
-       style="fill:#877b6f;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient66);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path95"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect103"
@@ -2189,43 +3702,43 @@
        transform="translate(100,-50.000002)"
        inkscape:label="fgRDim" />
     <path
-       style="fill:#542e30;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient67);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path96"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(110,-50.000002)"
        inkscape:label="bgRRed" />
     <path
-       style="fill:#54372d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient68);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path97"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(120,-50.000002)"
        inkscape:label="bgROrange" />
     <path
-       style="fill:#544430;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient69);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path98"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(130,-50.000002)"
        inkscape:label="bgRYellow" />
     <path
-       style="fill:#464b34;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient70);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path99"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(140,-50.000002)"
        inkscape:label="bgRGreen" />
     <path
-       style="fill:#394939;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient71);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path100"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(150,-50.000002)"
        inkscape:label="bgRTeal" />
     <path
-       style="fill:#384044;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient72);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path101"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(160,-50.000002)"
        inkscape:label="bgRBlue" />
     <path
-       style="fill:#4e3445;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#linearGradient73);stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path102"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(170,-50.000002)"
@@ -2240,7 +3753,7 @@
      inkscape:export-xdpi="275"
      inkscape:export-ydpi="275">
     <path
-       style="fill:#1a1f21;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch36);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="rect1-1-3"
        width="10"
        height="9.999999"
@@ -2255,48 +3768,48 @@
        inkscape:export-xdpi="275"
        inkscape:export-ydpi="275" />
     <path
-       style="fill:#262d31;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch37);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path1-5-1"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(39.999998,162.50208)"
        inkscape:label="bgT1" />
     <path
-       style="fill:#2d363a;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch38);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path2-2-9"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(49.999998,162.50208)"
        inkscape:label="bgT2" />
     <path
-       style="fill:#353f43;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch39);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path3-7-8"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(59.999998,162.50208)"
        inkscape:label="bgT3" />
     <path
-       style="fill:#414b50;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch40);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path4-6-6"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(69.999998,162.50208)"
        inkscape:label="bgT4" />
     <path
-       style="fill:#4a5556;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch41);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path5-1-5"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(79.999998,162.50208)"
        inkscape:label="bgT5" />
     <path
-       style="fill:#596460;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch42);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path6-4-0"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(89.999998,162.50208)"
        inkscape:label="bgT6" />
     <path
-       style="fill:#364d48;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch81);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path7-8-3-8-2"
        d="m 39.999998,152.50208 h 10 v 10 h -10 z"
        inkscape:label="visR" />
     <path
-       style="fill:#827b75;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch9);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path7-8-3-2-8"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect8-5-6-3"
@@ -2304,49 +3817,49 @@
        transform="translate(120,162.50207)"
        inkscape:label="fgPDim" />
     <path
-       style="fill:#4b2d39;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch10);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path9-2-4-6"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(130,162.50207)"
        inkscape:label="bgPRed" />
     <path
-       style="fill:#4b3636;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch11);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path10-1-8-0"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(140,162.50207)"
        inkscape:label="bgPOrange" />
     <path
-       style="fill:#4b4339;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch12);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path11-6-6-2"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(150,162.50207)"
        inkscape:label="bgPYellow" />
     <path
-       style="fill:#3d4a3d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch13);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path12-8-5-4"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(160,162.50207)"
        inkscape:label="bgPGreen" />
     <path
-       style="fill:#304841;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch14);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path13-5-0-8"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(170,162.50207)"
        inkscape:label="bgPTeal" />
     <path
-       style="fill:#314351;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch15);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path14-9-6"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(180,162.50207)"
        inkscape:label="bgPBlue" />
     <path
-       style="fill:#45334e;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch16);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path15-0-5"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(190,162.50207)"
        inkscape:label="bgPPurple" />
     <path
-       style="fill:#e6d9bc;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch1);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path19-7-0"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect20-5-3"
@@ -2354,49 +3867,49 @@
        transform="translate(29.999998,122.50208)"
        inkscape:label="fg" />
     <path
-       style="fill:#e66d78;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch2);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path20-6-9"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(39.999998,122.50208)"
        inkscape:label="red" />
     <path
-       style="fill:#e69471;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch3);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path21-1-0"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(49.999998,122.50208)"
        inkscape:label="orange" />
     <path
-       style="fill:#e4bc77;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch4);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path22-8-0"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(59.999998,122.50208)"
        inkscape:label="yellow" />
     <path
-       style="fill:#a1cc82;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch5);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path23-9-6"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(69.999998,122.50208)"
        inkscape:label="green" />
     <path
-       style="fill:#7dc296;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch6);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path24-2-1"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(79.999998,122.50208)"
        inkscape:label="teal" />
     <path
        transform="translate(89.999998,122.50208)"
-       style="fill:#75aabb;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch7);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path25-7-3"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="blue" />
     <path
        transform="translate(99.999998,122.50208)"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#c586c2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#swatch8);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
        id="path26-9-8"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="purple" />
     <path
-       style="fill:#7c7878;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch82);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path27-5-9"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect28-1-4"
@@ -2405,18 +3918,18 @@
        inkscape:label="grayR0" />
     <path
        transform="translate(49.999999,132.50208)"
-       style="fill:#8e8686;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch83);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path28-4-3"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayR1" />
     <path
        transform="translate(59.999999,132.50208)"
-       style="fill:#a59b9b;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch84);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path29-3-4"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayR2" />
     <path
-       style="fill:#1f1919;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch74);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path16-4-4"
        width="10"
        height="9.999999"
@@ -2428,43 +3941,43 @@
        transform="translate(29.999998,112.50208)"
        inkscape:label="bgR0" />
     <path
-       style="fill:#312725;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch75);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path17-2-6"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(39.999998,112.50208)"
        inkscape:label="bgR1" />
     <path
-       style="fill:#3a2e2c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch76);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path18-3-0"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(49.999998,112.50208)"
        inkscape:label="bgR2" />
     <path
-       style="fill:#443836;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch77);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path35-2-6"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(59.999998,112.50208)"
        inkscape:label="bgR3" />
     <path
-       style="fill:#4f4140;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch78);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path36-2-6"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(69.999998,112.50208)"
        inkscape:label="bgR4" />
     <path
-       style="fill:#554949;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch79);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path37-16-1"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(79.999998,112.50208)"
        inkscape:label="bgR5" />
     <path
-       style="fill:#625556;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch80);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path38-8-8"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(89.999998,112.50208)"
        inkscape:label="bgR6" />
     <path
-       style="fill:#1b1b22;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch17);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path40-6"
        width="10"
        height="9.999999"
@@ -2476,43 +3989,43 @@
        transform="translate(120,162.50208)"
        inkscape:label="bgP0" />
     <path
-       style="fill:#262631;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch18);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path41-3"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(130,162.50208)"
        inkscape:label="bgP1" />
     <path
-       style="fill:#2c2f3a;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch19);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path42-7"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(140,162.50208)"
        inkscape:label="bgP2" />
     <path
-       style="fill:#373945;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch20);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path43-8"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(150,162.50208)"
        inkscape:label="bgP3" />
     <path
-       style="fill:#414250;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch21);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path44-8"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(160,162.50208)"
        inkscape:label="bgP4" />
     <path
-       style="fill:#4d4a56;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch22);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path45-2"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(170,162.50208)"
        inkscape:label="bgP5" />
     <path
-       style="fill:#635963;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch23);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path46-9"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(180,162.50208)"
        inkscape:label="bgP6" />
     <path
-       style="fill:#221e1b;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch55);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path53-1"
        width="10"
        height="9.999999"
@@ -2524,43 +4037,43 @@
        transform="translate(120,112.50208)"
        inkscape:label="bgY0" />
     <path
-       style="fill:#312b25;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch56);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path54-35"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(130,112.50208)"
        inkscape:label="bgY1" />
     <path
-       style="fill:#3a332c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch57);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path55-9"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(140,112.50208)"
        inkscape:label="bgY2" />
     <path
-       style="fill:#443d36;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch58);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path56-8"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(150,112.50208)"
        inkscape:label="bgY3" />
     <path
-       style="fill:#4f4840;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch59);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path57-4"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(160,112.50208)"
        inkscape:label="bgY4" />
     <path
-       style="fill:#555149;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch60);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path58-0"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(170,112.50208)"
        inkscape:label="bgY5" />
     <path
-       style="fill:#666156;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch61);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path59-7"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="translate(180,112.50208)"
        inkscape:label="bgY6" />
     <path
-       style="fill:#7c7b78;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch63);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path47-0"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect51-8"
@@ -2569,18 +4082,18 @@
        inkscape:label="grayY0" />
     <path
        transform="translate(140,132.50208)"
-       style="fill:#8f8c85;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch64);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path48-0"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayY1" />
     <path
        transform="translate(150,132.50208)"
-       style="fill:#a6a39a;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch65);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path49-1"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayY2" />
     <path
-       style="fill:#787c78;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch44);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path51-4"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect62-7"
@@ -2589,18 +4102,18 @@
        inkscape:label="grayT0" />
     <path
        transform="translate(49.999999,182.50208)"
-       style="fill:#868e86;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch45);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path52-6"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayT1" />
     <path
        transform="translate(59.999999,182.50208)"
-       style="fill:#9ba59c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch46);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path60-0"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayT2" />
     <path
-       style="fill:#7c787c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch25);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path62-7"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect66-4"
@@ -2609,33 +4122,33 @@
        inkscape:label="grayP0" />
     <path
        transform="translate(140,182.50208)"
-       style="fill:#8d868d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch26);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path63-1"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayP1" />
     <path
        transform="translate(150,182.50208)"
-       style="fill:#a59ba5;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch27);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path64-7"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="grayP2" />
     <path
-       style="fill:#3f485c;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch62);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path50-7"
        d="m 130,152.50208 h 10 v 10 h -10 z"
        inkscape:label="visY" />
     <path
-       style="fill:#4f344b;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch43);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path61-7"
        d="m 39.999998,202.50208 h 10 v 10 h -10 z"
        inkscape:label="visT" />
     <path
-       style="fill:#4f4736;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch24);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path65-7"
        d="m 130,202.50208 h 10 v 10 h -10 z"
        inkscape:label="visP" />
     <path
-       style="fill:#827e75;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch28);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path79-3"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect87-2"
@@ -2643,49 +4156,49 @@
        transform="translate(29.999998,162.50209)"
        inkscape:label="fgTDim" />
     <path
-       style="fill:#4b3339;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch29);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path80-3"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(39.999998,162.50209)"
        inkscape:label="bgTRed" />
     <path
-       style="fill:#4b3c36;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch30);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path81-5"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(49.999998,162.50209)"
        inkscape:label="bgTOrange" />
     <path
-       style="fill:#4b4939;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch31);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path82-9"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(59.999998,162.50209)"
        inkscape:label="bgTYellow" />
     <path
-       style="fill:#3d503d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch32);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path83-9"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(69.999998,162.50209)"
        inkscape:label="bgTGreen" />
     <path
-       style="fill:#304e42;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch33);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path84-8"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(79.999998,162.50209)"
        inkscape:label="bgTTeal" />
     <path
-       style="fill:#2f454d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch34);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path85-1"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(89.999998,162.50209)"
        inkscape:label="bgTBlue" />
     <path
-       style="fill:#45394e;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch35);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path86-8"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(99.999998,162.50209)"
        inkscape:label="bgTPurple" />
     <path
-       style="fill:#877d6f;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch47);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path87-2"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect95-7"
@@ -2693,49 +4206,49 @@
        transform="translate(120,112.50208)"
        inkscape:label="fgYDim" />
     <path
-       style="fill:#543130;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch48);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path88-6"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(130,112.50208)"
        inkscape:label="bgYRed" />
     <path
-       style="fill:#543a2d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch49);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path89-6"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(140,112.50208)"
        inkscape:label="bgYOrange" />
     <path
-       style="fill:#544730;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch50);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path90-0"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(150,112.50208)"
        inkscape:label="bgYYellow" />
     <path
-       style="fill:#464e34;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch51);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path91-3"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(160,112.50208)"
        inkscape:label="bgYGreen" />
     <path
-       style="fill:#394c39;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch52);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path92-8"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(170,112.50208)"
        inkscape:label="bgYTeal" />
     <path
-       style="fill:#384344;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch53);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path93-0"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(180,112.50208)"
        inkscape:label="bgYBlue" />
     <path
-       style="fill:#4e3745;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch54);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path94-1"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(190,112.50208)"
        inkscape:label="bgYPurple" />
     <path
-       style="fill:#877b6f;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch66);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path95-2"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect103-7"
@@ -2743,49 +4256,49 @@
        transform="translate(29.999998,112.50208)"
        inkscape:label="fgRDim" />
     <path
-       style="fill:#542e30;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch67);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path96-5"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(39.999998,112.50208)"
        inkscape:label="bgRRed" />
     <path
-       style="fill:#54372d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch68);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path97-0"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(49.999998,112.50208)"
        inkscape:label="bgROrange" />
     <path
-       style="fill:#544430;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch69);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path98-9"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(59.999998,112.50208)"
        inkscape:label="bgRYellow" />
     <path
-       style="fill:#464b34;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch70);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path99-4"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(69.999998,112.50208)"
        inkscape:label="bgRGreen" />
     <path
-       style="fill:#394939;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch71);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path100-7"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(79.999998,112.50208)"
        inkscape:label="bgRTeal" />
     <path
-       style="fill:#384044;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch72);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path101-8"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(89.999998,112.50208)"
        inkscape:label="bgRBlue" />
     <path
-       style="fill:#4e3445;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch73);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path102-3"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(99.999998,112.50208)"
        inkscape:label="bgRPurple" />
     <path
-       style="fill:#e6d9bc;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch1);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path14"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect78"
@@ -2793,49 +4306,49 @@
        transform="translate(29.999998,172.50208)"
        inkscape:label="fg" />
     <path
-       style="fill:#e66d78;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch2);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path15"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(39.999998,172.50208)"
        inkscape:label="red" />
     <path
-       style="fill:#e69471;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch3);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path72"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(49.999998,172.50208)"
        inkscape:label="orange" />
     <path
-       style="fill:#e4bc77;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch4);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path73"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(59.999998,172.50208)"
        inkscape:label="yellow" />
     <path
-       style="fill:#a1cc82;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch5);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path74"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(69.999998,172.50208)"
        inkscape:label="green" />
     <path
-       style="fill:#7dc296;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch6);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path75"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(79.999998,172.50208)"
        inkscape:label="teal" />
     <path
        transform="translate(89.999998,172.50208)"
-       style="fill:#75aabb;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch7);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path76"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="blue" />
     <path
        transform="translate(99.999998,172.50208)"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#c586c2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#swatch8);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
        id="path77"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="purple" />
     <path
-       style="fill:#e6d9bc;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch1);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path78"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect113"
@@ -2843,49 +4356,49 @@
        transform="translate(120,172.50208)"
        inkscape:label="fg" />
     <path
-       style="fill:#e66d78;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch2);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path106"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(130,172.50208)"
        inkscape:label="red" />
     <path
-       style="fill:#e69471;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch3);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path107"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(140,172.50208)"
        inkscape:label="orange" />
     <path
-       style="fill:#e4bc77;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch4);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path108"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(150,172.50208)"
        inkscape:label="yellow" />
     <path
-       style="fill:#a1cc82;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch5);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path109"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(160,172.50208)"
        inkscape:label="green" />
     <path
-       style="fill:#7dc296;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch6);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path110"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(170,172.50208)"
        inkscape:label="teal" />
     <path
        transform="translate(180,172.50208)"
-       style="fill:#75aabb;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch7);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path111"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="blue" />
     <path
        transform="translate(190,172.50208)"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#c586c2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#swatch8);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
        id="path112"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="purple" />
     <path
-       style="fill:#e6d9bc;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch1);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path113"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:path-effect="#path-effect121"
@@ -2893,54 +4406,54 @@
        transform="translate(120,122.50208)"
        inkscape:label="fg" />
     <path
-       style="fill:#e66d78;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch2);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path114"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(130,122.50208)"
        inkscape:label="red" />
     <path
-       style="fill:#e69471;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch3);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path115"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(140,122.50208)"
        inkscape:label="orange" />
     <path
-       style="fill:#e4bc77;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch4);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path116"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(150,122.50208)"
        inkscape:label="yellow" />
     <path
-       style="fill:#a1cc82;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch5);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path117"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(160,122.50208)"
        inkscape:label="green" />
     <path
-       style="fill:#7dc296;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch6);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path118"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        transform="translate(170,122.50208)"
        inkscape:label="teal" />
     <path
        transform="translate(180,122.50208)"
-       style="fill:#75aabb;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch7);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path119"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="blue" />
     <path
        transform="translate(190,122.50208)"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#c586c2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#swatch8);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
        id="path120"
        d="m 10,19.999998 h 10 v 9.999999 H 10 Z"
        inkscape:label="purple" />
     <text
        xml:space="preserve"
-       style="font-size:2.82222px;line-height:1.2;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-size:2.82222px;line-height:1.2;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="40.168156"
        y="171.23471"
        id="text121"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="40.168156"
          y="171.23471"
          rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -2948,11 +4461,11 @@
          id="tspan121">Nevergrove</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82222px;line-height:1.2;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1b1b22;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-size:2.82222px;line-height:1.2;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="130.16815"
        y="171.23471"
        id="text122"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1b1b22;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="130.16815"
          y="171.23471"
          rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -2960,11 +4473,11 @@
          id="tspan122">Nevergrove</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82222px;line-height:1.2;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#221e1b;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-size:2.82222px;line-height:1.2;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="130.16815"
        y="121.23471"
        id="text123"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#221e1b;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="130.16815"
          y="121.23471"
          rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -2972,11 +4485,11 @@
          id="tspan123">Nevergrove</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82222px;line-height:1.2;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1f1919;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-size:2.82222px;line-height:1.2;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch74);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="40.168156"
        y="121.23471"
        id="text125"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:#e6d9bc;fill-opacity:1;stroke:#1f1919;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch74);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="40.168156"
          y="121.23471"
          rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -2984,46 +4497,46 @@
          id="tspan125">Nevergrove</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#e66d78;fill-opacity:1;stroke:#1f1919;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#swatch2);fill-opacity:1;stroke:url(#swatch74);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="58.16674"
        y="121.23367"
        id="text124"><tspan
          sodipodi:role="line"
          id="tspan124"
-         style="stroke-width:0.5;stroke-dasharray:none;stroke:#1f1919;stroke-opacity:1"
+         style="fill:url(#swatch2);stroke:url(#swatch74);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="58.16674"
          y="121.23367">Maple</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#e4bc77;fill-opacity:1;stroke:#221e1b;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#swatch4);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="148.19073"
        y="121.23367"
        id="text126"><tspan
          sodipodi:role="line"
          id="tspan126"
-         style="fill:#e4bc77;fill-opacity:1;stroke:#221e1b;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:url(#swatch4);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="148.19073"
          y="121.23367">Aspen</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#c586c2;fill-opacity:1;stroke:#1b1b22;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#swatch8);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="148.09337"
        y="171.23331"
        id="text127"><tspan
          sodipodi:role="line"
          id="tspan127"
-         style="fill:#c586c2;fill-opacity:1;stroke:#1b1b22;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:url(#swatch8);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="148.09337"
          y="171.23331">Jacaranda</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#7dc296;fill-opacity:1;stroke:#1a1f21;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#swatch6);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="58.093365"
        y="171.23331"
        id="text128"><tspan
          sodipodi:role="line"
          id="tspan128"
-         style="stroke:#1a1f21;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1;fill:#7dc296;fill-opacity:1"
+         style="fill:url(#swatch6);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
          x="58.093365"
          y="171.23331">Eucalyptus</tspan></text>
   </g>
@@ -3032,23 +4545,23 @@
      id="layer2"
      inkscape:label="Aux">
     <path
-       style="fill:#262d31;fill-opacity:1;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch37);fill-opacity:1;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path1-5-3"
        d="m 10,120 h 89.999997 v 10 H 10 Z"
        inkscape:label="bgT1" />
     <path
-       style="fill:#312725;fill-opacity:1;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch75);fill-opacity:1;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path17-2-8"
        d="m 10,100 h 89.999997 v 10 H 10 Z"
        inkscape:label="bgR1" />
     <path
-       style="fill:#262631;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch18);fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path41-9"
        d="m 10,9.999999 h 10 v 9.999999 H 10 Z"
        transform="matrix(8.9999999,0,0,1,-79.999996,120)"
        inkscape:label="bgP1" />
     <path
-       style="fill:#312b25;fill-opacity:1;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       style="fill:url(#swatch56);fill-opacity:1;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
        id="path54-3"
        d="m 10,110 h 89.999997 v 10 H 10 Z"
        inkscape:label="bgY1" />

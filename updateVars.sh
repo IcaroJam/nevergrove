@@ -95,7 +95,7 @@ getCol () {
 	# Asign the color to the variable passed as a string in $1
 	# the -0777 makes the matching multiline
 	local -n tmp=$1
-	tmp=$(perl -0777 -ne 'print $1 if /<.*fill:(#\w{6}).*label="$ENV{LABEL}".*>/s' palette.svg)
+	tmp=$(perl -0777 -ne 'print $1 if /<linearGradient[^<>]*label="$ENV{LABEL}">\s+<stop[^<>]*stop-color:(#\w{6})/s' palette.svg)
 }
 
 for c in ${colors[@]}; do
