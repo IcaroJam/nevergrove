@@ -2,7 +2,8 @@
 #### An everforest-inspired dark palette featuring deep, rich colors with the right amount of contrast.
 ###### _See how it looks in the [demo page](https://icarojam.github.io/nevergrove/)!!_
 
-![An image featuring the various palette colors](palette.png)
+![An image featuring the various palette colours](palette.png)
+![An image featuring the various palette colours side by side](expo.png)
 
 Nevergrove comes in four distinct variants, each centered around a color:
 - Maple: Red
