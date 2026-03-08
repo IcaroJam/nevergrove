@@ -20,6 +20,8 @@ Themes being currently developed:
 
 Stuff planned for the future:
 - VSCode
+- Obsidian
+- Breeze (Plasma 6) cursors
 - GTK
 
 ### Motivation
