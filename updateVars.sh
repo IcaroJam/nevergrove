@@ -78,6 +78,8 @@ colors=(
 	grayP0
 	grayP1
 	grayP2
+	white
+	black
 	fg
 	red
 	orange

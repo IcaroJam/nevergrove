@@ -109,6 +109,8 @@
 
 				--accent: var(--teal);
 
+				--white: #dbdbd7;
+				--black: #201d20;
 				--fg: #e6d9bc;
 				--red: #e66d78;
 				--orange: #e69471;
@@ -214,6 +216,18 @@
 				padding: var(--size);
 			}
 
+			#white {
+				background-color: var(--white);
+				color: var(--black);
+				font-weight: bold;
+			}
+
+			#black {
+				background-color: var(--black);
+				color: var(--white);
+				font-weight: bold;
+			}
+
 			.pad { padding: var(--size); }
 			.redF { color: var(--red); }
 			.orgF { color: var(--orange); }
@@ -255,7 +269,7 @@
 			}
 
 			.exampleBtn {
-				height: fit-content;
+				height: 3lh;
 				border: 2px solid var(--bg4);
 
 				&.disabled {
@@ -397,6 +411,14 @@
 					<button class="exampleBtn disabled">Disabled button</button>
 					<button class="exampleBtn">Normal button</button>
 					<button class="exampleBtn pressed">Pressed button</button>
+					<br>
+					<br>
+					<p>
+						There are also neutral:
+						<button id="white" class="exampleBtn">White</button>
+						&amp;
+						<button id="black" class="exampleBtn">Black</button>
+					</p>
 				</div>
 			</div>
 			<br>
