@@ -1,0 +1,53 @@
+{
+	"manifest_version": 2,
+	"version": "1.0",
+	"name": "Nevergrove $VARIANT",
+	"theme": {
+		"images": {},
+		"properties": {},
+		"colors": {
+			"frame": "$BG1",
+			"frame_inactive": "$BG2",
+			"toolbar": "$BG3",
+			"toolbar_bottom_separator": "$BG6",
+			"toolbar_field": "$BG1",
+			"toolbar_field_border": "$BG4",
+			"toolbar_field_border_focus": "$ACCENT",
+			"toolbar_field_focus": "$BG4",
+			"toolbar_field_highlight": "$INVACCENT",
+			"toolbar_field_highlight_text": "$BG0",
+			"toolbar_field_text": "$FG",
+			"toolbar_field_text_focus": "",
+			"toolbar_text": "$FG",
+			"toolbar_top_separator": "$BG5",
+			"toolbar_vertical_separator": "$BG5",
+			"button_background_active": "$BG6",
+			"button_background_hover": "$BG5",
+			"icons": "$ACCENT",
+			"icons_attention": "$ORANGE",
+			"popup": "$BG4",
+			"popup_border": "$ACCENT",
+			"popup_highlight": "$INVACCENT",
+			"popup_highlight_text": "$BG0",
+			"popup_text": "$FG",
+			"sidebar": "$BG1",
+			"sidebar_border": "$BG5",
+			"sidebar_highlight": "$INVACCENT",
+			"sidebar_highlight_text": "$BG0",
+			"sidebar_text": "$FG",
+			"ntp_background": "$BG1",
+			"ntp_card_background": "$BG3",
+			"ntp_text": "$FG",
+			"tab_background_text": "$FG",
+			"tab_line": "$ACCENT",
+			"tab_loading": "$ACCENT",
+			"tab_selected": "$BG3",
+			"tab_text": "$FG"
+		}
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "Nevergrove-$VARIANT@nafnec.dev"
+		}
+	}
+}
