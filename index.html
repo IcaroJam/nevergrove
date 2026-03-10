@@ -278,7 +278,19 @@
 					color: var(--fgDim);
 				}
 
+				&.hovered {
+					background-color: var(--bg4);
+					border-color: var(--bg5);
+					color: var(--white);
+				}
+
 				&.pressed {
+					background-color: var(--bg5);
+					border-color: var(--bg6);
+					color: var(--accent);
+				}
+
+				&.selected {
 					background-color: var(--accent);
 					border-color: var(--bg6);
 					color: var(--bg0);
@@ -410,7 +422,9 @@
 				<div>
 					<button class="exampleBtn disabled">Disabled button</button>
 					<button class="exampleBtn">Normal button</button>
+					<button class="exampleBtn hovered">Hovered button</button>
 					<button class="exampleBtn pressed">Pressed button</button>
+					<button class="exampleBtn selected">Selected button</button>
 					<br>
 					<br>
 					<p>
