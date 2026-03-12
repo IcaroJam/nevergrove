@@ -47,7 +47,7 @@
 	},
 	"browser_specific_settings": {
 		"gecko": {
-			"id": "Nevergrove-$VARIANT@nafnec.dev"
+			"id": "Nevergrove-$VARIANT-firefox@nafnec.dev"
 		}
 	}
 }
