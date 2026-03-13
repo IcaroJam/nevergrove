@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="330.21887"
-     inkscape:cy="211.77848"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="542.24999"
+     inkscape:cy="360.74999"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
@@ -56,7 +56,7 @@
        inkscape:swatch="solid"
        inkscape:label="white">
       <stop
-         style="stop-color:#dbdbd7;stop-opacity:1;"
+         style="stop-color:#e6e6e5;stop-opacity:1;"
          offset="0"
          id="stop126" />
     </linearGradient>
@@ -65,7 +65,7 @@
        inkscape:swatch="solid"
        inkscape:label="black">
       <stop
-         style="stop-color:#171617;stop-opacity:1;"
+         style="stop-color:#1a191a;stop-opacity:1;"
          offset="0"
          id="stop125" />
     </linearGradient>
@@ -74,7 +74,7 @@
        inkscape:swatch="solid"
        inkscape:label="grayR2">
       <stop
-         style="stop-color:#a59b9b;stop-opacity:1;"
+         style="stop-color:#a69a9a;stop-opacity:1;"
          offset="0"
          id="stop84" />
     </linearGradient>
@@ -83,7 +83,7 @@
        inkscape:swatch="solid"
        inkscape:label="grayR1">
       <stop
-         style="stop-color:#8e8686;stop-opacity:1;"
+         style="stop-color:#8f8585;stop-opacity:1;"
          offset="0"
          id="stop83" />
     </linearGradient>
@@ -110,7 +110,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgR6">
       <stop
-         style="stop-color:#625556;stop-opacity:1;"
+         style="stop-color:#675657;stop-opacity:1;"
          offset="0"
          id="stop80" />
     </linearGradient>
@@ -3509,7 +3509,7 @@
        transform="translate(160,-30.000004)"
        inkscape:label="bgY6" />
     <path
-       style="fill:url(#swatch8);fill-opacity:1;stroke:#c18abe;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:none;fill-opacity:1;stroke:url(#swatch8);stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="M 191,21 V 38.999999"
        id="path16"
        sodipodi:nodetypes="cc" />
@@ -3526,7 +3526,7 @@
          rotate="0 0 0 0 0 0 0 0 0 0 0"
          sodipodi:role="line">Eucalyptus</tspan></text>
     <path
-       style="fill:url(#swatch6);fill-opacity:1;stroke:#7fc092;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:none;fill-opacity:1;stroke:url(#swatch6);stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 81.000001,55.999996 v 18"
        id="path17"
        transform="translate(110,-54.999996)"
@@ -3544,7 +3544,7 @@
          rotate="0 0 0 0 0 0"
          sodipodi:role="line">Aspen</tspan></text>
     <path
-       style="fill:url(#swatch4);fill-opacity:1;stroke:#e4bc77;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:none;fill-opacity:1;stroke:url(#swatch4);stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="M 81.000001,56 V 74"
        id="path18"
        transform="translate(110,-75)"
@@ -3562,7 +3562,7 @@
          rotate="0 0 0 0 0 0"
          sodipodi:role="line">Maple</tspan></text>
     <path
-       style="fill:url(#swatch2);fill-opacity:1;stroke:#e66d78;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:none;fill-opacity:1;stroke:url(#swatch2);stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="M 81.000001,56 V 74"
        id="path35"
        transform="translate(110,-95)"
@@ -3580,7 +3580,7 @@
          rotate="0 0 0 0 0 0 0 0 0 0"
          sodipodi:role="line">Jacaranda</tspan></text>
     <path
-       style="fill:url(#swatch8);fill-opacity:1;stroke:#c18abe;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:none;fill-opacity:1;stroke:url(#swatch8);stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 81,60.999996 v 8"
        id="path36"
        transform="translate(70.000002,20.000014)" />
@@ -3597,7 +3597,7 @@
          rotate="0 0 0 0 0 0 0 0 0 0 0"
          sodipodi:role="line">Eucalyptus</tspan></text>
     <path
-       style="fill:url(#swatch6);fill-opacity:1;stroke:#7fc092;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:none;fill-opacity:1;stroke:url(#swatch6);stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 81,60.999996 v 8"
        id="path37"
        transform="translate(70.000003,10.000016)" />
@@ -3614,7 +3614,7 @@
          rotate="0 0 0 0 0 0"
          sodipodi:role="line">Aspen</tspan></text>
     <path
-       style="fill:url(#swatch4);fill-opacity:1;stroke:#e4bc77;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:none;fill-opacity:1;stroke:url(#swatch4);stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 81,60.999996 v 8"
        id="path38"
        transform="translate(70.000003,1.57086e-5)" />
@@ -3631,7 +3631,7 @@
          rotate="0 0 0 0 0 0"
          sodipodi:role="line">Maple</tspan></text>
     <path
-       style="fill:url(#swatch2);fill-opacity:1;stroke:#e66d78;stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:none;fill-opacity:1;stroke:url(#swatch2);stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 151,51.000012 v 8"
        id="path39" />
     <path
