@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.0000001"
-     inkscape:cx="447.99998"
-     inkscape:cy="393.24998"
+     inkscape:cx="466.49998"
+     inkscape:cy="181.24999"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
@@ -110,7 +110,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgR6">
       <stop
-         style="stop-color:#675657;stop-opacity:1;"
+         style="stop-color:#615152;stop-opacity:1;"
          offset="0"
          id="stop80" />
     </linearGradient>
@@ -164,7 +164,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgR0">
       <stop
-         style="stop-color:#1f1919;stop-opacity:1;"
+         style="stop-color:#251d1d;stop-opacity:1;"
          offset="0"
          id="stop74" />
     </linearGradient>
@@ -281,7 +281,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgY6">
       <stop
-         style="stop-color:#666156;stop-opacity:1;"
+         style="stop-color:#615c51;stop-opacity:1;"
          offset="0"
          id="stop61" />
     </linearGradient>
@@ -335,7 +335,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgY0">
       <stop
-         style="stop-color:#221e1b;stop-opacity:1;"
+         style="stop-color:#25211d;stop-opacity:1;"
          offset="0"
          id="stop55" />
     </linearGradient>
@@ -452,7 +452,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgT6">
       <stop
-         style="stop-color:#596460;stop-opacity:1;"
+         style="stop-color:#545f5b;stop-opacity:1;"
          offset="0"
          id="stop42" />
     </linearGradient>
@@ -506,7 +506,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgT0">
       <stop
-         style="stop-color:#1a1f21;stop-opacity:1;"
+         style="stop-color:#1d2325;stop-opacity:1;"
          offset="0"
          id="stop36" />
     </linearGradient>
@@ -623,7 +623,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgP6">
       <stop
-         style="stop-color:#635963;stop-opacity:1;"
+         style="stop-color:#5e545e;stop-opacity:1;"
          offset="0"
          id="stop23" />
     </linearGradient>
@@ -677,7 +677,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgP0">
       <stop
-         style="stop-color:#1b1b22;stop-opacity:1;"
+         style="stop-color:#1d1d25;stop-opacity:1;"
          offset="0"
          id="stop17" />
     </linearGradient>
