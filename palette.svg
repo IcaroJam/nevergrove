@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.0000001"
-     inkscape:cx="542.24999"
-     inkscape:cy="360.74999"
+     inkscape:cx="447.99998"
+     inkscape:cy="393.24998"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
@@ -614,7 +614,7 @@
        inkscape:swatch="solid"
        inkscape:label="visP">
       <stop
-         style="stop-color:#4f4736;stop-opacity:1;"
+         style="stop-color:#554b37;stop-opacity:1;"
          offset="0"
          id="stop24" />
     </linearGradient>
@@ -4772,7 +4772,7 @@
        d="M 10,89.999996 H 20 V 140 H 10 Z"
        inkscape:label="f" />
     <path
-       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#a78e44;fill-opacity:0.32;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
+       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#b89b46;fill-opacity:0.32000002;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
        id="path71-1"
        d="m 90.000001,130 h 9.999996 v 10.00001 h -9.999996 z"
        inkscape:label="vP" />
