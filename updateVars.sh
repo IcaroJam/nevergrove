@@ -170,12 +170,14 @@ buildFirefoxTheme () {
 	# $3 -> The accent color used for the variant
 	# $4 -> The inverse accent color used for the variant
 
-	local tgt=$BUILDDIR/firefox/$1
-	mkdir -p $tgt
-	tgt=$tgt/manifest.json
+	local tgtdir=$BUILDDIR/firefox/$1
+	mkdir -p $tgtdir
+	local tgt=$tgtdir/manifest.json
 	cp firefox/themeSrc.json $tgt
 
 	replaceColors $1 $2 $3 $4
+
+	zip $tgtdir/$1.zip -j $tgtdir/*
 }
 
 buildFirefoxTheme Maple R red teal
