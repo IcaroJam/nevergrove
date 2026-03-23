@@ -13,12 +13,33 @@ Nevergrove comes in four distinct variants, each centered around a color:
 
 Choose the one you like the most :)
 
+## Themes
+### Firefox
+Nevergrove themes are available in the Mozilla Addon Store!
+<center>
+	<img src="https://addons.mozilla.org/user-media/version-previews/full/4075/4075619.svg?modified=1773492254">
+	<a href="https://addons.mozilla.org/en-GB/firefox/addon/nevergrove-maple/">Maple</a>
+</center>
+<center>
+	<img src="https://addons.mozilla.org/user-media/version-previews/full/4075/4075613.svg?modified=1773491710">
+	<a href="https://addons.mozilla.org/en-GB/firefox/addon/nevergrove-aspen/">Aspen</a>
+</center>
+<center>
+	<img src="https://addons.mozilla.org/user-media/version-previews/full/4075/4075615.svg?modified=1773492065">
+	<a href="https://addons.mozilla.org/en-GB/firefox/addon/nevergrove-eucalyptus/">Eucalyptus</a>
+</center>
+<center>
+	<img src="https://addons.mozilla.org/user-media/version-previews/full/4075/4075617.svg?modified=1773492174">
+	<a href="https://addons.mozilla.org/en-GB/firefox/addon/nevergrove-jacaranda/">Jacaranda</a>
+</center>
+
+### Planned
 I intend to make color themes of all four variants for the various tools I use.
 Themes being currently developed:
-- Firefox
-- Vim/Neovim
+- Vivaldi
 
 Stuff planned for the future:
+- Vim/Neovim
 - VSCode
 - Obsidian
 - Breeze (Plasma 6) cursors
@@ -30,3 +51,4 @@ Some (maybe most) people might think it is fine as it is, but I personally disag
 
 ## Developing
 The project is structured so that any color changes made in inkscape can be automatically matched in the rest of the files by simply running the `updateVars.sh` script.
+To achieve this, the palette color's are implemented using inkscape swatches, which are then parsed to find each color. These colors are then replaced in all other relevant files to update the themes for all subprojects.
