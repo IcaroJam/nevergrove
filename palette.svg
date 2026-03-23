@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.0000001"
-     inkscape:cx="466.49998"
-     inkscape:cy="181.24999"
+     inkscape:zoom="5.6568545"
+     inkscape:cx="651.42209"
+     inkscape:cy="347.45458"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
@@ -767,7 +767,7 @@
        inkscape:swatch="solid"
        inkscape:label="blue">
       <stop
-         style="stop-color:#75aabb;stop-opacity:1;"
+         style="stop-color:#6fadc1;stop-opacity:1;"
          offset="0"
          id="stop7" />
     </linearGradient>
@@ -785,7 +785,7 @@
        inkscape:swatch="solid"
        inkscape:label="green">
       <stop
-         style="stop-color:#a1cc82;stop-opacity:1;"
+         style="stop-color:#a3c77b;stop-opacity:1;"
          offset="0"
          id="stop5" />
     </linearGradient>
@@ -794,7 +794,7 @@
        inkscape:swatch="solid"
        inkscape:label="yellow">
       <stop
-         style="stop-color:#e4bc77;stop-opacity:1;"
+         style="stop-color:#e0b56c;stop-opacity:1;"
          offset="0"
          id="stop4" />
     </linearGradient>
@@ -803,7 +803,7 @@
        inkscape:swatch="solid"
        inkscape:label="orange">
       <stop
-         style="stop-color:#e69471;stop-opacity:1;"
+         style="stop-color:#e69165;stop-opacity:1;"
          offset="0"
          id="stop3" />
     </linearGradient>
@@ -812,7 +812,7 @@
        inkscape:swatch="solid"
        inkscape:label="red">
       <stop
-         style="stop-color:#e66d78;stop-opacity:1;"
+         style="stop-color:#e96a69;stop-opacity:1;"
          offset="0"
          id="stop2" />
     </linearGradient>
