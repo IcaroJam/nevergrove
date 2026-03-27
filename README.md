@@ -19,28 +19,36 @@ Nevergrove themes are available in the Mozilla Addon Store!
 
 [Maple](https://addons.mozilla.org/en-GB/firefox/addon/nevergrove-maple/)
 
-![](https://addons.mozilla.org/user-media/version-previews/full/4075/4075619.svg?modified=1773492254)
+![](https://addons.mozilla.org/user-media/version-previews/full/4076/4076399.svg?modified=1774263154)
 
 [Aspen](https://addons.mozilla.org/en-GB/firefox/addon/nevergrove-aspen/)
 
-![](https://addons.mozilla.org/user-media/version-previews/full/4075/4075613.svg?modified=1773491710)
+![](https://addons.mozilla.org/user-media/version-previews/full/4076/4076405.svg?modified=1774263266)
 
 [Eucalyptus](https://addons.mozilla.org/en-GB/firefox/addon/nevergrove-eucalyptus/)
 
-![](https://addons.mozilla.org/user-media/version-previews/full/4075/4075615.svg?modified=1773492065)
+![](https://addons.mozilla.org/user-media/version-previews/full/4076/4076403.svg?modified=1774263233)
 
 [Jacaranda](https://addons.mozilla.org/en-GB/firefox/addon/nevergrove-jacaranda/)
 
-![](https://addons.mozilla.org/user-media/version-previews/full/4075/4075617.svg?modified=1773492174)
+![](https://addons.mozilla.org/user-media/version-previews/full/4076/4076401.svg?modified=1774263203)
+
+### Vivaldi
+Nevergrove themes are available for Vivaldi too!
+
+- [Maple](https://themes.vivaldi.net/themes/VmjvVAZQlYg)
+- [Aspen](https://themes.vivaldi.net/themes/zrnvLBGO7L4)
+- [Eucalyptus](https://themes.vivaldi.net/themes/jXW70yDWldk)
+- [Jacaranda](https://themes.vivaldi.net/themes/PKbv86Qz7r3)
 
 ### Planned
-I intend to make color themes of all four variants for the various tools I use.  
+I intend to make color themes of all four variants for the various tools I use.
+
 Themes being currently developed:
-- Vivaldi
+- VSCode
 
 Stuff planned for the future:
 - Vim/Neovim
-- VSCode
 - Obsidian
 - Breeze (Plasma 6) cursors
 - GTK
