@@ -11,7 +11,7 @@
 	"colorFg": "$FG",
 	"colorHighlightBg": "$ACCENT",
 	"colorWindowBg": "$BG0",
-	"contrast": 5,
+	"contrast": 6,
 	"dimBlurred": false,
 	"engineVersion": 1,
 	"id": "$ID",
