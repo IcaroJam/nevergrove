@@ -1,11 +1,18 @@
 # Colors (Nevergrove $VARIANT)
 
-# Default colors
 [colors.primary]
 background = "$BG1"
 foreground = "$FG"
+dim_foreground = "$FGDIM"
 
-# Normal colors
+[colors.cursor]
+text = "$BG0"
+cursor = "$GRAY2"
+
+[colors.selection]
+text = "$WHITE"
+background = "$VIS"
+
 [colors.normal]
 black   = "$BG0"
 red     = "$RED"
@@ -16,7 +23,6 @@ magenta = "$PURPLE"
 cyan    = "$TEAL"
 white   = "$FG"
 
-# Bright colors
 [colors.bright]
 black   = "$BG0"
 red     = "$RED"
@@ -26,3 +32,13 @@ blue    = "$BLUE"
 magenta = "$PURPLE"
 cyan    = "$TEAL"
 white   = "$FG"
+
+[colors.dim]
+black   = "$BLACK"
+red     = "$BGRED"
+green   = "$BGGREEN"
+yellow  = "$BGYELLOW"
+blue    = "$BGBLUE"
+magenta = "$BGPURPLE"
+cyan    = "$BGTEAL"
+white   = "$FGDIM"
