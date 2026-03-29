@@ -42,6 +42,18 @@ Nevergrove themes are available for a bunch of stuff!
 ### Alacritty
 These you have to build yourself for now. Clone the repo and run the `updateVars.sh` script. The theme resulting theme files are located in `build/alacritty/`.
 
+To use one of them add `import = ["<path-to-theme>"]` to your alacritty config file.
+
+### Foot
+These you have to build yourself for now. Clone the repo and run the `updateVars.sh` script. The theme resulting theme files are located in `build/foot/`.
+
+To use one of them add
+```
+[main]
+include=<path-to-file>
+```
+to your foot config file.
+
 ### Planned
 I intend to make color themes of all four variants for the various tools I use.
 
