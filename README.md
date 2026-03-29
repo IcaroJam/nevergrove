@@ -14,9 +14,9 @@ Nevergrove comes in four distinct variants, each centered around a color:
 Choose the one you like the most :)
 
 ## Themes
-### Firefox
-Nevergrove themes are available in the Mozilla Addon Store!
+Nevergrove themes are available for a bunch of stuff!
 
+### Firefox
 [Maple](https://addons.mozilla.org/en-GB/firefox/addon/nevergrove-maple/)
 
 ![](https://addons.mozilla.org/user-media/version-previews/full/4076/4076399.svg?modified=1774263154)
@@ -34,12 +34,13 @@ Nevergrove themes are available in the Mozilla Addon Store!
 ![](https://addons.mozilla.org/user-media/version-previews/full/4076/4076401.svg?modified=1774263203)
 
 ### Vivaldi
-Nevergrove themes are available for Vivaldi too!
-
 - [Maple](https://themes.vivaldi.net/themes/VmjvVAZQlYg)
 - [Aspen](https://themes.vivaldi.net/themes/zrnvLBGO7L4)
 - [Eucalyptus](https://themes.vivaldi.net/themes/jXW70yDWldk)
 - [Jacaranda](https://themes.vivaldi.net/themes/PKbv86Qz7r3)
+
+### Alacritty
+These you have to build yourself for now. Clone the repo and run the `updateVars.sh` script. The theme resulting theme files are located in `build/alacritty/`.
 
 ### Planned
 I intend to make color themes of all four variants for the various tools I use.

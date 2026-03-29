@@ -210,3 +210,23 @@ buildVivaldiTheme Maple R red teal "8fc51c5b-7e6e-4a44-abb2-a71c017f89a2"
 buildVivaldiTheme Aspen Y yellow blue "77105915-183c-452f-a43c-a662a6c41c0f"
 buildVivaldiTheme Eucalyptus T teal purple "546c5865-a044-44a2-b457-3e142780f412"
 buildVivaldiTheme Jacaranda P purple yellow "0ff02ff6-8f67-4baf-90f7-0f582ddde81c"
+
+# Alacritty Themes #############################################################
+buildAlacrittyTheme () {
+	# $1 -> The variant name
+	# $2 -> The letter to use as variable finder
+	# $3 -> The accent color used for the variant
+	# $4 -> The inverse accent color used for the variant
+
+	local tgtdir=$BUILDDIR/alacritty
+	mkdir -p $tgtdir
+	local tgt=$tgtdir/nevergrove_$1.toml
+	cp alacritty/themeSrc.toml $tgt
+
+	replaceColors $1 $2 $3 $4
+}
+
+buildAlacrittyTheme maple R red teal
+buildAlacrittyTheme aspen Y yellow blue
+buildAlacrittyTheme eucalyptus T teal purple
+buildAlacrittyTheme jacaranda P purple yellow

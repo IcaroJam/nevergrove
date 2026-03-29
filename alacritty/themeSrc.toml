@@ -1,0 +1,28 @@
+# Colors (Nevergrove $VARIANT)
+
+# Default colors
+[colors.primary]
+background = "$BG1"
+foreground = "$FG"
+
+# Normal colors
+[colors.normal]
+black   = "$BG0"
+red     = "$RED"
+green   = "$GREEN"
+yellow  = "$YELLOW"
+blue    = "$BLUE"
+magenta = "$PURPLE"
+cyan    = "$TEAL"
+white   = "$FG"
+
+# Bright colors
+[colors.bright]
+black   = "$BG0"
+red     = "$RED"
+green   = "$GREEN"
+yellow  = "$YELLOW"
+blue    = "$BLUE"
+magenta = "$PURPLE"
+cyan    = "$TEAL"
+white   = "$FG"
