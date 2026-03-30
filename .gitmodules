@@ -1,0 +1,3 @@
+[submodule "nevergrove-vscode"]
+	path = vscode/nevergrove-vscode
+	url = git@github.com:IcaroJam/nevergrove-vscode.git

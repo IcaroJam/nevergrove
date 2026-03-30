@@ -128,6 +128,7 @@ replaceColors () {
 	sed -i "s/\$VARIANT/$1/" $tgt
 
 	sed -i "s/\$ACCENT/${colors[$3]}/" $tgt
+	sed -i "s/\$BGACCENT/${colors[bg$2${3^}]}/" $tgt
 	sed -i "s/\$INVACCENT/${colors[$4]}/" $tgt
 
 	sed -i "s/\$BG0/${colors[bg${2}0]}/" $tgt
@@ -252,3 +253,21 @@ buildFootTheme maple R red teal
 buildFootTheme aspen Y yellow blue
 buildFootTheme eucalyptus T teal purple
 buildFootTheme jacaranda P purple yellow
+
+# VSCode Themes ################################################################
+buildVSCodeTheme () {
+	# $1 -> The variant name
+	# $2 -> The letter to use as variable finder
+	# $3 -> The accent color used for the variant
+	# $4 -> The inverse accent color used for the variant
+
+	local tgt=vscode/nevergrove-vscode/themes/nevergrove-$1-color-theme.json
+	cp vscode/themeSrc.jsonc $tgt
+
+	replaceColors $1 $2 $3 $4
+}
+
+buildVSCodeTheme maple R red teal
+buildVSCodeTheme aspen Y yellow blue
+buildVSCodeTheme eucalyptus T teal purple
+buildVSCodeTheme jacaranda P purple yellow
