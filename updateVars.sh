@@ -3,94 +3,7 @@
 # Variables & Colors Declaration ###############################################
 BUILDDIR=build
 
-declare -A colors=(
-	[bgR0]=""
-	[bgR1]=""
-	[bgR2]=""
-	[bgR3]=""
-	[bgR4]=""
-	[bgR5]=""
-	[bgR6]=""
-	[fgRDim]=""
-	[bgRRed]=""
-	[bgROrange]=""
-	[bgRYellow]=""
-	[bgRGreen]=""
-	[bgRTeal]=""
-	[bgRBlue]=""
-	[bgRPurple]=""
-	[visR]=""
-	[grayR0]=""
-	[grayR1]=""
-	[grayR2]=""
-	[bgY0]=""
-	[bgY1]=""
-	[bgY2]=""
-	[bgY3]=""
-	[bgY4]=""
-	[bgY5]=""
-	[bgY6]=""
-	[fgYDim]=""
-	[bgYRed]=""
-	[bgYOrange]=""
-	[bgYYellow]=""
-	[bgYGreen]=""
-	[bgYTeal]=""
-	[bgYBlue]=""
-	[bgYPurple]=""
-	[visY]=""
-	[grayY0]=""
-	[grayY1]=""
-	[grayY2]=""
-	[bgT0]=""
-	[bgT1]=""
-	[bgT2]=""
-	[bgT3]=""
-	[bgT4]=""
-	[bgT5]=""
-	[bgT6]=""
-	[fgTDim]=""
-	[bgTRed]=""
-	[bgTOrange]=""
-	[bgTYellow]=""
-	[bgTGreen]=""
-	[bgTTeal]=""
-	[bgTBlue]=""
-	[bgTPurple]=""
-	[visT]=""
-	[grayT0]=""
-	[grayT1]=""
-	[grayT2]=""
-	[bgP0]=""
-	[bgP1]=""
-	[bgP2]=""
-	[bgP3]=""
-	[bgP4]=""
-	[bgP5]=""
-	[bgP6]=""
-	[fgPDim]=""
-	[bgPRed]=""
-	[bgPOrange]=""
-	[bgPYellow]=""
-	[bgPGreen]=""
-	[bgPTeal]=""
-	[bgPBlue]=""
-	[bgPPurple]=""
-	[visP]=""
-	[grayP0]=""
-	[grayP1]=""
-	[grayP2]=""
-	[white]=""
-	[black]=""
-	[fg]=""
-	[red]=""
-	[orange]=""
-	[yellow]=""
-	[green]=""
-	[teal]=""
-	[blue]=""
-	[purple]=""
-)
+source colors.sh
 
 # Color Initialization #########################################################
 getCol () {
@@ -101,11 +14,16 @@ getCol () {
 	colors[$1]=$(perl -0777 -ne 'print $1 if /<linearGradient[^<>]*label="$ENV{LABEL}">\s+<stop[^<>]*stop-color:(#\w{6})/s' palette.svg)
 }
 
-# Iterate over the keys of the array
-for c in ${!colors[@]}; do
-	getCol $c
-	# echo $c ${colors[$c]}
-done
+# Iterate over the keys of the array and update the color file
+if [ palette.svg -nt colors.sh ]; then
+	echo "Updating color register..."
+	for c in ${!colors[@]}; do
+		getCol $c
+		# echo $c ${colors[$c]}
+		sed -ri "s/\[$c\]=\"(#[a-fA-F0-9]+)?\"/[$c]=\"${colors[$c]}\"/" colors.sh
+	done
+	echo "Color register updated!\n"
+fi
 
 # Assigning to CSS vars of the demo page #######################################
 replaceCSS () {
@@ -114,9 +32,13 @@ replaceCSS () {
 }
 
 # Iterate over the keys of the array
-for c in ${!colors[@]}; do
-	replaceCSS $c ${colors[$c]}
-done
+if [ colors.sh -nt index.html ]; then
+	echo "Updating demo page colors..."
+	for c in ${!colors[@]}; do
+		replaceCSS $c ${colors[$c]}
+	done
+	echo -e "Demo page colors updated!\n"
+fi
 
 # Color substitution auxfunc ###################################################
 replaceColors () {
@@ -172,13 +94,17 @@ buildFirefoxTheme () {
 	# $4 -> The inverse accent color used for the variant
 
 	local tgtdir=$BUILDDIR/firefox/$1
-	mkdir -p $tgtdir
 	local tgt=$tgtdir/manifest.json
-	cp firefox/themeSrc.json $tgt
+	if ! [ -x $tgtdir ] || [ colors.sh -nt $tgt ] || [ firefox/themeSrc.json -nt $tgt ]; then
+		echo "Updating Firefox $1 theme..."
+		mkdir -p $tgtdir
+		cp firefox/themeSrc.json $tgt
 
-	replaceColors $1 $2 $3 $4
+		replaceColors $1 $2 $3 $4
 
-	zip $tgtdir/$1.zip -j $tgtdir/*
+		zip $tgtdir/$1.zip -j $tgtdir/*
+		echo -e "Firefox $1 theme updated!\n"
+	fi
 }
 
 buildFirefoxTheme Maple R red teal
@@ -195,16 +121,20 @@ buildVivaldiTheme () {
 	# $5 -> The id for the theme
 
 	local tgtdir=$BUILDDIR/vivaldi/$1
-	mkdir -p $tgtdir
 	local tgt=$tgtdir/settings.json
-	cp vivaldi/themeSrc.json $tgt
+	if ! [ -x $tgtdir ] || [ vivaldi/bgs/$1.jpg -nt $tgt ] || [ colors.sh -nt $tgt ] || [ vivaldi/themeSrc.json -nt $tgt ]; then
+		echo "Updating Vivaldi $1 theme..."
+		mkdir -p $tgtdir
+		cp vivaldi/themeSrc.json $tgt
 
-	replaceColors $1 $2 $3 $4
-	sed -i "s/\$ID/$5/" $tgt
+		replaceColors $1 $2 $3 $4
+		sed -i "s/\$ID/$5/" $tgt
 
-	cp vivaldi/bgs/$1.jpg $tgtdir/background.jpg
+		cp vivaldi/bgs/$1.jpg $tgtdir/background.jpg
 
-	zip $tgtdir/$1.zip -j $tgtdir/*
+		zip $tgtdir/$1.zip -j $tgtdir/*
+		echo -e "Vivaldi $1 theme updated!\n"
+	fi
 }
 
 buildVivaldiTheme Maple R red teal "8fc51c5b-7e6e-4a44-abb2-a71c017f89a2"
@@ -220,11 +150,15 @@ buildAlacrittyTheme () {
 	# $4 -> The inverse accent color used for the variant
 
 	local tgtdir=$BUILDDIR/alacritty
-	mkdir -p $tgtdir
 	local tgt=$tgtdir/nevergrove_$1.toml
-	cp alacritty/themeSrc.toml $tgt
+	if ! [ -x $tgtdir ] || [ colors.sh -nt $tgt ] || [ alacritty/themeSrc.toml -nt $tgt ]; then
+		echo "Updating Alacritty $1 theme..."
+		mkdir -p $tgtdir
+		cp alacritty/themeSrc.toml $tgt
 
-	replaceColors $1 $2 $3 $4
+		replaceColors $1 $2 $3 $4
+		echo -e "Alacritty $1 theme updated!\n"
+	fi
 }
 
 buildAlacrittyTheme maple R red teal
@@ -240,13 +174,17 @@ buildFootTheme () {
 	# $4 -> The inverse accent color used for the variant
 
 	local tgtdir=$BUILDDIR/foot
-	mkdir -p $tgtdir
 	local tgt=$tgtdir/nevergrove_$1.ini
-	cp foot/themeSrc.ini $tgt
+	if ! [ -x $tgtdir ] || [ colors.sh -nt $tgt ] || [ foot/themeSrc.ini -nt $tgt ]; then
+		echo "Updating Foot $1 theme..."
+		mkdir -p $tgtdir
+		cp foot/themeSrc.ini $tgt
 
-	replaceColors $1 $2 $3 $4
+		replaceColors $1 $2 $3 $4
 
-	sed -i "s/#//g" $tgt
+		sed -i "s/#//g" $tgt
+		echo -e "Foot $1 theme updated!\n"
+	fi
 }
 
 buildFootTheme maple R red teal
@@ -262,9 +200,13 @@ buildVSCodeTheme () {
 	# $4 -> The inverse accent color used for the variant
 
 	local tgt=vscode/nevergrove-vscode/themes/nevergrove-$1-color-theme.json
-	cp vscode/themeSrc.jsonc $tgt
+	if [ colors.sh -nt $tgt ] || [ vscode/themeSrc.jsonc -nt $tgt ]; then
+		echo "Updating VSCode $1 theme..."
+		cp vscode/themeSrc.jsonc $tgt
 
-	replaceColors $1 $2 $3 $4
+		replaceColors $1 $2 $3 $4
+		echo -e "VSCode $1 theme updated!\n"
+	fi
 }
 
 buildVSCodeTheme maple R red teal
