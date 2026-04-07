@@ -1,5 +1,14 @@
-# Nevergrove
-#### An everforest-inspired dark palette featuring deep, rich colors with the right amount of contrast.
+<h3 align="center">
+	<img src="imgs/logo.png" width="128" />
+	<br>
+	Nevergrove
+</h3>
+<h4 align="center">
+	An <a href="https://github.com/sainnhe/everforest">everforest</a>-inspired dark palette featuring deep, rich colors with the right amount of contrast.
+</h4>
+
+---
+
 ###### _See how it looks in the [demo page](https://icarojam.github.io/nevergrove/)!!_
 
 ![An image featuring the various palette colours](imgs/palette.png)
@@ -68,6 +77,18 @@ include=<path-to-file>
 to your foot config file.
 
 ### VSCode
+
+Maple
+![](imgs/maple.png)
+
+Aspen
+![](imgs/aspen.png)
+
+Eucalyptus
+![](imgs/eucalyptus.png)
+
+Jacaranda
+![](imgs/jacaranda.png)
 
 ### Motivation
 I really like the everforest palette, but I always thought it was a bit lackluster in terms of contrast, some colors looking a bit too similar, everything being a bit too pale.
