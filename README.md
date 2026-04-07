@@ -2,8 +2,8 @@
 #### An everforest-inspired dark palette featuring deep, rich colors with the right amount of contrast.
 ###### _See how it looks in the [demo page](https://icarojam.github.io/nevergrove/)!!_
 
-![An image featuring the various palette colours](palette.png)
-![An image featuring the various palette colours side by side](expo.png)
+![An image featuring the various palette colours](imgs/palette.png)
+![An image featuring the various palette colours side by side](imgs/expo.png)
 
 Nevergrove comes in four distinct variants, each centered around a color:
 - Maple: Red
@@ -15,6 +15,19 @@ Choose the one you like the most :)
 
 ## Themes
 Nevergrove themes are available for a bunch of stuff!
+- [Firefox](#firefox)
+- [Vivaldi](#vivaldi)
+- [Alacritty](#alacritty)
+- [Foot](#foot)
+- [VSCode](#vscode)
+
+I'm also working on bringing them to other tools. Currently being developed:
+- Breeze (Plasma 6) cursors
+
+Planned for the future:
+- Vim/Neovim
+- Obsidian
+- GTK
 
 ### Firefox
 [Maple](https://addons.mozilla.org/en-GB/firefox/addon/nevergrove-maple/)
@@ -54,17 +67,7 @@ include=<path-to-file>
 ```
 to your foot config file.
 
-### Planned
-I intend to make color themes of all four variants for the various tools I use.
-
-Themes being currently developed:
-- VSCode
-
-Stuff planned for the future:
-- Vim/Neovim
-- Obsidian
-- Breeze (Plasma 6) cursors
-- GTK
+### VSCode
 
 ### Motivation
 I really like the everforest palette, but I always thought it was a bit lackluster in terms of contrast, some colors looking a bit too similar, everything being a bit too pale.

@@ -24,10 +24,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="5.6568543"
-     inkscape:cx="301.31588"
-     inkscape:cy="269.31929"
+     showgrid="true"
+     inkscape:zoom="5.6568545"
+     inkscape:cx="294.33318"
+     inkscape:cy="268.25862"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
@@ -47,7 +47,7 @@
        opacity="0.14901961"
        empspacing="10"
        enabled="true"
-       visible="false" />
+       visible="true" />
   </sodipodi:namedview>
   <defs
      id="defs1">
@@ -3020,6 +3020,57 @@
        xlink:href="#swatch125"
        id="linearGradient122"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch7"
+       id="linearGradient123"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(4.0321227e-7,-13.000001)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch8"
+       id="linearGradient124"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.2622118e-7,-18.5)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch6"
+       id="linearGradient135"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.6584119e-6,-11.000001)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient136"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(5.118975e-7,-8.0000008)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch4"
+       id="linearGradient137"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.2902638e-6,-6.000001)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch3"
+       id="linearGradient138"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.29026e-6,-3.0000009)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch2"
+       id="linearGradient139"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(6.3811485e-7,-1.0000008)" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath140">
+      <path
+         id="path140"
+         style="display:inline;fill:#d6fdbf;fill-opacity:1;stroke:none;stroke-width:0.750001;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         inkscape:label="OG FLAT"
+         d="m 10.677899,0.00464294 a 0.08819444,0.08819444 0 0 0 -0.0599,0.08370093 V 11.558955 a 0.08819444,0.08819444 0 0 1 -0.159168,0.0527 L 7.7763085,8.0351334 a 0.08819444,0.08819444 0 0 0 -0.1586495,0.0532 v 2.4706496 a 0.87385938,0.87385938 0 0 0 0.1467591,0.484722 l 3.7067489,5.55987 a 0.49437848,0.49437848 0 0 0 0.41135,0.220138 h 2.22054 a 0.13229155,0.13229155 0 0 0 0.105931,-0.21187 l -1.43247,-1.909969 A 0.79374907,0.79374907 0 0 1 12.617869,14.225423 V 4.352644 A 0.50084998,0.50084998 0 0 1 13.088647,3.8234747 0.26458332,0.26458332 0 0 0 13.299999,3.4002446 L 10.776638,0.03507531 a 0.08819444,0.08819444 0 0 0 -0.0987,-0.03050116 z M 0.13228694,4.8239834 A 0.13229155,0.13229155 0 0 0 0.02634777,5.0358644 L 1.4588284,6.9458253 a 0.79374907,0.79374907 0 0 1 0.1586389,0.4759378 v 9.8732999 a 0.50084998,0.50084998 0 0 1 -0.4707705,0.529172 0.26458333,0.26458333 0 0 0 -0.21135976,0.423228 l 2.52336036,3.36465 a 0.08819444,0.08819444 0 0 0 0.1591707,-0.0527 V 10.088795 a 0.08819444,0.08819444 0 0 1 0.1586389,-0.0532 l 2.682531,3.576529 a 0.08819444,0.08819444 0 0 0 0.1586389,-0.0527 v -2.47065 A 0.87385938,0.87385938 0 0 0 6.4709178,10.604044 L 2.7646874,5.0441829 A 0.49437848,0.49437848 0 0 0 2.353337,4.8240336 Z" />
+    </clipPath>
   </defs>
   <g
      inkscape:label="Everforest"
@@ -3211,509 +3262,525 @@
      style="display:inline"
      inkscape:highlight-color="#e75555"
      transform="translate(72.882434,59.176603)"
-     inkscape:export-filename="logo.png"
+     inkscape:export-filename="vscode\nevergrove-vscode\logo.png"
      inkscape:export-xdpi="752.59253"
      inkscape:export-ydpi="752.59253">
+    <circle
+       style="display:inline;fill:url(#swatch1);stroke-width:0.750001;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+       id="path124"
+       cx="7.117568"
+       cy="10.823399"
+       inkscape:label="FGBorder"
+       r="13.75" />
     <g
-       id="g231"
-       style="display:inline"
-       clip-path="url(#clipPath63)"
-       transform="rotate(5,7.1176751,10.824021)">
-      <circle
-         style="display:inline;fill:url(#swatch17);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle224"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.5" />
-      <circle
-         style="display:inline;fill:url(#swatch18);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle225"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.25" />
-      <circle
-         style="display:inline;fill:url(#swatch19);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle226"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13" />
-      <circle
-         style="display:inline;fill:url(#swatch20);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle227"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="12.75" />
-      <circle
-         style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle228"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="4" />
-      <circle
-         style="display:inline;fill:url(#swatch21);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle229"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.75" />
-      <circle
-         style="display:inline;fill:url(#swatch22);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle230"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.5" />
-      <circle
-         style="display:inline;fill:url(#swatch23);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle231"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.25" />
+       id="g141"
+       inkscape:label="CircleBGAntiGap">
+      <g
+         id="g231"
+         style="display:inline"
+         clip-path="url(#clipPath63)"
+         transform="rotate(5,7.1176751,10.824021)">
+        <circle
+           style="display:inline;fill:url(#swatch17);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle224"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.5" />
+        <circle
+           style="display:inline;fill:url(#swatch18);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle225"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.25" />
+        <circle
+           style="display:inline;fill:url(#swatch19);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle226"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13" />
+        <circle
+           style="display:inline;fill:url(#swatch20);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle227"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="12.75" />
+        <circle
+           style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle228"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="4" />
+        <circle
+           style="display:inline;fill:url(#swatch21);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle229"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.75" />
+        <circle
+           style="display:inline;fill:url(#swatch22);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle230"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.5" />
+        <circle
+           style="display:inline;fill:url(#swatch23);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle231"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.25" />
+      </g>
+      <g
+         id="g239"
+         style="display:inline"
+         clip-path="url(#clipPath64)"
+         transform="rotate(5,7.1176751,10.824021)">
+        <circle
+           style="display:inline;fill:url(#swatch36);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle232"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.5" />
+        <circle
+           style="display:inline;fill:url(#swatch37);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle233"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.25" />
+        <circle
+           style="display:inline;fill:url(#swatch38);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle234"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13" />
+        <circle
+           style="display:inline;fill:url(#swatch39);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle235"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="12.75" />
+        <circle
+           style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle236"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="4" />
+        <circle
+           style="display:inline;fill:url(#swatch40);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle237"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.75" />
+        <circle
+           style="display:inline;fill:url(#swatch41);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle238"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.5" />
+        <circle
+           style="display:inline;fill:url(#swatch42);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle239"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.25" />
+      </g>
+      <g
+         id="g247"
+         style="display:inline"
+         clip-path="url(#clipPath46)"
+         transform="rotate(5,7.1176751,10.824021)">
+        <circle
+           style="display:inline;fill:url(#swatch55);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle240"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.5" />
+        <circle
+           style="display:inline;fill:url(#swatch56);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle241"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.25" />
+        <circle
+           style="display:inline;fill:url(#swatch57);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle242"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13" />
+        <circle
+           style="display:inline;fill:url(#swatch58);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle243"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="12.75" />
+        <circle
+           style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle244"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="4" />
+        <circle
+           style="display:inline;fill:url(#swatch59);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle245"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.75" />
+        <circle
+           style="display:inline;fill:url(#swatch60);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle246"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.5" />
+        <circle
+           style="display:inline;fill:url(#swatch61);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle247"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.25" />
+      </g>
+      <g
+         id="g255"
+         clip-path="url(#clipPath65)"
+         style="display:inline"
+         transform="rotate(5,7.1176751,10.824021)">
+        <circle
+           style="display:inline;fill:url(#swatch74);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle248"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.5" />
+        <circle
+           style="display:inline;fill:url(#swatch75);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle249"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.25" />
+        <circle
+           style="display:inline;fill:url(#swatch76);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle250"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13" />
+        <circle
+           style="display:inline;fill:url(#swatch77);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle251"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="12.75" />
+        <circle
+           style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle252"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="4" />
+        <circle
+           style="display:inline;fill:url(#swatch78);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle253"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.75" />
+        <circle
+           style="display:inline;fill:url(#swatch79);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle254"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.5" />
+        <circle
+           style="display:inline;fill:url(#swatch80);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle255"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.25" />
+      </g>
     </g>
     <g
-       id="g239"
-       style="display:inline"
-       clip-path="url(#clipPath64)"
-       transform="rotate(5,7.1176751,10.824021)">
-      <circle
-         style="display:inline;fill:url(#swatch36);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle232"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.5" />
-      <circle
-         style="display:inline;fill:url(#swatch37);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle233"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.25" />
-      <circle
-         style="display:inline;fill:url(#swatch38);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle234"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13" />
-      <circle
-         style="display:inline;fill:url(#swatch39);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle235"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="12.75" />
-      <circle
-         style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle236"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="4" />
-      <circle
-         style="display:inline;fill:url(#swatch40);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle237"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.75" />
-      <circle
-         style="display:inline;fill:url(#swatch41);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle238"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.5" />
-      <circle
-         style="display:inline;fill:url(#swatch42);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle239"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.25" />
-    </g>
-    <g
-       id="g247"
-       style="display:inline"
-       clip-path="url(#clipPath46)"
-       transform="rotate(5,7.1176751,10.824021)">
-      <circle
-         style="display:inline;fill:url(#swatch55);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle240"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.5" />
-      <circle
-         style="display:inline;fill:url(#swatch56);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle241"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.25" />
-      <circle
-         style="display:inline;fill:url(#swatch57);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle242"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13" />
-      <circle
-         style="display:inline;fill:url(#swatch58);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle243"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="12.75" />
-      <circle
-         style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle244"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="4" />
-      <circle
-         style="display:inline;fill:url(#swatch59);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle245"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.75" />
-      <circle
-         style="display:inline;fill:url(#swatch60);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle246"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.5" />
-      <circle
-         style="display:inline;fill:url(#swatch61);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle247"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.25" />
-    </g>
-    <g
-       id="g255"
-       clip-path="url(#clipPath65)"
-       style="display:inline"
-       transform="rotate(5,7.1176751,10.824021)">
-      <circle
-         style="display:inline;fill:url(#swatch74);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle248"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.5" />
-      <circle
-         style="display:inline;fill:url(#swatch75);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle249"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.25" />
-      <circle
-         style="display:inline;fill:url(#swatch76);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle250"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13" />
-      <circle
-         style="display:inline;fill:url(#swatch77);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle251"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="12.75" />
-      <circle
-         style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle252"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="4" />
-      <circle
-         style="display:inline;fill:url(#swatch78);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle253"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.75" />
-      <circle
-         style="display:inline;fill:url(#swatch79);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle254"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.5" />
-      <circle
-         style="display:inline;fill:url(#swatch80);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle255"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.25" />
-    </g>
-    <g
-       id="g29"
-       style="display:inline"
-       clip-path="url(#clipPath63)">
-      <circle
-         style="display:inline;fill:url(#swatch17);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle22"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.5" />
-      <circle
-         style="display:inline;fill:url(#swatch18);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle23"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.25" />
-      <circle
-         style="display:inline;fill:url(#swatch19);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle24"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13" />
-      <circle
-         style="display:inline;fill:url(#swatch20);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle25"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="12.75" />
-      <circle
-         style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle26"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="4" />
-      <circle
-         style="display:inline;fill:url(#swatch21);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle27"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.75" />
-      <circle
-         style="display:inline;fill:url(#swatch22);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle28"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.5" />
-      <circle
-         style="display:inline;fill:url(#swatch23);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle29"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.25" />
-    </g>
-    <g
-       id="g37"
-       style="display:inline"
-       clip-path="url(#clipPath64)">
-      <circle
-         style="display:inline;fill:url(#swatch36);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle30"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.5" />
-      <circle
-         style="display:inline;fill:url(#swatch37);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle31"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.25" />
-      <circle
-         style="display:inline;fill:url(#swatch38);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle32"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13" />
-      <circle
-         style="display:inline;fill:url(#swatch39);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle33"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="12.75" />
-      <circle
-         style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle34"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="4" />
-      <circle
-         style="display:inline;fill:url(#swatch40);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle35"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.75" />
-      <circle
-         style="display:inline;fill:url(#swatch41);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle36"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.5" />
-      <circle
-         style="display:inline;fill:url(#swatch42);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle37"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.25" />
-    </g>
-    <g
-       id="g45"
-       style="display:inline"
-       clip-path="url(#clipPath46)">
-      <circle
-         style="display:inline;fill:url(#swatch55);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle38"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.5" />
-      <circle
-         style="display:inline;fill:url(#swatch56);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle39"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.25" />
-      <circle
-         style="display:inline;fill:url(#swatch57);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle40"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13" />
-      <circle
-         style="display:inline;fill:url(#swatch58);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle41"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="12.75" />
-      <circle
-         style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle42"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="4" />
-      <circle
-         style="display:inline;fill:url(#swatch59);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle43"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.75" />
-      <circle
-         style="display:inline;fill:url(#swatch60);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle44"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.5" />
-      <circle
-         style="display:inline;fill:url(#swatch61);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle45"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.25" />
-    </g>
-    <g
-       id="g22"
-       clip-path="url(#clipPath65)"
-       style="display:inline">
-      <circle
-         style="display:inline;fill:url(#swatch74);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle62"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.5" />
-      <circle
-         style="display:inline;fill:url(#swatch75);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle1"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13.25" />
-      <circle
-         style="display:inline;fill:url(#swatch76);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle2"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="13" />
-      <circle
-         style="display:inline;fill:url(#swatch77);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle3"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="12.75" />
-      <circle
-         style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle66"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="4" />
-      <circle
-         style="display:inline;fill:url(#swatch78);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle4"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.75" />
-      <circle
-         style="display:inline;fill:url(#swatch79);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle5"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.5" />
-      <circle
-         style="display:inline;fill:url(#swatch80);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
-         id="circle6"
-         cx="7.1176462"
-         cy="10.823983"
-         inkscape:label="BG"
-         r="3.25" />
+       id="g140"
+       inkscape:label="CircleBG">
+      <g
+         id="g29"
+         style="display:inline"
+         clip-path="url(#clipPath63)">
+        <circle
+           style="display:inline;fill:url(#swatch17);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle22"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.5" />
+        <circle
+           style="display:inline;fill:url(#swatch18);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle23"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.25" />
+        <circle
+           style="display:inline;fill:url(#swatch19);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle24"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13" />
+        <circle
+           style="display:inline;fill:url(#swatch20);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle25"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="12.75" />
+        <circle
+           style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle26"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="4" />
+        <circle
+           style="display:inline;fill:url(#swatch21);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle27"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.75" />
+        <circle
+           style="display:inline;fill:url(#swatch22);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle28"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.5" />
+        <circle
+           style="display:inline;fill:url(#swatch23);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle29"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.25" />
+      </g>
+      <g
+         id="g37"
+         style="display:inline"
+         clip-path="url(#clipPath64)">
+        <circle
+           style="display:inline;fill:url(#swatch36);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle30"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.5" />
+        <circle
+           style="display:inline;fill:url(#swatch37);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle31"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.25" />
+        <circle
+           style="display:inline;fill:url(#swatch38);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle32"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13" />
+        <circle
+           style="display:inline;fill:url(#swatch39);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle33"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="12.75" />
+        <circle
+           style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle34"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="4" />
+        <circle
+           style="display:inline;fill:url(#swatch40);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle35"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.75" />
+        <circle
+           style="display:inline;fill:url(#swatch41);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle36"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.5" />
+        <circle
+           style="display:inline;fill:url(#swatch42);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle37"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.25" />
+      </g>
+      <g
+         id="g45"
+         style="display:inline"
+         clip-path="url(#clipPath46)">
+        <circle
+           style="display:inline;fill:url(#swatch55);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle38"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.5" />
+        <circle
+           style="display:inline;fill:url(#swatch56);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle39"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.25" />
+        <circle
+           style="display:inline;fill:url(#swatch57);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle40"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13" />
+        <circle
+           style="display:inline;fill:url(#swatch58);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle41"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="12.75" />
+        <circle
+           style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle42"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="4" />
+        <circle
+           style="display:inline;fill:url(#swatch59);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle43"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.75" />
+        <circle
+           style="display:inline;fill:url(#swatch60);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle44"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.5" />
+        <circle
+           style="display:inline;fill:url(#swatch61);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle45"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.25" />
+      </g>
+      <g
+         id="g22"
+         clip-path="url(#clipPath65)"
+         style="display:inline">
+        <circle
+           style="display:inline;fill:url(#swatch74);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle62"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.5" />
+        <circle
+           style="display:inline;fill:url(#swatch75);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle1"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13.25" />
+        <circle
+           style="display:inline;fill:url(#swatch76);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle2"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="13" />
+        <circle
+           style="display:inline;fill:url(#swatch77);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle3"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="12.75" />
+        <circle
+           style="display:inline;fill:url(#swatch125);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle66"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="4" />
+        <circle
+           style="display:inline;fill:url(#swatch78);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle4"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.75" />
+        <circle
+           style="display:inline;fill:url(#swatch79);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle5"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.5" />
+        <circle
+           style="display:inline;fill:url(#swatch80);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+           id="circle6"
+           cx="7.1176462"
+           cy="10.823983"
+           inkscape:label="BG"
+           r="3.25" />
+      </g>
     </g>
     <path
-       id="path85-5"
+       id="path122"
        style="display:inline;fill:url(#linearGradient122);fill-opacity:1;stroke:url(#swatch125);stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       inkscape:label="OG FLAT"
+       inkscape:label="NBorder"
        d="m 118.41848,171.68929 a 0.08819444,0.08819444 0 0 0 0.0599,-0.0837 v -11.47061 a 0.08819444,0.08819444 0 0 1 0.15917,-0.0527 l 2.68252,3.57652 a 0.08819444,0.08819444 0 0 0 0.15865,-0.0532 v -2.47065 a 0.87385938,0.87385938 0 0 0 -0.14676,-0.48472 l -3.70675,-5.55987 a 0.49437847,0.49437847 0 0 0 -0.41135,-0.22014 h -2.22054 a 0.13229155,0.13229155 0 0 0 -0.10593,0.21187 l 1.43247,1.90997 a 0.79374908,0.79374908 0 0 1 0.15865,0.47645 v 9.87278 a 0.50084997,0.50084997 0 0 1 -0.47078,0.52917 0.26458332,0.26458332 0 0 0 -0.21135,0.42323 l 2.52336,3.36517 a 0.08819444,0.08819444 0 0 0 0.0987,0.0305 z m 10.54561,-4.81934 a 0.13229155,0.13229155 0 0 0 0.10594,-0.21188 l -1.43248,-1.90996 a 0.79374908,0.79374908 0 0 1 -0.15864,-0.47594 v -9.8733 a 0.50084997,0.50084997 0 0 1 0.47077,-0.52917 0.26458333,0.26458333 0 0 0 0.21136,-0.42323 l -2.52336,-3.36465 a 0.08819444,0.08819444 0 0 0 -0.15917,0.0527 v 11.47062 a 0.08819444,0.08819444 0 0 1 -0.15864,0.0532 l -2.68253,-3.57653 a 0.08819444,0.08819444 0 0 0 -0.15864,0.0527 v 2.47065 a 0.87385938,0.87385938 0 0 0 0.14676,0.48473 l 3.70623,5.55986 a 0.49437847,0.49437847 0 0 0 0.41135,0.22015 z"
-       transform="rotate(180,64.548189,85.846969)" />
+       transform="rotate(180,64.548189,85.846967)" />
     <g
-       id="g84">
+       id="g84"
+       style="display:none">
       <path
          id="path80-5"
          style="display:inline;fill:url(#swatch8);fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
@@ -3800,6 +3867,67 @@
        sodipodi:nodetypes="cccc"
        inkscape:transform-center-x="-2.4716904"
        inkscape:transform-center-y="-6.6247195" />
+    <g
+       id="g139"
+       inkscape:label="N"
+       clip-path="url(#clipPath140)">
+      <rect
+         style="fill:url(#linearGradient124);stroke:none;stroke-width:0.750001;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+         id="rect122"
+         width="32"
+         height="7"
+         x="-8.8824329"
+         y="-0.67660171"
+         inkscape:label="p" />
+      <rect
+         style="fill:url(#linearGradient123);stroke:none;stroke-width:0.750001;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+         id="rect123"
+         width="32"
+         height="7"
+         x="-8.8824329"
+         y="4.8233981"
+         inkscape:label="b" />
+      <rect
+         style="fill:url(#linearGradient135);stroke:none;stroke-width:0.750001;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+         id="rect124"
+         width="32"
+         height="7"
+         x="-8.882432"
+         y="6.8233981"
+         inkscape:label="t" />
+      <rect
+         style="fill:url(#linearGradient136);stroke:none;stroke-width:0.750001;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+         id="rect135"
+         width="32"
+         height="7"
+         x="-8.8824329"
+         y="9.8233986"
+         inkscape:label="g" />
+      <rect
+         style="fill:url(#linearGradient137);stroke:none;stroke-width:0.750001;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+         id="rect136"
+         width="32"
+         height="7"
+         x="-8.882432"
+         y="11.823399"
+         inkscape:label="y" />
+      <rect
+         style="fill:url(#linearGradient138);stroke:none;stroke-width:0.750001;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+         id="rect137"
+         width="32"
+         height="7"
+         x="-8.882432"
+         y="14.823399"
+         inkscape:label="o" />
+      <rect
+         style="fill:url(#linearGradient139);stroke:none;stroke-width:0.750001;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+         id="rect138"
+         width="32"
+         height="7"
+         x="-8.8824329"
+         y="16.823399"
+         inkscape:label="r" />
+    </g>
   </g>
   <g
      inkscape:label="Nevergrove"
