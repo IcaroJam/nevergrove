@@ -1,3 +1,6 @@
 [submodule "nevergrove-vscode"]
 	path = vscode/nevergrove-vscode
 	url = git@github.com:IcaroJam/nevergrove-vscode.git
+[submodule "breeze6-cursors"]
+	path = breeze6-cursors
+	url = git@github.com:IcaroJam/breeze6-cursors-nevergrove.git

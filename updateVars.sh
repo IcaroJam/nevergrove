@@ -213,3 +213,44 @@ buildVSCodeTheme maple R red teal
 buildVSCodeTheme aspen Y yellow blue
 buildVSCodeTheme eucalyptus T teal purple
 buildVSCodeTheme jacaranda P purple yellow
+
+# Cursor Themes ################################################################
+replaceCursorSwatch () {
+	# $1 -> The name of the swatch
+	# $2 -> The name of the color variable to replace it with
+	perl -0777 -pi -e "s/(<linearGradient[^<>]*label=\"$1\">\s*<stop[^<>]*stop-color:)(#\w{6})/\1${colors[$2]}/" $tgt
+}
+
+buildCursorTheme () {
+	# $1 -> The variant name
+	# $2 -> The fg
+	# $3 -> The bg
+	# $4 -> The shadow
+	# $5 -> The accent color used for the variant
+	# $6 -> The inverse accent color used for the variant
+
+	local tgt=breeze6-cursors/nevergrove-$1.svg
+	if [ colors.sh -nt $tgt ] || [ breeze6-cursors/cursors.svg -nt $tgt ]; then
+		echo "Updating Breeze 6 cursors $1 theme..."
+		cp breeze6-cursors/cursors.svg $tgt
+
+		replaceCursorSwatch defFill $3
+		replaceCursorSwatch outline $2
+		replaceCursorSwatch shadow $4
+		replaceCursorSwatch blue blue
+		replaceCursorSwatch green green
+		replaceCursorSwatch red red
+		replaceCursorSwatch orange orange
+		replaceCursorSwatch teal teal
+		replaceCursorSwatch accent $5
+		replaceCursorSwatch invaccent $6
+
+		echo -e "Breeze 6 cursors $1 theme updated!\n"
+	fi
+}
+
+buildCursorTheme maple fg bgR1 bgR0 red teal
+buildCursorTheme aspen fg bgY1 bgY0 yellow blue
+buildCursorTheme eucalyptus fg bgT1 bgT0 teal purple
+buildCursorTheme jacaranda fg bgP1 bgP0 purple yellow
+buildCursorTheme neutral white black black blue orange
