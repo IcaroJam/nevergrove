@@ -223,7 +223,7 @@ replaceCursorSwatch () {
 
 buildCursorTheme () {
 	local tgt=breeze6-cursors/nevergrove-$1.svg
-	if true || [ colors.sh -nt $tgt ] || [ breeze6-cursors/cursors.svg -nt $tgt ]; then
+	if [ colors.sh -nt $tgt ] || [ breeze6-cursors/cursors.svg -nt $tgt ]; then
 		echo "Updating Breeze 6 cursors $1 theme..."
 		cp breeze6-cursors/cursors.svg $tgt
 
