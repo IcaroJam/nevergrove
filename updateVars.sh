@@ -231,11 +231,6 @@ buildCursorTheme () {
 			replaceCursorSwatch defFill bg${2}1
 			replaceCursorSwatch outline fg
 			replaceCursorSwatch shadow bg${2}0
-			replaceCursorSwatch blue blue
-			replaceCursorSwatch green green
-			replaceCursorSwatch red red
-			replaceCursorSwatch orange orange
-			replaceCursorSwatch teal teal
 			replaceCursorSwatch accent $3
 			replaceCursorSwatch invaccent $4
 			replaceCursorSwatch infoBg bg${2}Blue
@@ -247,11 +242,6 @@ buildCursorTheme () {
 			replaceCursorSwatch defFill $3
 			replaceCursorSwatch outline $2
 			replaceCursorSwatch shadow $4
-			replaceCursorSwatch blue blue
-			replaceCursorSwatch green green
-			replaceCursorSwatch red red
-			replaceCursorSwatch orange orange
-			replaceCursorSwatch teal teal
 			replaceCursorSwatch accent $5
 			replaceCursorSwatch invaccent $6
 			replaceCursorSwatch infoBg $3
@@ -260,6 +250,11 @@ buildCursorTheme () {
 			replaceCursorSwatch aliasBg $3
 			replaceCursorSwatch loadBg $3
 		fi
+		replaceCursorSwatch blue blue
+		replaceCursorSwatch green green
+		replaceCursorSwatch red red
+		replaceCursorSwatch orange orange
+		replaceCursorSwatch teal teal
 		replaceCursorSwatch windowServer white
 
 		echo -e "Breeze 6 cursors $1 theme updated!\n"
