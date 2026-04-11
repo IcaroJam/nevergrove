@@ -222,35 +222,52 @@ replaceCursorSwatch () {
 }
 
 buildCursorTheme () {
-	# $1 -> The variant name
-	# $2 -> The fg
-	# $3 -> The bg
-	# $4 -> The shadow
-	# $5 -> The accent color used for the variant
-	# $6 -> The inverse accent color used for the variant
-
 	local tgt=breeze6-cursors/nevergrove-$1.svg
-	if [ colors.sh -nt $tgt ] || [ breeze6-cursors/cursors.svg -nt $tgt ]; then
+	if true || [ colors.sh -nt $tgt ] || [ breeze6-cursors/cursors.svg -nt $tgt ]; then
 		echo "Updating Breeze 6 cursors $1 theme..."
 		cp breeze6-cursors/cursors.svg $tgt
 
-		replaceCursorSwatch defFill $3
-		replaceCursorSwatch outline $2
-		replaceCursorSwatch shadow $4
-		replaceCursorSwatch blue blue
-		replaceCursorSwatch green green
-		replaceCursorSwatch red red
-		replaceCursorSwatch orange orange
-		replaceCursorSwatch teal teal
-		replaceCursorSwatch accent $5
-		replaceCursorSwatch invaccent $6
+		if [ $# -eq 4 ]; then
+			replaceCursorSwatch defFill bg${2}1
+			replaceCursorSwatch outline fg
+			replaceCursorSwatch shadow bg${2}0
+			replaceCursorSwatch blue blue
+			replaceCursorSwatch green green
+			replaceCursorSwatch red red
+			replaceCursorSwatch orange orange
+			replaceCursorSwatch teal teal
+			replaceCursorSwatch accent $3
+			replaceCursorSwatch invaccent $4
+			replaceCursorSwatch infoBg bg${2}Blue
+			replaceCursorSwatch copyBg bg${2}Green
+			replaceCursorSwatch stopBg bg${2}Red
+			replaceCursorSwatch aliasBg bg${2}Teal
+			replaceCursorSwatch loadBg bg${2}${3^}
+		else
+			replaceCursorSwatch defFill $3
+			replaceCursorSwatch outline $2
+			replaceCursorSwatch shadow $4
+			replaceCursorSwatch blue blue
+			replaceCursorSwatch green green
+			replaceCursorSwatch red red
+			replaceCursorSwatch orange orange
+			replaceCursorSwatch teal teal
+			replaceCursorSwatch accent $5
+			replaceCursorSwatch invaccent $6
+			replaceCursorSwatch infoBg $3
+			replaceCursorSwatch copyBg $3
+			replaceCursorSwatch stopBg $3
+			replaceCursorSwatch aliasBg $3
+			replaceCursorSwatch loadBg $3
+		fi
+		replaceCursorSwatch windowServer white
 
 		echo -e "Breeze 6 cursors $1 theme updated!\n"
 	fi
 }
 
-buildCursorTheme maple fg bgR1 bgR0 red teal
-buildCursorTheme aspen fg bgY1 bgY0 yellow blue
-buildCursorTheme eucalyptus fg bgT1 bgT0 teal purple
-buildCursorTheme jacaranda fg bgP1 bgP0 purple yellow
+buildCursorTheme maple R red teal
+buildCursorTheme aspen Y yellow blue
+buildCursorTheme eucalyptus T teal purple
+buildCursorTheme jacaranda P purple yellow
 buildCursorTheme neutral white black black blue orange
