@@ -222,10 +222,10 @@ replaceCursorSwatch () {
 }
 
 buildCursorTheme () {
-	local tgt=breeze6-cursors/nevergrove-$1.svg
-	if [ colors.sh -nt $tgt ] || [ breeze6-cursors/cursors.svg -nt $tgt ]; then
+	local tgt=breeze6-cursors/src/nevergrove-$1.svg
+	if [ colors.sh -nt $tgt ] || [ breeze6-cursors/src/cursors.svg -nt $tgt ]; then
 		echo "Updating Breeze 6 cursors $1 theme..."
-		cp breeze6-cursors/cursors.svg $tgt
+		cp breeze6-cursors/src/cursors.svg $tgt
 
 		if [ $# -eq 4 ]; then
 			replaceCursorSwatch defFill bg${2}1
@@ -238,6 +238,7 @@ buildCursorTheme () {
 			replaceCursorSwatch stopBg bg${2}Red
 			replaceCursorSwatch aliasBg bg${2}Teal
 			replaceCursorSwatch loadBg bg${2}${3^}
+			replaceCursorSwatch expoBg bg${2}3
 		else
 			replaceCursorSwatch defFill $3
 			replaceCursorSwatch outline $2
@@ -256,6 +257,8 @@ buildCursorTheme () {
 		replaceCursorSwatch orange orange
 		replaceCursorSwatch teal teal
 		replaceCursorSwatch windowServer white
+
+		inkscape $tgt -i expo -j -w 1800 -o imgs/breeze/$1.png > /dev/null
 
 		echo -e "Breeze 6 cursors $1 theme updated!\n"
 	fi

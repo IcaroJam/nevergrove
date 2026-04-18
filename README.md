@@ -29,13 +29,13 @@ Nevergrove themes are available for a bunch of stuff!
 - [Alacritty](#alacritty)
 - [Foot](#foot)
 - [VSCode](#vscode)
+- [Breeze (Plasma 6) cursors](#breeze-6-cursors)
 
 I'm also working on bringing them to other tools. Currently being developed:
-- Breeze (Plasma 6) cursors
+- Obsidian
 
 Planned for the future:
 - Vim/Neovim
-- Obsidian
 - GTK
 
 ### Firefox
@@ -77,6 +77,7 @@ include=<path-to-file>
 to your foot config file.
 
 ### VSCode
+For installation steps and further info visit [the repo!](https://github.com/IcaroJam/nevergrove-vscode)
 
 Maple
 ![](imgs/vscode/maple.png)
@@ -89,6 +90,21 @@ Eucalyptus
 
 Jacaranda
 ![](imgs/vscode/jacaranda.png)
+
+### Breeze 6 Cursors
+For installation steps and further info visit [the repo!](https://github.com/IcaroJam/breeze6-cursors-nevergrove)
+
+Maple
+![](imgs/breeze/maple.png)
+
+Aspen
+![](imgs/breeze/aspen.png)
+
+Eucalyptus
+![](imgs/breeze/eucalyptus.png)
+
+Jacaranda
+![](imgs/breeze/jacaranda.png)
 
 ### Motivation
 I really like the everforest palette, but I always thought it was a bit lackluster in terms of contrast, some colors looking a bit too similar, everything being a bit too pale.

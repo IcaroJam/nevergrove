@@ -25,15 +25,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="5.6568545"
-     inkscape:cx="294.33318"
-     inkscape:cy="268.34701"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="503.24998"
+     inkscape:cy="276.99999"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1">
+     inkscape:current-layer="palette">
     <inkscape:grid
        id="grid1"
        units="mm"
@@ -3257,7 +3257,7 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="g71"
+     id="logo"
      inkscape:label="Windmill"
      style="display:inline"
      inkscape:highlight-color="#e75555"
@@ -3932,7 +3932,7 @@
   <g
      inkscape:label="Nevergrove"
      inkscape:groupmode="layer"
-     id="layer1-1"
+     id="palette"
      transform="translate(8.0532465e-7,50)"
      inkscape:export-filename="palette.png"
      inkscape:export-xdpi="275"
@@ -4646,7 +4646,7 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer3"
+     id="expo"
      inkscape:label="Expo"
      transform="translate(-29.999998,37.497922)"
      inkscape:export-filename="expo.png"
