@@ -106,6 +106,9 @@ Eucalyptus
 Jacaranda
 ![](imgs/breeze/jacaranda.png)
 
+Neutral
+![](imgs/breeze/neutral.png)
+
 ### Motivation
 I really like the everforest palette, but I always thought it was a bit lackluster in terms of contrast, some colors looking a bit too similar, everything being a bit too pale.
 Some (maybe most) people might think it is fine as it is, but I personally disagree, so I went and made my own.
