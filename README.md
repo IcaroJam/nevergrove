@@ -79,16 +79,16 @@ to your foot config file.
 ### VSCode
 
 Maple
-![](imgs/maple.png)
+![](imgs/vscode/maple.png)
 
 Aspen
-![](imgs/aspen.png)
+![](imgs/vscode/aspen.png)
 
 Eucalyptus
-![](imgs/eucalyptus.png)
+![](imgs/vscode/eucalyptus.png)
 
 Jacaranda
-![](imgs/jacaranda.png)
+![](imgs/vscode/jacaranda.png)
 
 ### Motivation
 I really like the everforest palette, but I always thought it was a bit lackluster in terms of contrast, some colors looking a bit too similar, everything being a bit too pale.
