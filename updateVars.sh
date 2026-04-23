@@ -11,7 +11,7 @@ getCol () {
 	export LABEL=$1
 	# Asign the color to the variable passed as a string in $1
 	# the -0777 makes the matching multiline
-	colors[$1]=$(perl -0777 -ne 'print $1 if /<linearGradient[^<>]*label="$ENV{LABEL}">\s+<stop[^<>]*stop-color:(#\w{6})/s' palette.svg)
+	colors[$1]=$(perl -0777 -ne 'print $1 if /<linearGradient[^<>]*label="$ENV{LABEL}"[^<>]*>\s+<stop[^<>]*stop-color:(#\w{6})/s' palette.svg)
 }
 
 # Iterate over the keys of the array and update the color file
@@ -68,7 +68,10 @@ replaceColors () {
 	sed -i "s/\$BGGREEN/${colors[bg${2}Green]}/" $tgt
 	sed -i "s/\$BGTEAL/${colors[bg${2}Teal]}/" $tgt
 	sed -i "s/\$BGBLUE/${colors[bg${2}Blue]}/" $tgt
+	sed -i "s/\$BGLAVENDER/${colors[bg${2}Lavender]}/" $tgt
 	sed -i "s/\$BGPURPLE/${colors[bg${2}Purple]}/" $tgt
+	sed -i "s/\$BGPINK/${colors[bg${2}Pink]}/" $tgt
+	sed -i "s/\$BGMULBERRY/${colors[bg${2}Mulberry]}/" $tgt
 	sed -i "s/\$VIS/${colors[vis${2}]}/" $tgt
 	sed -i "s/\$GRAY0/${colors[gray${2}0]}/" $tgt
 	sed -i "s/\$GRAY1/${colors[gray${2}1]}/" $tgt
@@ -83,7 +86,10 @@ replaceColors () {
 	sed -i "s/\$GREEN/${colors[green]}/" $tgt
 	sed -i "s/\$TEAL/${colors[teal]}/" $tgt
 	sed -i "s/\$BLUE/${colors[blue]}/" $tgt
+	sed -i "s/\$LAVENDER/${colors[lavender]}/" $tgt
 	sed -i "s/\$PURPLE/${colors[purple]}/" $tgt
+	sed -i "s/\$PINK/${colors[pink]}/" $tgt
+	sed -i "s/\$MULBERRY/${colors[mulberry]}/" $tgt
 }
 
 # Firefox Themes ###############################################################
@@ -200,7 +206,7 @@ buildVSCodeTheme () {
 	# $4 -> The inverse accent color used for the variant
 
 	local tgt=vscode/nevergrove-vscode/themes/nevergrove-$1-color-theme.json
-	if [ colors.sh -nt $tgt ] || [ vscode/themeSrc.jsonc -nt $tgt ]; then
+	if true || [ colors.sh -nt $tgt ] || [ vscode/themeSrc.jsonc -nt $tgt ]; then
 		echo "Updating VSCode $1 theme..."
 		cp vscode/themeSrc.jsonc $tgt
 
@@ -211,8 +217,8 @@ buildVSCodeTheme () {
 
 buildVSCodeTheme maple R red teal
 buildVSCodeTheme aspen Y yellow blue
-buildVSCodeTheme eucalyptus T teal purple
-buildVSCodeTheme jacaranda P purple yellow
+buildVSCodeTheme eucalyptus T teal mulberry
+buildVSCodeTheme jacaranda P pink yellow
 
 # Cursor Themes ################################################################
 replaceCursorSwatch () {
