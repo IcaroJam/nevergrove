@@ -3,6 +3,9 @@
 # Variables & Colors Declaration ###############################################
 BUILDDIR=build
 
+IMGGEN=false
+if [ "$1" = "imgGen" ]; then IMGGEN=true; fi
+
 source colors.sh
 
 # Color Initialization #########################################################
@@ -72,13 +75,29 @@ replaceColors () {
 	sed -i "s/\$BGPURPLE/${colors[bg${2}Purple]}/" $tgt
 	sed -i "s/\$BGPINK/${colors[bg${2}Pink]}/" $tgt
 	sed -i "s/\$BGMULBERRY/${colors[bg${2}Mulberry]}/" $tgt
+
 	sed -i "s/\$VIS/${colors[vis${2}]}/" $tgt
 	sed -i "s/\$GRAY0/${colors[gray${2}0]}/" $tgt
 	sed -i "s/\$GRAY1/${colors[gray${2}1]}/" $tgt
 	sed -i "s/\$GRAY2/${colors[gray${2}2]}/" $tgt
 
 	sed -i "s/\$WHITE/${colors[white]}/" $tgt
+	sed -i "s/\$ASH/${colors[ash]}/" $tgt
+	sed -i "s/\$COAL/${colors[coal]}/" $tgt
 	sed -i "s/\$BLACK/${colors[black]}/" $tgt
+
+	sed -i "s/\$FGHI/${colors[fgHi]}/" $tgt
+	sed -i "s/\$REDHI/${colors[redHi]}/" $tgt
+	sed -i "s/\$ORANGEHI/${colors[orangeHi]}/" $tgt
+	sed -i "s/\$YELLOWHI/${colors[yellowHi]}/" $tgt
+	sed -i "s/\$GREENHI/${colors[greenHi]}/" $tgt
+	sed -i "s/\$TEALHI/${colors[tealHi]}/" $tgt
+	sed -i "s/\$BLUEHI/${colors[blueHi]}/" $tgt
+	sed -i "s/\$LAVENDERHI/${colors[lavenderHi]}/" $tgt
+	sed -i "s/\$PURPLEHI/${colors[purpleHi]}/" $tgt
+	sed -i "s/\$PINKHI/${colors[pinkHi]}/" $tgt
+	sed -i "s/\$MULBERRYHI/${colors[mulberryHi]}/" $tgt
+
 	sed -i "s/\$FG/${colors[fg]}/" $tgt
 	sed -i "s/\$RED/${colors[red]}/" $tgt
 	sed -i "s/\$ORANGE/${colors[orange]}/" $tgt
@@ -115,8 +134,8 @@ buildFirefoxTheme () {
 
 buildFirefoxTheme Maple R red teal
 buildFirefoxTheme Aspen Y yellow blue
-buildFirefoxTheme Eucalyptus T teal purple
-buildFirefoxTheme Jacaranda P purple yellow
+buildFirefoxTheme Eucalyptus T teal mulberry
+buildFirefoxTheme Jacaranda P pink yellow
 
 # Vivaldi Themes ###############################################################
 buildVivaldiTheme () {
@@ -145,8 +164,8 @@ buildVivaldiTheme () {
 
 buildVivaldiTheme Maple R red teal "8fc51c5b-7e6e-4a44-abb2-a71c017f89a2"
 buildVivaldiTheme Aspen Y yellow blue "77105915-183c-452f-a43c-a662a6c41c0f"
-buildVivaldiTheme Eucalyptus T teal purple "546c5865-a044-44a2-b457-3e142780f412"
-buildVivaldiTheme Jacaranda P purple yellow "0ff02ff6-8f67-4baf-90f7-0f582ddde81c"
+buildVivaldiTheme Eucalyptus T teal mulberry "546c5865-a044-44a2-b457-3e142780f412"
+buildVivaldiTheme Jacaranda P pink yellow "0ff02ff6-8f67-4baf-90f7-0f582ddde81c"
 
 # Alacritty Themes #############################################################
 buildAlacrittyTheme () {
@@ -169,8 +188,8 @@ buildAlacrittyTheme () {
 
 buildAlacrittyTheme maple R red teal
 buildAlacrittyTheme aspen Y yellow blue
-buildAlacrittyTheme eucalyptus T teal purple
-buildAlacrittyTheme jacaranda P purple yellow
+buildAlacrittyTheme eucalyptus T teal mulberry
+buildAlacrittyTheme jacaranda P pink yellow
 
 # Foot Themes ##################################################################
 buildFootTheme () {
@@ -195,8 +214,8 @@ buildFootTheme () {
 
 buildFootTheme maple R red teal
 buildFootTheme aspen Y yellow blue
-buildFootTheme eucalyptus T teal purple
-buildFootTheme jacaranda P purple yellow
+buildFootTheme eucalyptus T teal mulberry
+buildFootTheme jacaranda P pink yellow
 
 # VSCode Themes ################################################################
 buildVSCodeTheme () {
@@ -206,7 +225,7 @@ buildVSCodeTheme () {
 	# $4 -> The inverse accent color used for the variant
 
 	local tgt=vscode/nevergrove-vscode/themes/nevergrove-$1-color-theme.json
-	if true || [ colors.sh -nt $tgt ] || [ vscode/themeSrc.jsonc -nt $tgt ]; then
+	if [ colors.sh -nt $tgt ] || [ vscode/themeSrc.jsonc -nt $tgt ]; then
 		echo "Updating VSCode $1 theme..."
 		cp vscode/themeSrc.jsonc $tgt
 
@@ -264,7 +283,9 @@ buildCursorTheme () {
 		replaceCursorSwatch teal teal
 		replaceCursorSwatch windowServer white
 
-		inkscape $tgt -i expo -j -w 1800 -o imgs/breeze/$1.png > /dev/null
+		if $IMGGEN; then
+			inkscape $tgt -i expo -j -w 1800 -o imgs/breeze/$1.png > /dev/null
+		fi
 
 		echo -e "Breeze 6 cursors $1 theme updated!\n"
 	fi
@@ -272,6 +293,6 @@ buildCursorTheme () {
 
 buildCursorTheme maple R red teal
 buildCursorTheme aspen Y yellow blue
-buildCursorTheme eucalyptus T teal purple
-buildCursorTheme jacaranda P purple yellow
+buildCursorTheme eucalyptus T teal mulberry
+buildCursorTheme jacaranda P pink yellow
 buildCursorTheme neutral white black black blue orange
