@@ -1,0 +1,53 @@
+{
+	"manifest_version": 2,
+	"version": "1.3",
+	"name": "Nevergrove Eucalyptus",
+	"theme": {
+		"images": {},
+		"properties": {},
+		"colors": {
+			"frame": "#262d31",
+			"frame_inactive": "#2d363a",
+			"toolbar": "#353f43",
+			"toolbar_bottom_separator": "#545f5b",
+			"toolbar_field": "#262d31",
+			"toolbar_field_border": "#414b50",
+			"toolbar_field_border_focus": "#7bc199",
+			"toolbar_field_focus": "#262d31",
+			"toolbar_field_highlight": "#4f344b",
+			"toolbar_field_highlight_text": "#e6e6e5",
+			"toolbar_field_text": "#e6d9bc",
+			"toolbar_field_text_focus": "",
+			"toolbar_text": "#e6d9bc",
+			"toolbar_top_separator": "#4a5556",
+			"toolbar_vertical_separator": "#4a5556",
+			"button_background_active": "#545f5b",
+			"button_background_hover": "#4a5556",
+			"icons": "#7bc199",
+			"icons_attention": "#cf6e9b",
+			"popup": "#414b50",
+			"popup_border": "#7bc199",
+			"popup_highlight": "#4f344b",
+			"popup_highlight_text": "#e6e6e5",
+			"popup_text": "#e6d9bc",
+			"sidebar": "#262d31",
+			"sidebar_border": "#4a5556",
+			"sidebar_highlight": "#4f344b",
+			"sidebar_highlight_text": "#e6e6e5",
+			"sidebar_text": "#e6d9bc",
+			"ntp_background": "#262d31",
+			"ntp_card_background": "#353f43",
+			"ntp_text": "#e6d9bc",
+			"tab_background_text": "#e6d9bc",
+			"tab_line": "#7bc199",
+			"tab_loading": "#7bc199",
+			"tab_selected": "#353f43",
+			"tab_text": "#e6d9bc"
+		}
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "Nevergrove-Eucalyptus-firefox@nafnec.dev"
+		}
+	}
+}

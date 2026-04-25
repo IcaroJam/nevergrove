@@ -1,0 +1,44 @@
+# Colors (Nevergrove aspen)
+
+[colors.primary]
+background = "#312b25"
+foreground = "#e6d9bc"
+dim_foreground = "#877d6f"
+
+[colors.cursor]
+text = "#25211d"
+cursor = "#a6a39a"
+
+[colors.selection]
+text = "#e6e6e5"
+background = "#3f485c"
+
+[colors.normal]
+black   = "#25211d"
+red     = "#e96a69"
+green   = "#9bc577"
+yellow  = "#dfb767"
+blue    = "#70acc2"
+magenta = "#cb81cb"
+cyan    = "#7bc199"
+white   = "#e6d9bc"
+
+[colors.bright]
+black   = "#4f4840"
+red     = "#e99696"
+green   = "#bedaa5"
+yellow  = "#e6ca93"
+blue    = "#9bc5d4"
+magenta = "#daa9da"
+cyan    = "#a8d2ba"
+white   = "#efe9dc"
+
+[colors.dim]
+black   = "#1d1c1d"
+red     = "#55312d"
+green   = "#454c31"
+yellow  = "#54452e"
+blue    = "#3b4547"
+magenta = "#523449"
+cyan    = "#3c4a3b"
+white   = "#877d6f"

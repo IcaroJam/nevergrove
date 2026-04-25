@@ -1,0 +1,53 @@
+{
+	"manifest_version": 2,
+	"version": "1.3",
+	"name": "Nevergrove Aspen",
+	"theme": {
+		"images": {},
+		"properties": {},
+		"colors": {
+			"frame": "#312b25",
+			"frame_inactive": "#3a332c",
+			"toolbar": "#443d36",
+			"toolbar_bottom_separator": "#615c51",
+			"toolbar_field": "#312b25",
+			"toolbar_field_border": "#4f4840",
+			"toolbar_field_border_focus": "#dfb767",
+			"toolbar_field_focus": "#312b25",
+			"toolbar_field_highlight": "#3f485c",
+			"toolbar_field_highlight_text": "#e6e6e5",
+			"toolbar_field_text": "#e6d9bc",
+			"toolbar_field_text_focus": "",
+			"toolbar_text": "#e6d9bc",
+			"toolbar_top_separator": "#555149",
+			"toolbar_vertical_separator": "#555149",
+			"button_background_active": "#615c51",
+			"button_background_hover": "#555149",
+			"icons": "#dfb767",
+			"icons_attention": "#70acc2",
+			"popup": "#4f4840",
+			"popup_border": "#dfb767",
+			"popup_highlight": "#3f485c",
+			"popup_highlight_text": "#e6e6e5",
+			"popup_text": "#e6d9bc",
+			"sidebar": "#312b25",
+			"sidebar_border": "#555149",
+			"sidebar_highlight": "#3f485c",
+			"sidebar_highlight_text": "#e6e6e5",
+			"sidebar_text": "#e6d9bc",
+			"ntp_background": "#312b25",
+			"ntp_card_background": "#443d36",
+			"ntp_text": "#e6d9bc",
+			"tab_background_text": "#e6d9bc",
+			"tab_line": "#dfb767",
+			"tab_loading": "#dfb767",
+			"tab_selected": "#443d36",
+			"tab_text": "#e6d9bc"
+		}
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "Nevergrove-Aspen-firefox@nafnec.dev"
+		}
+	}
+}

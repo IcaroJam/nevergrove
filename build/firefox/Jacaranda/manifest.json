@@ -1,0 +1,53 @@
+{
+	"manifest_version": 2,
+	"version": "1.3",
+	"name": "Nevergrove Jacaranda",
+	"theme": {
+		"images": {},
+		"properties": {},
+		"colors": {
+			"frame": "#262631",
+			"frame_inactive": "#2c2f3a",
+			"toolbar": "#373945",
+			"toolbar_bottom_separator": "#5e545e",
+			"toolbar_field": "#262631",
+			"toolbar_field_border": "#414250",
+			"toolbar_field_border_focus": "#cb81cb",
+			"toolbar_field_focus": "#262631",
+			"toolbar_field_highlight": "#554b37",
+			"toolbar_field_highlight_text": "#e6e6e5",
+			"toolbar_field_text": "#e6d9bc",
+			"toolbar_field_text_focus": "",
+			"toolbar_text": "#e6d9bc",
+			"toolbar_top_separator": "#4d4a56",
+			"toolbar_vertical_separator": "#4d4a56",
+			"button_background_active": "#5e545e",
+			"button_background_hover": "#4d4a56",
+			"icons": "#cb81cb",
+			"icons_attention": "#dfb767",
+			"popup": "#414250",
+			"popup_border": "#cb81cb",
+			"popup_highlight": "#554b37",
+			"popup_highlight_text": "#e6e6e5",
+			"popup_text": "#e6d9bc",
+			"sidebar": "#262631",
+			"sidebar_border": "#4d4a56",
+			"sidebar_highlight": "#554b37",
+			"sidebar_highlight_text": "#e6e6e5",
+			"sidebar_text": "#e6d9bc",
+			"ntp_background": "#262631",
+			"ntp_card_background": "#373945",
+			"ntp_text": "#e6d9bc",
+			"tab_background_text": "#e6d9bc",
+			"tab_line": "#cb81cb",
+			"tab_loading": "#cb81cb",
+			"tab_selected": "#373945",
+			"tab_text": "#e6d9bc"
+		}
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "Nevergrove-Jacaranda-firefox@nafnec.dev"
+		}
+	}
+}
