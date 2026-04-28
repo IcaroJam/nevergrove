@@ -25,15 +25,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.9513021"
-     inkscape:cx="714.65102"
-     inkscape:cy="269.81984"
+     inkscape:zoom="7.8052084"
+     inkscape:cx="653.60202"
+     inkscape:cy="604.27598"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="palette">
+     inkscape:current-layer="expo">
     <inkscape:grid
        id="grid1"
        units="mm"
@@ -299,7 +299,7 @@
        inkscape:swatch="solid"
        inkscape:label="black">
       <stop
-         style="stop-color:#1f1e1f;stop-opacity:1;"
+         style="stop-color:#1d1c1d;stop-opacity:1;"
          offset="0"
          id="stop125" />
     </linearGradient>
@@ -402,7 +402,7 @@
        id="swatch74"
        inkscape:swatch="solid"
        inkscape:label="bgR0"
-       gradientTransform="matrix(1.0000172,0,0,1.0000172,29.992882,10.000003)">
+       gradientTransform="matrix(1.0000172,0,0,1.0000172,38.993257,10.000003)">
       <stop
          style="stop-color:#251d1d;stop-opacity:1;"
          offset="0"
@@ -585,7 +585,7 @@
        id="swatch55"
        inkscape:swatch="solid"
        inkscape:label="bgY0"
-       gradientTransform="matrix(1.0000172,0,0,1.0000172,269.99289,122.50208)">
+       gradientTransform="matrix(1.0000172,0,0,1.0000172,278.99325,122.50208)">
       <stop
          style="stop-color:#25211d;stop-opacity:1;"
          offset="0"
@@ -763,7 +763,7 @@
        id="swatch36"
        inkscape:swatch="solid"
        inkscape:label="bgT0"
-       gradientTransform="matrix(1.0000172,0,0,1.0000172,29.992882,10.000003)">
+       gradientTransform="matrix(1.0000172,0,0,1.0000172,38.992815,10.000003)">
       <stop
          style="stop-color:#1d2325;stop-opacity:1;"
          offset="0"
@@ -945,7 +945,7 @@
        id="swatch17"
        inkscape:swatch="solid"
        inkscape:label="bgP0"
-       gradientTransform="matrix(1.0000172,0,0,1.0000172,269.99289,172.50208)">
+       gradientTransform="matrix(1.0000172,0,0,1.0000172,278.99258,172.50208)">
       <stop
          style="stop-color:#1d1d25;stop-opacity:1;"
          offset="0"
@@ -1075,7 +1075,7 @@
        id="swatch6"
        inkscape:swatch="solid"
        inkscape:label="teal"
-       gradientTransform="translate(500,467.50625)">
+       gradientTransform="translate(508.99994,467.50625)">
       <stop
          style="stop-color:#7bc199;stop-opacity:1;"
          offset="0"
@@ -1095,7 +1095,7 @@
        id="swatch4"
        inkscape:swatch="solid"
        inkscape:label="yellow"
-       gradientTransform="translate(480,467.50625)">
+       gradientTransform="translate(489.00036,467.50625)">
       <stop
          style="stop-color:#dfb767;stop-opacity:1;"
          offset="0"
@@ -1115,7 +1115,7 @@
        id="swatch2"
        inkscape:swatch="solid"
        inkscape:label="red"
-       gradientTransform="translate(380,477.50625)">
+       gradientTransform="translate(389.00038,477.50625)">
       <stop
          style="stop-color:#e96a69;stop-opacity:1;"
          offset="0"
@@ -3232,7 +3232,7 @@
        y1="65"
        x2="180"
        y2="65"
-       gradientTransform="translate(-20.000003,62.502068)" />
+       gradientTransform="translate(-20.000003,62.502069)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#swatch126"
@@ -4796,6 +4796,30 @@
        id="linearGradient141"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(4.0321227e-7,-15.000002)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch144"
+       id="linearGradient102"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.2622118e-7,-18.5)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch145"
+       id="linearGradient104"
+       gradientTransform="matrix(1.0000346,0,0,0.99999978,1009.9934,690.00834)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch145"
+       id="linearGradient105"
+       gradientTransform="matrix(1.0000346,0,0,0.99999978,1009.9934,690.00834)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch145"
+       id="linearGradient254"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0000346,0,0,0.99999978,1018.993,690.00834)" />
   </defs>
   <g
      inkscape:label="Everforest"
@@ -4987,7 +5011,7 @@
      style="display:inline"
      inkscape:highlight-color="#e75555"
      transform="translate(72.882434,59.176603)"
-     inkscape:export-filename="imgs\logoEY.png"
+     inkscape:export-filename="imgs\logoEW.png"
      inkscape:export-xdpi="761.99994"
      inkscape:export-ydpi="761.99994">
     <circle
@@ -5261,9 +5285,9 @@
          id="g29"
          style="display:inline"
          clip-path="url(#clipPath63)"
-         transform="rotate(180,7.1176346,10.823981)"
-         inkscape:transform-center-x="-1.3787912e-05"
-         inkscape:transform-center-y="-8.640969e-06">
+         transform="rotate(90,7.1176454,10.823983)"
+         inkscape:transform-center-x="8.4369904e-06"
+         inkscape:transform-center-y="-1.3650759e-05">
         <circle
            style="display:inline;fill:url(#swatch17);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
            id="circle22"
@@ -5325,9 +5349,9 @@
          id="g37"
          style="display:inline"
          clip-path="url(#clipPath64)"
-         transform="rotate(180,7.1171087,10.824534)"
-         inkscape:transform-center-x="-0.0010890252"
-         inkscape:transform-center-y="-1.3770302e-05">
+         transform="rotate(-90,7.1176457,10.823982)"
+         inkscape:transform-center-x="-1.331541e-05"
+         inkscape:transform-center-y="0.0010895546">
         <circle
            style="display:inline;fill:url(#swatch36);fill-opacity:1;stroke-width:0.511503;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
            id="circle30"
@@ -5611,7 +5635,8 @@
        id="g139"
        inkscape:label="NL"
        clip-path="url(#clipPath75)"
-       style="display:inline">
+       style="display:inline"
+       transform="rotate(180,7.1176637,10.823943)">
       <rect
          style="fill:url(#linearGradient135);stroke:none;stroke-width:0.750001;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
          id="rect124"
@@ -5656,9 +5681,10 @@
     <g
        id="g186"
        inkscape:label="NR"
-       clip-path="url(#clipPath74)">
+       clip-path="url(#clipPath74)"
+       transform="rotate(180,7.1176637,10.823943)">
       <rect
-         style="display:inline;fill:url(#linearGradient97);stroke:none;stroke-width:0.750001;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
+         style="display:inline;fill:url(#linearGradient102);stroke:none;stroke-width:0.750001;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
          id="rect180"
          width="32"
          height="7"
@@ -5707,7 +5733,7 @@
        id="g80"
        inkscape:label="NFull"
        clip-path="url(#clipPath80)"
-       style="display:inline">
+       style="display:none">
       <rect
          style="display:inline;fill:url(#linearGradient97);stroke:none;stroke-width:0.750001;stroke-linecap:round;stroke-miterlimit:10;paint-order:stroke fill markers"
          id="rect76"
@@ -6213,7 +6239,7 @@
        transform="translate(160,-30.000004)"
        inkscape:label="bgY6" />
     <path
-       style="fill:none;fill-opacity:1;stroke:url(#swatch8);stroke-width:1.00002;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:none;fill-opacity:1;stroke:url(#linearGradient104);stroke-width:1.00002;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="M 221.00001,20.999995 V 38.99999"
        id="path16"
        sodipodi:nodetypes="cc" />
@@ -6287,7 +6313,7 @@
          rotate="0 0 0 0 0 0 0 0 0 0"
          sodipodi:role="line">Jacaranda</tspan></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:url(#swatch8);stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:none;fill-opacity:1;stroke:url(#linearGradient105);stroke-width:1;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 81,60.999996 v 8"
        id="path36"
        transform="translate(70.000002,30.000017)" />
@@ -7600,11 +7626,11 @@
        inkscape:label="white" />
     <text
        xml:space="preserve"
-       style="font-size:2.82222px;line-height:1.2;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-size:4.23333333px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon Bold';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
        x="40.168156"
        y="171.23471"
        id="text121"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon Bold';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.75;stroke-dasharray:none;stroke-opacity:1;font-size:4.23333333px"
          x="40.168156"
          y="171.23471"
          rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -7612,11 +7638,11 @@
          id="tspan121">Nevergrove</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82222px;line-height:1.2;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-size:4.23333333px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon Bold';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
        x="170.16815"
        y="171.23471"
        id="text122"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon Bold';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.75;stroke-dasharray:none;stroke-opacity:1;font-size:4.23333333px"
          x="170.16815"
          y="171.23471"
          rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -7624,11 +7650,11 @@
          id="tspan122">Nevergrove</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82222px;line-height:1.2;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-size:4.23333333px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon Bold';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
        x="170.16815"
        y="121.23471"
        id="text123"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon Bold';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.75;stroke-dasharray:none;stroke-opacity:1;font-size:4.23333333px"
          x="170.16815"
          y="121.23471"
          rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -7636,11 +7662,11 @@
          id="tspan123">Nevergrove</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82222px;line-height:1.2;font-family:Atreyu;-inkscape-font-specification:Atreyu;text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch74);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-size:4.23333333px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon Bold';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch74);stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
        x="40.168156"
        y="121.23471"
        id="text125"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch74);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon Bold';text-align:start;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;fill:url(#swatch1);fill-opacity:1;stroke:url(#swatch74);stroke-width:0.75;stroke-dasharray:none;stroke-opacity:1;font-size:4.23333333px"
          x="40.168156"
          y="121.23471"
          rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -7648,47 +7674,47 @@
          id="tspan125">Nevergrove</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#swatch2);fill-opacity:1;stroke:url(#swatch74);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       x="58.16674"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon Bold';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#swatch2);fill-opacity:1;stroke:url(#swatch74);stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="67.167114"
        y="121.23367"
        id="text124"><tspan
          sodipodi:role="line"
          id="tspan124"
-         style="fill:url(#swatch2);stroke:url(#swatch74);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
-         x="58.16674"
+         style="font-size:4.23333px;fill:url(#swatch2);stroke:url(#swatch74);stroke-width:0.75;stroke-dasharray:none;stroke-opacity:1;-inkscape-font-specification:'Monaspace Xenon Bold';font-family:'Monaspace Xenon';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="67.167114"
          y="121.23367">Maple</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#swatch4);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       x="188.19073"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon Bold';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#swatch4);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="197.1911"
        y="121.23367"
        id="text126"><tspan
          sodipodi:role="line"
          id="tspan126"
-         style="fill:url(#swatch4);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
-         x="188.19073"
+         style="font-size:4.23333px;fill:url(#swatch4);fill-opacity:1;stroke:url(#swatch55);stroke-width:0.75;stroke-dasharray:none;stroke-opacity:1;-inkscape-font-specification:'Monaspace Xenon Bold';font-family:'Monaspace Xenon';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="197.1911"
          y="121.23367">Aspen</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#swatch8);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       x="188.09337"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon Bold';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#linearGradient254);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="197.09305"
        y="171.23331"
        id="text127"><tspan
          sodipodi:role="line"
          id="tspan127"
-         style="fill:url(#swatch8);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
-         x="188.09337"
+         style="font-size:4.23333px;fill:url(#linearGradient254);fill-opacity:1;stroke:url(#swatch17);stroke-width:0.75;stroke-dasharray:none;stroke-opacity:1;-inkscape-font-specification:'Monaspace Xenon Bold';font-family:'Monaspace Xenon';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="197.09305"
          y="171.23331">Jacaranda</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#swatch6);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       x="58.093365"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.2;font-family:'Monaspace Xenon';-inkscape-font-specification:'Monaspace Xenon Bold';text-align:start;text-decoration-color:#000000;letter-spacing:-0.132292px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#swatch6);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="67.0933"
        y="171.23331"
        id="text128"><tspan
          sodipodi:role="line"
          id="tspan128"
-         style="fill:url(#swatch6);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
-         x="58.093365"
+         style="font-size:4.23333px;fill:url(#swatch6);fill-opacity:1;stroke:url(#swatch36);stroke-width:0.75;stroke-dasharray:none;stroke-opacity:1;-inkscape-font-specification:'Monaspace Xenon Bold';font-family:'Monaspace Xenon';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="67.0933"
          y="171.23331">Eucalyptus</tspan></text>
     <path
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#linearGradient127);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"

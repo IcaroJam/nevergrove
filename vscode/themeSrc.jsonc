@@ -141,9 +141,9 @@
 		"editorInlayHint.background": "$BG100",
 		"editorInlayHint.foreground": "#0ff",
 		"editorInlayHint.parameterBackground": "$BG100",
-		"editorInlayHint.parameterForeground": "#7f897da0",
+		"editorInlayHint.parameterForeground": "#ff0",
 		"editorInlayHint.typeBackground": "$BG100",
-		"editorInlayHint.typeForeground": "#7f897da0",
+		"editorInlayHint.typeForeground": "#f00",
 		"editorLightBulb.foreground": "$YELLOW",
 		"editorLightBulbAutoFix.foreground": "$TEAL",
 		"editorLineNumber.activeForeground": "$GRAY2",
@@ -2579,7 +2579,7 @@
 		{
 			"scope": "comment, string.comment, punctuation.definition.comment",
 			"settings": {
-				"foreground": "$GRAY1",
+				"foreground": "$BG6",
 				"fontStyle": "italic"
 			}
 		},

@@ -11,14 +11,13 @@
 
 ###### _See how it looks in the [demo page](https://icarojam.github.io/nevergrove/)!!_
 
-![An image featuring the various palette colours](imgs/palette.png)
 ![An image featuring the various palette colours side by side](imgs/expo.png)
 
 Nevergrove comes in four distinct variants, each centered around a color:
 - Maple: Red
 - Aspen: Yellow
 - Eucalyptus: Teal
-- Jacaranda: Purple
+- Jacaranda: Pink
 
 Choose the one you like the most :)
 
@@ -109,10 +108,13 @@ Jacaranda
 Neutral
 ![](imgs/breeze/neutral.png)
 
-### Motivation
-I really like the everforest palette, but I always thought it was a bit lackluster in terms of contrast, some colors looking a bit too similar, everything being a bit too pale.
-Some (maybe most) people might think it is fine as it is, but I personally disagree, so I went and made my own.
-
 ## Developing
 The project is structured so that any color changes made in inkscape can be automatically matched in the rest of the files by simply running the `updateVars.sh` script.
 To achieve this, the palette color's are implemented using inkscape swatches, which are then parsed to find each color. These colors are then replaced in all other relevant files to update the themes for all subprojects.
+
+## Thanks
+This palette was initially inspired by [everforest](https://github.com/sainnhe/everforest), which was the base for both the name and the eucalyptus variant.
+
+I later drew inspiration from [catppuccin](https://github.com/catppuccin/catppuccin/) to create the 48-color extended version that comprises nevergrove today.
+
+Both are great palettes, if you somehow don't know them go check them out!
