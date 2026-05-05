@@ -138,12 +138,12 @@
 		"editorIndentGuide.background1": "$BG4",
 		// "editorInfo.background": "$BGORANGE64",
 		"editorInfo.foreground": "$BLUE",
-		"editorInlayHint.background": "$BG100",
-		"editorInlayHint.foreground": "#0ff",
-		"editorInlayHint.parameterBackground": "$BG100",
-		"editorInlayHint.parameterForeground": "#ff0",
-		"editorInlayHint.typeBackground": "$BG100",
-		"editorInlayHint.typeForeground": "#f00",
+		"editorInlayHint.background": "$BG2",
+		"editorInlayHint.foreground": "$GRAY0",
+		"editorInlayHint.parameterBackground": "$BG2",
+		"editorInlayHint.parameterForeground": "$GRAY0",
+		"editorInlayHint.typeBackground": "$BG2",
+		"editorInlayHint.typeForeground": "$GRAY0",
 		"editorLightBulb.foreground": "$YELLOW",
 		"editorLightBulbAutoFix.foreground": "$TEAL",
 		"editorLineNumber.activeForeground": "$GRAY2",
@@ -2579,7 +2579,7 @@
 		{
 			"scope": "comment, string.comment, punctuation.definition.comment",
 			"settings": {
-				"foreground": "$BG6",
+				"foreground": "$GRAY0",
 				"fontStyle": "italic"
 			}
 		},

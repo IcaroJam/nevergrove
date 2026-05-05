@@ -275,6 +275,7 @@ buildCursorTheme () {
 			replaceCursorSwatch stopBg $3
 			replaceCursorSwatch aliasBg $3
 			replaceCursorSwatch loadBg $3
+			replaceCursorSwatch expoBg coal
 		fi
 		replaceCursorSwatch blue blue
 		replaceCursorSwatch green green
