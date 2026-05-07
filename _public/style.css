@@ -406,6 +406,16 @@ a {
 
 @media (max-width: 560px) {
 	html { font-size: 0.75rem; }
+
+	#variantBar {
+		display: grid;
+		justify-content: unset;
+		grid-template-columns: repeat(3, auto);
+
+		& > div { grid-column: 2; grid-row: 1 / 3; }
+		& > button:nth-of-type(2) { justify-self: end; }
+		& > button:nth-of-type(3) { justify-self: end; }
+	}
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////////*/
