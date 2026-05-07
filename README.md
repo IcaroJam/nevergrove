@@ -11,7 +11,7 @@
 
 ###### _See how it looks in the [demo page](https://icarojam.github.io/nevergrove/)!!_
 
-![An image featuring the various palette colours side by side](imgs/expo.png)
+![An image featuring the various palette colours side by side](_public/imgs/expo.png)
 
 Nevergrove comes in four distinct variants, each centered around a color:
 - Maple: Red
