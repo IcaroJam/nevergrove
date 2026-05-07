@@ -90,7 +90,7 @@
 		"editor.findMatchHighlightBackground": "$BGACCENT",
 		"editor.findMatchHighlightForeground": "$WHITE",
 		"editor.findRangeHighlightBackground": "$BGACCENT64",
-		"editor.foldBackground": "$BG3",
+		"editor.foldBackground": "$BG464",
 		"editor.foreground": "$FG",
 		"editor.hoverHighlightBackground": "$BG5",
 		"editor.inactiveSelectionBackground": "$BG4",

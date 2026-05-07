@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables & Colors Declaration ###############################################
-BUILDDIR=build
+BUILDDIR=_build
 
 IMGGEN=false
 if [ "$1" = "imgGen" ]; then IMGGEN=true; fi

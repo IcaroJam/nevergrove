@@ -1,5 +1,5 @@
 <h3 align="center">
-	<img src="imgs/logo.png" width="128" />
+	<img src="_public/imgs/logo.png" width="128" />
 	<br>
 	Nevergrove
 </h3>
@@ -79,34 +79,34 @@ to your foot config file.
 For installation steps and further info visit [the repo!](https://github.com/IcaroJam/nevergrove-vscode)
 
 Maple
-![](imgs/vscode/maple.png)
+![](_public/imgs/vscode/maple.png)
 
 Aspen
-![](imgs/vscode/aspen.png)
+![](_public/imgs/vscode/aspen.png)
 
 Eucalyptus
-![](imgs/vscode/eucalyptus.png)
+![](_public/imgs/vscode/eucalyptus.png)
 
 Jacaranda
-![](imgs/vscode/jacaranda.png)
+![](_public/imgs/vscode/jacaranda.png)
 
 ### Breeze 6 Cursors
 For installation steps and further info visit [the repo!](https://github.com/IcaroJam/breeze6-cursors-nevergrove)
 
 Maple
-![](imgs/breeze/maple.png)
+![](_public/imgs/breeze/maple.png)
 
 Aspen
-![](imgs/breeze/aspen.png)
+![](_public/imgs/breeze/aspen.png)
 
 Eucalyptus
-![](imgs/breeze/eucalyptus.png)
+![](_public/imgs/breeze/eucalyptus.png)
 
 Jacaranda
-![](imgs/breeze/jacaranda.png)
+![](_public/imgs/breeze/jacaranda.png)
 
 Neutral
-![](imgs/breeze/neutral.png)
+![](_public/imgs/breeze/neutral.png)
 
 ## Developing
 The project is structured so that any color changes made in inkscape can be automatically matched in the rest of the files by simply running the `updateVars.sh` script.

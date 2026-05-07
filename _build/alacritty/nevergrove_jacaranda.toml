@@ -1,0 +1,44 @@
+# Colors (Nevergrove jacaranda)
+
+[colors.primary]
+background = "#262631"
+foreground = "#e6d9bc"
+dim_foreground = "#827b75"
+
+[colors.cursor]
+text = "#1d1d25"
+cursor = "#a59ba5"
+
+[colors.selection]
+text = "#e6e6e5"
+background = "#554b37"
+
+[colors.normal]
+black   = "#1d1d25"
+red     = "#e96a69"
+green   = "#9bc577"
+yellow  = "#dfb767"
+blue    = "#70acc2"
+magenta = "#cb81cb"
+cyan    = "#74be94"
+white   = "#e6d9bc"
+
+[colors.bright]
+black   = "#414250"
+red     = "#e99696"
+green   = "#bedaa5"
+yellow  = "#e6ca93"
+blue    = "#9bc5d4"
+magenta = "#daa9da"
+cyan    = "#a5d5ba"
+white   = "#efe9dc"
+
+[colors.dim]
+black   = "#1d1c1d"
+red     = "#4c2d36"
+green   = "#3c483a"
+yellow  = "#4b4137"
+blue    = "#324150"
+magenta = "#493052"
+cyan    = "#334644"
+white   = "#827b75"
