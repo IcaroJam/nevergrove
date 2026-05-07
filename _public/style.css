@@ -362,6 +362,8 @@ a {
 }
 
 @media (max-width: 700px) {
+	header section { gap: 1rem; }
+	main section { padding: 1.5rem; }
 	main section > * { text-align: center; }
 	main section#goals {
 		& > p { text-align: start; }
@@ -405,7 +407,7 @@ a {
 }
 
 @media (max-width: 560px) {
-	html { font-size: 0.75rem; }
+	html { font-size: 0.9rem; }
 
 	#variantBar {
 		display: grid;
