@@ -230,6 +230,13 @@ footer {
 		display: grid;
 		gap: 1rem;
 
+		& #noAI {
+			width: 10rem;
+			fill: var(--bg6);
+			& .humanBrush { fill: var(--bg4); }
+			& .humanPaint { fill: var(--invAccent); }
+		}
+
 		& .icon {
 			width: 2.5rem;
 			fill: var(--bg6);
