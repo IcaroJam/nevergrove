@@ -233,7 +233,6 @@ footer {
 		& #noAI {
 			width: 10rem;
 			fill: var(--bg6);
-			& .humanBrush { fill: var(--bg4); }
 			& .humanPaint { fill: var(--invAccent); }
 		}
 
