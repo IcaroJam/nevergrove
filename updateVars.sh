@@ -31,7 +31,7 @@ fi
 # Assigning to CSS vars of the demo page #######################################
 replaceCSS () {
 	# The weird 0,/exp/ s//sub/ ensures sed only runs for the first match
-	sed -i "0,/\(^\s*--$1: \)\(#\w*\);$/ s//\1$2;/" index.html
+	sed -i "0,/\(^\s*--$1: \)\(#\w*\);$/ s//\1$2;/" _public/style.css _public/legacySite.html
 }
 
 # Iterate over the keys of the array
@@ -285,7 +285,7 @@ buildCursorTheme () {
 		replaceCursorSwatch windowServer white
 
 		if $IMGGEN; then
-			inkscape $tgt -i expo -j -w 1800 -o imgs/breeze/$1.png > /dev/null
+			inkscape $tgt -i expo -j -w 1800 -o _public/imgs/breeze/$1.png > /dev/null
 		fi
 
 		echo -e "Breeze 6 cursors $1 theme updated!\n"

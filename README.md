@@ -9,7 +9,7 @@
 
 ---
 
-###### _See how it looks in the [demo page](https://icarojam.github.io/nevergrove/)!!_
+###### _See how it looks on the [site](https://icarojam.github.io/nevergrove/)!!_
 
 ![An image featuring the various palette colours side by side](_public/imgs/expo.png)
 
@@ -117,4 +117,6 @@ This palette was initially inspired by [everforest](https://github.com/sainnhe/e
 
 I later drew inspiration from [catppuccin](https://github.com/catppuccin/catppuccin/) to create the 48-color extended version that comprises nevergrove today.
 
-Both are great palettes, if you somehow don't know them go check them out!
+The nevergrove site is heavily inspired by that of [nord](https://www.nordtheme.com/).
+
+All three are great palettes, if you somehow don't know them go check them out!

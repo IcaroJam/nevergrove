@@ -25,15 +25,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.9513021"
-     inkscape:cx="655.45976"
-     inkscape:cy="315.94288"
+     inkscape:zoom="1.9513022"
+     inkscape:cx="396.65819"
+     inkscape:cy="456.36191"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2">
+     inkscape:current-layer="logo">
     <inkscape:grid
        id="grid1"
        units="mm"
@@ -74,7 +74,7 @@
        inkscape:swatch="solid"
        inkscape:label="mulberryHi">
       <stop
-         style="stop-color:#e4a5c2;stop-opacity:1;"
+         style="stop-color:#e3a1c0;stop-opacity:1;"
          offset="0"
          id="stop190" />
     </linearGradient>
@@ -83,7 +83,7 @@
        inkscape:swatch="solid"
        inkscape:label="pinkHi">
       <stop
-         style="stop-color:#daa9da;stop-opacity:1;"
+         style="stop-color:#e0aee0;stop-opacity:1;"
          offset="0"
          id="stop189" />
     </linearGradient>
@@ -182,7 +182,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRMulberry">
       <stop
-         style="stop-color:#542f3b;stop-opacity:1;"
+         style="stop-color:#542e3b;stop-opacity:1;"
          offset="0"
          id="stop120" />
     </linearGradient>
@@ -218,7 +218,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRPink">
       <stop
-         style="stop-color:#523149;stop-opacity:1;"
+         style="stop-color:#523049;stop-opacity:1;"
          offset="0"
          id="stop116" />
     </linearGradient>
@@ -254,7 +254,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRLavender">
       <stop
-         style="stop-color:#3f3a48;stop-opacity:1;"
+         style="stop-color:#3f3948;stop-opacity:1;"
          offset="0"
          id="stop112" />
     </linearGradient>
@@ -357,7 +357,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgR5">
       <stop
-         style="stop-color:#554949;stop-opacity:1;"
+         style="stop-color:#55494a;stop-opacity:1;"
          offset="0"
          id="stop79" />
     </linearGradient>
@@ -366,7 +366,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgR4">
       <stop
-         style="stop-color:#4f4140;stop-opacity:1;"
+         style="stop-color:#4f4041;stop-opacity:1;"
          offset="0"
          id="stop78" />
     </linearGradient>
@@ -375,7 +375,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgR3">
       <stop
-         style="stop-color:#443836;stop-opacity:1;"
+         style="stop-color:#443637;stop-opacity:1;"
          offset="0"
          id="stop77" />
     </linearGradient>
@@ -384,7 +384,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgR2">
       <stop
-         style="stop-color:#3a2e2c;stop-opacity:1;"
+         style="stop-color:#3a2c2d;stop-opacity:1;"
          offset="0"
          id="stop76" />
     </linearGradient>
@@ -394,7 +394,7 @@
        inkscape:label="bgR1"
        gradientTransform="matrix(1.3333333,0,0,1,-3.3333327,0)">
       <stop
-         style="stop-color:#312725;stop-opacity:1;"
+         style="stop-color:#312526;stop-opacity:1;"
          offset="0"
          id="stop75" />
     </linearGradient>
@@ -404,7 +404,7 @@
        inkscape:label="bgR0"
        gradientTransform="matrix(1.0000172,0,0,1.0000172,38.993257,10.000003)">
       <stop
-         style="stop-color:#251d1d;stop-opacity:1;"
+         style="stop-color:#251d1f;stop-opacity:1;"
          offset="0"
          id="stop74" />
     </linearGradient>
@@ -413,7 +413,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRPurple">
       <stop
-         style="stop-color:#463149;stop-opacity:1;"
+         style="stop-color:#463049;stop-opacity:1;"
          offset="0"
          id="stop73" />
     </linearGradient>
@@ -422,7 +422,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRBlue">
       <stop
-         style="stop-color:#3b4247;stop-opacity:1;"
+         style="stop-color:#3b4147;stop-opacity:1;"
          offset="0"
          id="stop72" />
     </linearGradient>
@@ -431,7 +431,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRTeal">
       <stop
-         style="stop-color:#3c473b;stop-opacity:1;"
+         style="stop-color:#3c463b;stop-opacity:1;"
          offset="0"
          id="stop71" />
     </linearGradient>
@@ -440,7 +440,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRGreen">
       <stop
-         style="stop-color:#454931;stop-opacity:1;"
+         style="stop-color:#454831;stop-opacity:1;"
          offset="0"
          id="stop70" />
     </linearGradient>
@@ -449,7 +449,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRYellow">
       <stop
-         style="stop-color:#54422e;stop-opacity:1;"
+         style="stop-color:#54412e;stop-opacity:1;"
          offset="0"
          id="stop69" />
     </linearGradient>
@@ -458,7 +458,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgROrange">
       <stop
-         style="stop-color:#55392d;stop-opacity:1;"
+         style="stop-color:#55382d;stop-opacity:1;"
          offset="0"
          id="stop68" />
     </linearGradient>
@@ -467,7 +467,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRRed">
       <stop
-         style="stop-color:#552e2d;stop-opacity:1;"
+         style="stop-color:#552d2d;stop-opacity:1;"
          offset="0"
          id="stop67" />
     </linearGradient>
@@ -477,7 +477,7 @@
        inkscape:label="fgRDim"
        gradientTransform="translate(29.999998,112.50208)">
       <stop
-         style="stop-color:#877b6f;stop-opacity:1;"
+         style="stop-color:#877a70;stop-opacity:1;"
          offset="0"
          id="stop66" />
     </linearGradient>
@@ -527,7 +527,7 @@
        inkscape:label="bgY6"
        gradientTransform="translate(220,112.50208)">
       <stop
-         style="stop-color:#615c51;stop-opacity:1;"
+         style="stop-color:#615a51;stop-opacity:1;"
          offset="0"
          id="stop61" />
     </linearGradient>
@@ -537,7 +537,7 @@
        inkscape:label="bgY5"
        gradientTransform="translate(210,112.50208)">
       <stop
-         style="stop-color:#555149;stop-opacity:1;"
+         style="stop-color:#555049;stop-opacity:1;"
          offset="0"
          id="stop60" />
     </linearGradient>
@@ -5011,7 +5011,7 @@
      style="display:inline"
      inkscape:highlight-color="#e75555"
      transform="translate(72.882434,59.176603)"
-     inkscape:export-filename="imgs\logoEW.png"
+     inkscape:export-filename="_public\imgs\logo.png"
      inkscape:export-xdpi="761.99994"
      inkscape:export-ydpi="761.99994">
     <circle
@@ -5826,7 +5826,7 @@
      inkscape:groupmode="layer"
      id="palette"
      transform="translate(30.000001,50)"
-     inkscape:export-filename="imgs\palette.png"
+     inkscape:export-filename="_public\imgs\palette.png"
      inkscape:export-xdpi="275"
      inkscape:export-ydpi="275">
     <rect
@@ -6639,7 +6639,7 @@
      id="expo"
      inkscape:label="Expo"
      transform="translate(-29.999998,37.497922)"
-     inkscape:export-filename="imgs\expo.png"
+     inkscape:export-filename="_public\imgs\expo.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">
     <rect

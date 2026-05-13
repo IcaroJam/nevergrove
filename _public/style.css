@@ -2,25 +2,25 @@
 
 :root {
 	/* RED - MAPLE */
-	--bgR0: #251d1d;
-	--bgR1: #312725;
-	--bgR2: #3a2e2c;
-	--bgR3: #443836;
-	--bgR4: #4f4140;
-	--bgR5: #554949;
+	--bgR0: #251d1f;
+	--bgR1: #312526;
+	--bgR2: #3a2c2d;
+	--bgR3: #443637;
+	--bgR4: #4f4041;
+	--bgR5: #55494a;
 	--bgR6: #615152;
 	--visR: #364d48;
-	--fgRDim: #877b6f;
-	--bgRRed: #552e2d;
-	--bgROrange: #55392d;
-	--bgRYellow: #54422e;
-	--bgRGreen: #454931;
-	--bgRTeal: #3c473b;
-	--bgRBlue: #3b4247;
-	--bgRLavender: #3f3a48;
-	--bgRPurple: #463149;
-	--bgRPink: #523149;
-	--bgRMulberry: #542f3b;
+	--fgRDim: #877a70;
+	--bgRRed: #552d2d;
+	--bgROrange: #55382d;
+	--bgRYellow: #54412e;
+	--bgRGreen: #454831;
+	--bgRTeal: #3c463b;
+	--bgRBlue: #3b4147;
+	--bgRLavender: #3f3948;
+	--bgRPurple: #463049;
+	--bgRPink: #523049;
+	--bgRMulberry: #542e3b;
 	--grayR0: #7c7878;
 	--grayR1: #8f8585;
 	--grayR2: #a69a9a;
@@ -31,8 +31,8 @@
 	--bgY2: #3a332c;
 	--bgY3: #443d36;
 	--bgY4: #4f4840;
-	--bgY5: #555149;
-	--bgY6: #615c51;
+	--bgY5: #555049;
+	--bgY6: #615a51;
 	--visY: #3f485c;
 	--fgYDim: #877d6f;
 	--bgYRed: #55312d;
@@ -149,8 +149,8 @@
 	--blueHi: #9bc5d4;
 	--lavenderHi: #adb7e1;
 	--purpleHi: #cbabe3;
-	--pinkHi: #daa9da;
-	--mulberryHi: #e4a5c2;
+	--pinkHi: #e0aee0;
+	--mulberryHi: #e3a1c0;
 
 	--size: 8px;
 	--round: 4px;
