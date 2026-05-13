@@ -40,19 +40,19 @@ Planned for the future:
 ### Firefox
 [Maple](https://addons.mozilla.org/en-GB/firefox/addon/nevergrove-maple/)
 
-![](https://addons.mozilla.org/user-media/version-previews/full/4076/4076399.svg?modified=1774263154)
+![](https://addons.mozilla.org/user-media/version-previews/full/4080/4080626.png?modified=1778691095)
 
 [Aspen](https://addons.mozilla.org/en-GB/firefox/addon/nevergrove-aspen/)
 
-![](https://addons.mozilla.org/user-media/version-previews/full/4076/4076405.svg?modified=1774263266)
+![](https://addons.mozilla.org/user-media/version-previews/full/4080/4080632.png?modified=1778691309)
 
 [Eucalyptus](https://addons.mozilla.org/en-GB/firefox/addon/nevergrove-eucalyptus/)
 
-![](https://addons.mozilla.org/user-media/version-previews/full/4076/4076403.svg?modified=1774263233)
+![](https://addons.mozilla.org/user-media/version-previews/full/4080/4080630.png?modified=1778691275)
 
 [Jacaranda](https://addons.mozilla.org/en-GB/firefox/addon/nevergrove-jacaranda/)
 
-![](https://addons.mozilla.org/user-media/version-previews/full/4076/4076401.svg?modified=1774263203)
+![](https://addons.mozilla.org/user-media/version-previews/full/4080/4080628.png?modified=1778691182)
 
 ### Vivaldi
 - [Maple](https://themes.vivaldi.net/themes/VmjvVAZQlYg)
