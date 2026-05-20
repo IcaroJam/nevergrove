@@ -6,15 +6,15 @@ foreground = "#e6d9bc"
 dim_foreground = "#827b75"
 
 [colors.cursor]
-text = "#1d1d25"
-cursor = "#a59ba5"
+text = "#1d1e25"
+cursor = "#a399a3"
 
 [colors.selection]
 text = "#e6e6e5"
 background = "#554b37"
 
 [colors.normal]
-black   = "#1d1d25"
+black   = "#1d1e25"
 red     = "#e96a69"
 green   = "#9bc577"
 yellow  = "#dfb767"
@@ -24,7 +24,7 @@ cyan    = "#74be94"
 white   = "#e6d9bc"
 
 [colors.bright]
-black   = "#414250"
+black   = "#414150"
 red     = "#e99696"
 green   = "#bedaa5"
 yellow  = "#e6ca93"

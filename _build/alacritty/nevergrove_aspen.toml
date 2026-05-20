@@ -6,15 +6,15 @@ foreground = "#e6d9bc"
 dim_foreground = "#877d6f"
 
 [colors.cursor]
-text = "#25211d"
-cursor = "#a6a39a"
+text = "#25201d"
+cursor = "#a4a098"
 
 [colors.selection]
 text = "#e6e6e5"
 background = "#3f485c"
 
 [colors.normal]
-black   = "#25211d"
+black   = "#25201d"
 red     = "#e96a69"
 green   = "#9bc577"
 yellow  = "#dfb767"

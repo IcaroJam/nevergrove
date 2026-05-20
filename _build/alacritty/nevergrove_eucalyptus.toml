@@ -7,7 +7,7 @@ dim_foreground = "#827e75"
 
 [colors.cursor]
 text = "#1d2325"
-cursor = "#9ba59c"
+cursor = "#99a39d"
 
 [colors.selection]
 text = "#e6e6e5"
@@ -24,7 +24,7 @@ cyan    = "#74be94"
 white   = "#e6d9bc"
 
 [colors.bright]
-black   = "#414b50"
+black   = "#414a50"
 red     = "#e99696"
 green   = "#bedaa5"
 yellow  = "#e6ca93"
