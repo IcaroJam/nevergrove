@@ -17,7 +17,7 @@ Nevergrove comes in four distinct variants, each centered around a color:
 - Maple: Red
 - Aspen: Yellow
 - Eucalyptus: Teal
-- Jacaranda: Pink
+- Jacaranda: Purple
 
 Choose the one you like the most :)
 

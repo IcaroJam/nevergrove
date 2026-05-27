@@ -7,7 +7,7 @@ dim_foreground = "#827b75"
 
 [colors.cursor]
 text = "#1d1e25"
-cursor = "#a399a3"
+cursor = "#9e99a3"
 
 [colors.selection]
 text = "#e6e6e5"

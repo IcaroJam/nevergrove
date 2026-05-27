@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.9513022"
-     inkscape:cx="611.89907"
-     inkscape:cy="382.05256"
+     inkscape:cx="646.74759"
+     inkscape:cy="464.04908"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
@@ -92,7 +92,7 @@
        inkscape:swatch="solid"
        inkscape:label="purpleHi">
       <stop
-         style="stop-color:#cbabe3;stop-opacity:1;"
+         style="stop-color:#c9abe3;stop-opacity:1;"
          offset="0"
          id="stop188" />
     </linearGradient>
@@ -847,7 +847,7 @@
        inkscape:label="grayP2"
        gradientTransform="translate(249.99999,152.50208)">
       <stop
-         style="stop-color:#a399a3;stop-opacity:1;"
+         style="stop-color:#9e99a3;stop-opacity:1;"
          offset="0"
          id="stop27" />
     </linearGradient>
@@ -857,7 +857,7 @@
        inkscape:label="grayP1"
        gradientTransform="translate(239.99999,152.50208)">
       <stop
-         style="stop-color:#908990;stop-opacity:1;"
+         style="stop-color:#8d8990;stop-opacity:1;"
          offset="0"
          id="stop26" />
     </linearGradient>
@@ -867,7 +867,7 @@
        inkscape:label="grayP0"
        gradientTransform="translate(229.99999,152.50208)">
       <stop
-         style="stop-color:#7c787c;stop-opacity:1;"
+         style="stop-color:#7a787c;stop-opacity:1;"
          offset="0"
          id="stop25" />
     </linearGradient>
@@ -887,7 +887,7 @@
        inkscape:label="bgP6"
        gradientTransform="translate(220,162.50208)">
       <stop
-         style="stop-color:#5b535f;stop-opacity:1;"
+         style="stop-color:#58535f;stop-opacity:1;"
          offset="0"
          id="stop23" />
     </linearGradient>
@@ -897,7 +897,7 @@
        inkscape:label="bgP5"
        gradientTransform="translate(210,162.50208)">
       <stop
-         style="stop-color:#4f4a56;stop-opacity:1;"
+         style="stop-color:#4c4a56;stop-opacity:1;"
          offset="0"
          id="stop22" />
     </linearGradient>
@@ -1048,7 +1048,7 @@
        inkscape:label="purple"
        gradientTransform="matrix(1.0000346,0,0,0.99999978,1009.9934,690.00834)">
       <stop
-         style="stop-color:#ad80d0;stop-opacity:1;"
+         style="stop-color:#ab80d0;stop-opacity:1;"
          offset="0"
          id="stop8" />
     </linearGradient>

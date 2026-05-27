@@ -4,7 +4,7 @@ const acc = {
 	"R": "red",
 	"Y": "yellow",
 	"T": "teal",
-	"P": "pink"
+	"P": "purple"
 }
 
 const inv = {
