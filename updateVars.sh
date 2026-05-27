@@ -6,6 +6,11 @@ BUILDDIR=_build
 IMGGEN=false
 if [ "$1" = "imgGen" ]; then IMGGEN=true; fi
 
+MAPLE_COLS="maple R red teal"
+ASPEN_COLS="aspen Y yellow blue"
+EUCALYPTUS_COLS="eucalyptus T teal mulberry"
+JACARANDA_COLS="jacaranda P purple yellow"
+
 source colors.sh
 
 # Color Initialization #########################################################
@@ -25,7 +30,7 @@ if [ palette.svg -nt colors.sh ]; then
 		# echo $c ${colors[$c]}
 		sed -ri "s/\[$c\]=\"(#[a-fA-F0-9]+)?\"/[$c]=\"${colors[$c]}\"/" colors.sh
 	done
-	echo "Color register updated!\n"
+	echo -e "Color register updated!\n"
 fi
 
 # Assigning to CSS vars of the demo page #######################################
@@ -118,24 +123,26 @@ buildFirefoxTheme () {
 	# $3 -> The accent color used for the variant
 	# $4 -> The inverse accent color used for the variant
 
-	local tgtdir=$BUILDDIR/firefox/$1
+	local name=${1^}
+
+	local tgtdir=$BUILDDIR/firefox/$name
 	local tgt=$tgtdir/manifest.json
 	if ! [ -x $tgtdir ] || [ colors.sh -nt $tgt ] || [ firefox/themeSrc.json -nt $tgt ]; then
-		echo "Updating Firefox $1 theme..."
+		echo "Updating Firefox $name theme..."
 		mkdir -p $tgtdir
 		cp firefox/themeSrc.json $tgt
 
-		replaceColors $1 $2 $3 $4
+		replaceColors $name $2 $3 $4
 
-		zip $tgtdir/$1.zip -j $tgtdir/*
-		echo -e "Firefox $1 theme updated!\n"
+		zip $tgtdir/$name.zip -j $tgtdir/*
+		echo -e "Firefox $name theme updated!\n"
 	fi
 }
 
-buildFirefoxTheme Maple R red teal
-buildFirefoxTheme Aspen Y yellow blue
-buildFirefoxTheme Eucalyptus T teal mulberry
-buildFirefoxTheme Jacaranda P pink yellow
+buildFirefoxTheme $MAPLE_COLS
+buildFirefoxTheme $ASPEN_COLS
+buildFirefoxTheme $EUCALYPTUS_COLS
+buildFirefoxTheme $JACARANDA_COLS
 
 # Vivaldi Themes ###############################################################
 buildVivaldiTheme () {
@@ -145,27 +152,29 @@ buildVivaldiTheme () {
 	# $4 -> The inverse accent color used for the variant
 	# $5 -> The id for the theme
 
-	local tgtdir=$BUILDDIR/vivaldi/$1
+	local name=${1^}
+
+	local tgtdir=$BUILDDIR/vivaldi/$name
 	local tgt=$tgtdir/settings.json
-	if ! [ -x $tgtdir ] || [ vivaldi/bgs/$1.jpg -nt $tgt ] || [ colors.sh -nt $tgt ] || [ vivaldi/themeSrc.json -nt $tgt ]; then
-		echo "Updating Vivaldi $1 theme..."
+	if ! [ -x $tgtdir ] || [ vivaldi/bgs/$name.jpg -nt $tgt ] || [ colors.sh -nt $tgt ] || [ vivaldi/themeSrc.json -nt $tgt ]; then
+		echo "Updating Vivaldi $name theme..."
 		mkdir -p $tgtdir
 		cp vivaldi/themeSrc.json $tgt
 
-		replaceColors $1 $2 $3 $4
+		replaceColors $name $2 $3 $4
 		sed -i "s/\$ID/$5/" $tgt
 
-		cp vivaldi/bgs/$1.jpg $tgtdir/background.jpg
+		cp vivaldi/bgs/$name.jpg $tgtdir/background.jpg
 
-		zip $tgtdir/$1.zip -j $tgtdir/*
-		echo -e "Vivaldi $1 theme updated!\n"
+		zip $tgtdir/$name.zip -j $tgtdir/*
+		echo -e "Vivaldi $name theme updated!\n"
 	fi
 }
 
-buildVivaldiTheme Maple R red teal "8fc51c5b-7e6e-4a44-abb2-a71c017f89a2"
-buildVivaldiTheme Aspen Y yellow blue "77105915-183c-452f-a43c-a662a6c41c0f"
-buildVivaldiTheme Eucalyptus T teal mulberry "546c5865-a044-44a2-b457-3e142780f412"
-buildVivaldiTheme Jacaranda P pink yellow "0ff02ff6-8f67-4baf-90f7-0f582ddde81c"
+buildVivaldiTheme $MAPLE_COLS "8fc51c5b-7e6e-4a44-abb2-a71c017f89a2"
+buildVivaldiTheme $ASPEN_COLS "77105915-183c-452f-a43c-a662a6c41c0f"
+buildVivaldiTheme $EUCALYPTUS_COLS "546c5865-a044-44a2-b457-3e142780f412"
+buildVivaldiTheme $JACARANDA_COLS "0ff02ff6-8f67-4baf-90f7-0f582ddde81c"
 
 # Alacritty Themes #############################################################
 buildAlacrittyTheme () {
@@ -186,10 +195,10 @@ buildAlacrittyTheme () {
 	fi
 }
 
-buildAlacrittyTheme maple R red teal
-buildAlacrittyTheme aspen Y yellow blue
-buildAlacrittyTheme eucalyptus T teal mulberry
-buildAlacrittyTheme jacaranda P pink yellow
+buildAlacrittyTheme $MAPLE_COLS
+buildAlacrittyTheme $ASPEN_COLS
+buildAlacrittyTheme $EUCALYPTUS_COLS
+buildAlacrittyTheme $JACARANDA_COLS
 
 # Foot Themes ##################################################################
 buildFootTheme () {
@@ -212,10 +221,10 @@ buildFootTheme () {
 	fi
 }
 
-buildFootTheme maple R red teal
-buildFootTheme aspen Y yellow blue
-buildFootTheme eucalyptus T teal mulberry
-buildFootTheme jacaranda P pink yellow
+buildFootTheme $MAPLE_COLS
+buildFootTheme $ASPEN_COLS
+buildFootTheme $EUCALYPTUS_COLS
+buildFootTheme $JACARANDA_COLS
 
 # VSCode Themes ################################################################
 buildVSCodeTheme () {
@@ -234,10 +243,10 @@ buildVSCodeTheme () {
 	fi
 }
 
-buildVSCodeTheme maple R red teal
-buildVSCodeTheme aspen Y yellow blue
-buildVSCodeTheme eucalyptus T teal mulberry
-buildVSCodeTheme jacaranda P pink yellow
+buildVSCodeTheme $MAPLE_COLS
+buildVSCodeTheme $ASPEN_COLS
+buildVSCodeTheme $EUCALYPTUS_COLS
+buildVSCodeTheme $JACARANDA_COLS
 
 # Cursor Themes ################################################################
 replaceCursorSwatch () {
@@ -292,8 +301,8 @@ buildCursorTheme () {
 	fi
 }
 
-buildCursorTheme maple R red teal
-buildCursorTheme aspen Y yellow blue
-buildCursorTheme eucalyptus T teal mulberry
-buildCursorTheme jacaranda P pink yellow
+buildCursorTheme $MAPLE_COLS
+buildCursorTheme $ASPEN_COLS
+buildCursorTheme $EUCALYPTUS_COLS
+buildCursorTheme $JACARANDA_COLS
 buildCursorTheme neutral white black black blue orange
