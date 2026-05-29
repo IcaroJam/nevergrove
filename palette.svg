@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.9513022"
-     inkscape:cx="646.74759"
-     inkscape:cy="464.04908"
+     inkscape:zoom="5.5191161"
+     inkscape:cx="644.84964"
+     inkscape:cy="754.92161"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
@@ -101,7 +101,7 @@
        inkscape:swatch="solid"
        inkscape:label="lavenderHi">
       <stop
-         style="stop-color:#adb7e1;stop-opacity:1;"
+         style="stop-color:#aeb7e0;stop-opacity:1;"
          offset="0"
          id="stop187" />
     </linearGradient>
@@ -128,7 +128,7 @@
        inkscape:swatch="solid"
        inkscape:label="greenHi">
       <stop
-         style="stop-color:#bedaa5;stop-opacity:1;"
+         style="stop-color:#bed9a6;stop-opacity:1;"
          offset="0"
          id="stop184" />
     </linearGradient>
@@ -1038,7 +1038,7 @@
        inkscape:swatch="solid"
        inkscape:label="pink">
       <stop
-         style="stop-color:#cb81cb;stop-opacity:1;"
+         style="stop-color:#cf7dcf;stop-opacity:1;"
          offset="0"
          id="stop145" />
     </linearGradient>
@@ -1048,7 +1048,7 @@
        inkscape:label="purple"
        gradientTransform="matrix(1.0000346,0,0,0.99999978,1009.9934,690.00834)">
       <stop
-         style="stop-color:#ab80d0;stop-opacity:1;"
+         style="stop-color:#ab7bd5;stop-opacity:1;"
          offset="0"
          id="stop8" />
     </linearGradient>
@@ -1057,7 +1057,7 @@
        inkscape:swatch="solid"
        inkscape:label="lavender">
       <stop
-         style="stop-color:#7c89ca;stop-opacity:1;"
+         style="stop-color:#7987cd;stop-opacity:1;"
          offset="0"
          id="stop146" />
     </linearGradient>
@@ -1067,7 +1067,7 @@
        inkscape:label="blue"
        gradientTransform="translate(530,467.50625)">
       <stop
-         style="stop-color:#70acc2;stop-opacity:1;"
+         style="stop-color:#6eadc4;stop-opacity:1;"
          offset="0"
          id="stop7" />
     </linearGradient>
@@ -4804,19 +4804,19 @@
        gradientTransform="translate(1.2622118e-7,-18.5)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#swatch145"
+       xlink:href="#swatch8"
        id="linearGradient104"
        gradientTransform="matrix(1.0000346,0,0,0.99999978,1009.9934,690.00834)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#swatch145"
+       xlink:href="#swatch8"
        id="linearGradient105"
        gradientTransform="matrix(1.0000346,0,0,0.99999978,1009.9934,690.00834)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#swatch145"
+       xlink:href="#swatch8"
        id="linearGradient254"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.0000346,0,0,0.99999978,1018.993,690.00834)" />
