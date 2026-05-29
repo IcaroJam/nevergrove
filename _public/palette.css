@@ -1,0 +1,125 @@
+:root {
+	/* RED - MAPLE */
+	--bgR0: #251d1f;
+	--bgR1: #312526;
+	--bgR2: #3a2c2d;
+	--bgR3: #443637;
+	--bgR4: #4f4041;
+	--bgR5: #55494c;
+	--bgR6: #615156;
+	--visR: #364d48;
+	--fgRDim: #877a70;
+	--bgRRed: #552d2d;
+	--bgROrange: #55382d;
+	--bgRYellow: #54412e;
+	--bgRGreen: #454831;
+	--bgRTeal: #3c463b;
+	--bgRBlue: #3b4147;
+	--bgRLavender: #3f3948;
+	--bgRPurple: #463049;
+	--bgRPink: #523049;
+	--bgRMulberry: #542e3b;
+	--grayR0: #7e7676;
+	--grayR1: #918787;
+	--grayR2: #a49898;
+
+	/* YELLOW - ASPEN */
+	--bgY0: #25201d;
+	--bgY1: #312b25;
+	--bgY2: #3a332c;
+	--bgY3: #443d36;
+	--bgY4: #4f4840;
+	--bgY5: #555049;
+	--bgY6: #615a51;
+	--visY: #3f485c;
+	--fgYDim: #877d6f;
+	--bgYRed: #55312d;
+	--bgYOrange: #553c2d;
+	--bgYYellow: #54452e;
+	--bgYGreen: #454c31;
+	--bgYTeal: #3c4a3b;
+	--bgYBlue: #3b4547;
+	--bgYLavender: #3f3d48;
+	--bgYPurple: #463449;
+	--bgYPink: #523449;
+	--bgYMulberry: #54323b;
+	--grayY0: #7e7c76;
+	--grayY1: #918e87;
+	--grayY2: #a4a098;
+
+	/* TEAL - EUCALYPTUS */
+	--bgT0: #1d2325;
+	--bgT1: #262d31;
+	--bgT2: #2d353a;
+	--bgT3: #353e43;
+	--bgT4: #414a50;
+	--bgT5: #4a5456;
+	--bgT6: #53605c;
+	--visT: #4f344b;
+	--fgTDim: #827e75;
+	--bgTRed: #4c3336;
+	--bgTOrange: #4c3e36;
+	--bgTYellow: #4b4737;
+	--bgTGreen: #3c4e3a;
+	--bgTTeal: #334c44;
+	--bgTBlue: #324750;
+	--bgTLavender: #363f51;
+	--bgTPurple: #3d3652;
+	--bgTPink: #493652;
+	--bgTMulberry: #4b3444;
+	--grayT0: #787c7a;
+	--grayT1: #898f8c;
+	--grayT2: #99a39d;
+
+	/* PURPLE - JACARANDA */
+	--bgP0: #1d1e25;
+	--bgP1: #262631;
+	--bgP2: #2c2c3a;
+	--bgP3: #373745;
+	--bgP4: #414150;
+	--bgP5: #4c4a56;
+	--bgP6: #58535f;
+	--visP: #554b37;
+	--fgPDim: #827b75;
+	--bgPRed: #4c2d36;
+	--bgPOrange: #4c3836;
+	--bgPYellow: #4b4137;
+	--bgPGreen: #3c483a;
+	--bgPTeal: #334644;
+	--bgPBlue: #324150;
+	--bgPLavender: #363951;
+	--bgPPurple: #3d3052;
+	--bgPPink: #493052;
+	--bgPMulberry: #4b2e44;
+	--grayP0: #7a787c;
+	--grayP1: #8d8990;
+	--grayP2: #9e99a3;
+
+	--white: #e6e6e5;
+	--ash: #b4b1b1;
+	--coal: #4b4b4e;
+	--black: #1d1c1d;
+	--fg: #e6d9bc;
+	--red: #e96a69;
+	--orange: #e58e61;
+	--yellow: #dfb767;
+	--green: #9bc577;
+	--teal: #74be94;
+	--blue: #6eadc4;
+	--lavender: #7987cd;
+	--purple: #ab7bd5;
+	--pink: #cf7dcf;
+	--mulberry: #cf6e9b;
+
+	--fgHi: #efe9dc;
+	--redHi: #e99696;
+	--orangeHi: #e8ae91;
+	--yellowHi: #e6ca93;
+	--greenHi: #bed9a6;
+	--tealHi: #a5d5ba;
+	--blueHi: #9bc5d4;
+	--lavenderHi: #aeb7e0;
+	--purpleHi: #c9abe3;
+	--pinkHi: #e0aee0;
+	--mulberryHi: #e3a1c0;
+}

@@ -3,13 +3,19 @@
 # Variables & Colors Declaration ###############################################
 BUILDDIR=_build
 
+MODE=
+if [ "$1" = "light" ]; then MODE=Light; fi
+
 IMGGEN=false
-if [ "$1" = "imgGen" ]; then IMGGEN=true; fi
+if [ "$1" = "imgGen" ] || [ "$2" = "imgGen" ]; then IMGGEN=true; fi
 
 MAPLE_COLS="maple R red teal"
 ASPEN_COLS="aspen Y yellow blue"
 EUCALYPTUS_COLS="eucalyptus T teal mulberry"
 JACARANDA_COLS="jacaranda P purple yellow"
+
+COLORFILE=colors$MODE.sh
+SVGFILE=palette$MODE.svg
 
 source colors.sh
 
@@ -19,16 +25,16 @@ getCol () {
 	export LABEL=$1
 	# Asign the color to the variable passed as a string in $1
 	# the -0777 makes the matching multiline
-	colors[$1]=$(perl -0777 -ne 'print $1 if /<linearGradient[^<>]*label="$ENV{LABEL}"[^<>]*>\s+<stop[^<>]*stop-color:(#\w{6})/s' palette.svg)
+	colors[$1]=$(perl -0777 -ne 'print $1 if /<linearGradient[^<>]*label="$ENV{LABEL}"[^<>]*>\s+<stop[^<>]*stop-color:(#\w{6})/s' $SVGFILE)
 }
 
 # Iterate over the keys of the array and update the color file
-if [ palette.svg -nt colors.sh ]; then
+if [ $SVGFILE -nt $COLORFILE ]; then
 	echo "Updating color register..."
 	for c in ${!colors[@]}; do
 		getCol $c
 		# echo $c ${colors[$c]}
-		sed -ri "s/\[$c\]=\"(#[a-fA-F0-9]+)?\"/[$c]=\"${colors[$c]}\"/" colors.sh
+		sed -ri "s/\[$c\]=\"(#[a-fA-F0-9]+)?\"/[$c]=\"${colors[$c]}\"/" $COLORFILE
 	done
 	echo -e "Color register updated!\n"
 fi
@@ -36,11 +42,11 @@ fi
 # Assigning to CSS vars of the demo page #######################################
 replaceCSS () {
 	# The weird 0,/exp/ s//sub/ ensures sed only runs for the first match
-	sed -i "0,/\(^\s*--$1: \)\(#\w*\);$/ s//\1$2;/" _public/style.css _public/legacySite.html
+	sed -i "0,/\(^\s*--$1: \)\(#\w*\);$/ s//\1$2;/" _public/palette$MODE.css _public/legacySite.html
 }
 
 # Iterate over the keys of the array
-if [ colors.sh -nt index.html ]; then
+if [ $COLORFILE -nt _public/style.css ]; then
 	echo "Updating demo page colors..."
 	for c in ${!colors[@]}; do
 		replaceCSS $c ${colors[$c]}
@@ -127,7 +133,7 @@ buildFirefoxTheme () {
 
 	local tgtdir=$BUILDDIR/firefox/$name
 	local tgt=$tgtdir/manifest.json
-	if ! [ -x $tgtdir ] || [ colors.sh -nt $tgt ] || [ firefox/themeSrc.json -nt $tgt ]; then
+	if ! [ -x $tgtdir ] || [ $COLORFILE -nt $tgt ] || [ firefox/themeSrc.json -nt $tgt ]; then
 		echo "Updating Firefox $name theme..."
 		mkdir -p $tgtdir
 		cp firefox/themeSrc.json $tgt
@@ -156,7 +162,7 @@ buildVivaldiTheme () {
 
 	local tgtdir=$BUILDDIR/vivaldi/$name
 	local tgt=$tgtdir/settings.json
-	if ! [ -x $tgtdir ] || [ vivaldi/bgs/$name.jpg -nt $tgt ] || [ colors.sh -nt $tgt ] || [ vivaldi/themeSrc.json -nt $tgt ]; then
+	if ! [ -x $tgtdir ] || [ vivaldi/bgs/$name.jpg -nt $tgt ] || [ $COLORFILE -nt $tgt ] || [ vivaldi/themeSrc.json -nt $tgt ]; then
 		echo "Updating Vivaldi $name theme..."
 		mkdir -p $tgtdir
 		cp vivaldi/themeSrc.json $tgt
@@ -185,7 +191,7 @@ buildAlacrittyTheme () {
 
 	local tgtdir=$BUILDDIR/alacritty
 	local tgt=$tgtdir/nevergrove_$1.toml
-	if ! [ -x $tgtdir ] || [ colors.sh -nt $tgt ] || [ alacritty/themeSrc.toml -nt $tgt ]; then
+	if ! [ -x $tgtdir ] || [ $COLORFILE -nt $tgt ] || [ alacritty/themeSrc.toml -nt $tgt ]; then
 		echo "Updating Alacritty $1 theme..."
 		mkdir -p $tgtdir
 		cp alacritty/themeSrc.toml $tgt
@@ -209,7 +215,7 @@ buildFootTheme () {
 
 	local tgtdir=$BUILDDIR/foot
 	local tgt=$tgtdir/nevergrove_$1.ini
-	if ! [ -x $tgtdir ] || [ colors.sh -nt $tgt ] || [ foot/themeSrc.ini -nt $tgt ]; then
+	if ! [ -x $tgtdir ] || [ $COLORFILE -nt $tgt ] || [ foot/themeSrc.ini -nt $tgt ]; then
 		echo "Updating Foot $1 theme..."
 		mkdir -p $tgtdir
 		cp foot/themeSrc.ini $tgt
@@ -234,7 +240,7 @@ buildVSCodeTheme () {
 	# $4 -> The inverse accent color used for the variant
 
 	local tgt=vscode/nevergrove-vscode/themes/nevergrove-$1-color-theme.json
-	if [ colors.sh -nt $tgt ] || [ vscode/themeSrc.jsonc -nt $tgt ]; then
+	if [ $COLORFILE -nt $tgt ] || [ vscode/themeSrc.jsonc -nt $tgt ]; then
 		echo "Updating VSCode $1 theme..."
 		cp vscode/themeSrc.jsonc $tgt
 
@@ -257,7 +263,7 @@ replaceCursorSwatch () {
 
 buildCursorTheme () {
 	local tgt=breeze6-cursors/src/nevergrove-$1.svg
-	if [ colors.sh -nt $tgt ] || [ breeze6-cursors/src/cursors.svg -nt $tgt ]; then
+	if [ $COLORFILE -nt $tgt ] || [ breeze6-cursors/src/cursors.svg -nt $tgt ]; then
 		echo "Updating Breeze 6 cursors $1 theme..."
 		cp breeze6-cursors/src/cursors.svg $tgt
 

@@ -52,6 +52,10 @@ function toCol(c) {
 	if (document.readyState == "complete") { updateHexes() }
 }
 
+function toggleMode() {
+	document.body.classList.toggle("light")
+}
+
 function loadSwatches() {
 	swatches = document.querySelectorAll(".swatch")
 	swatches.forEach(s => {
@@ -68,7 +72,7 @@ async function updateHexes() {
 	})
 }
 
-window.onload = toCol("P")
+// window.onload = toCol("P")
 document.addEventListener("DOMContentLoaded", ev => {
 	loadSwatches()
 	updateHexes()
