@@ -176,6 +176,20 @@ a {
 		background-color: var(--accent);
 		outline: 0.2rem solid var(--bgAccent);
 		transform: rotate(45deg);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		& > svg {
+			width: 1.4rem;
+			height: 1.4rem;
+			fill: var(--bg0);
+			stroke: var(--bg0);
+			transform: rotate(-45deg);
+			transition: fill ease 200ms, stroke ease 200ms;
+		}
+		& > svg#moon { visibility: visible; }
+		& > svg#sun { visibility: collapse; }
 	}
 
 	& .wingL, & .wingR {
