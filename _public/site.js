@@ -54,6 +54,8 @@ function toCol(c) {
 
 function toggleMode() {
 	document.body.classList.toggle("light")
+
+	if (document.readyState == "complete") { updateHexes() }
 }
 
 function loadSwatches() {

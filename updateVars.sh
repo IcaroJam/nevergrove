@@ -61,6 +61,12 @@ replaceColors () {
 	# $3 -> The accent color used for the variant
 	# $4 -> The inverse accent color used for the variant
 
+	selectedTxt=white
+	if [ "$MODE" = "Light" ]; then
+	selectedTxt=black
+	fi
+	sed -i "s/\$SELECTEDTXT/${colors[$selectedTxt]}/" $tgt
+
 	sed -i "s/\$VARIANT/$1/" $tgt
 
 	sed -i "s/\$ACCENT/${colors[$3]}/" $tgt

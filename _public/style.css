@@ -47,6 +47,15 @@ body {
 	font-family: "Iosevka Charon Mono", monospace;
 	margin: 0;
 	overflow-x: hidden;
+
+	& #logoWrapper {
+		width: 10rem;
+		display: flex;
+		justify-content: end;
+		align-items: center;
+		& > #logo { transition: none; visibility: visible; }
+		& > #logoLight { transition: none; visibility: collapse; }
+	}
 }
 
 header {
@@ -143,6 +152,8 @@ a {
 	background-color: var(--bg0);
 	border-top: 2px solid var(--bg3);
 
+	& > button, & > div { cursor: pointer; }
+
 	& > button {
 		width: 7rem;
 		padding: var(--size);
@@ -205,6 +216,11 @@ a {
 
 	& .wingR {
 		transform: skewX(-45deg);
+	}
+
+	& > div:hover {
+		& > .diamond { background-color: var(--invAccent); outline-color: var(--vis); }
+		& > .wingL, & > .wingR { background-color: var(--vis); }
 	}
 }
 
@@ -352,6 +368,7 @@ a {
 .gr2B { background-color: var(--gray2); }
 .accF { color: var(--accent); }
 .invF { color: var(--invAccent); }
+.selected { background-color: var(--vis); color: var(--white); }
 
 .flex { display: flex; }
 .gapped { gap: var(--size); }
