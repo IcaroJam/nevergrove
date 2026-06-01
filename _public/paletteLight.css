@@ -7,7 +7,7 @@
 	--bgR4: #dececf;
 	--bgR5: #d5c3c7;
 	--bgR6: #c9b6bb;
-	--visR: #addccc;
+	--visR: #9ed1c0;
 	--fgRDim: #9b948f;
 	--bgRRed: #ecbfc0;
 	--bgROrange: #ecccc0;
@@ -100,16 +100,16 @@
 	--coal: #505053;
 	--black: #242324;
 	--fg: #474238;
-	--red: #d12f2e;
-	--orange: #d35b18;
-	--yellow: #c2850a;
-	--green: #5b9b27;
+	--red: #c43c3b;
+	--orange: #ca5d21;
+	--yellow: #c48508;
+	--green: #5b9929;
 	--teal: #1f8e5f;
 	--blue: #177ea1;
 	--lavender: #3b4eb0;
 	--purple: #7d2fbb;
-	--pink: #ba3bba;
-	--mulberry: #b82e6e;
+	--pink: #b342b3;
+	--mulberry: #b62b6b;
 
 	--fgHi: #2e2a24;
 	--redHi: #913131;
@@ -126,8 +126,8 @@
 
 body.light {
 	& #logoWrapper {
-		& > #logo { visibility: collapse; }
-		& > #logoLight { visibility: visible; }
+		& > #logo { display: none; }
+		& > #logoLight { display: block; }
 	}
 
 	& #variantBar .diamond {
@@ -136,7 +136,7 @@ body.light {
 		border-radius: 50%;
 
 		& > svg#moon { visibility: collapse; }
-		& > svg#sun { visibility: visible; }
+		& > svg#sun { visibility: visible; transform: rotate(-45deg); }
 	}
 
 	& .selected { color: var(--black); }

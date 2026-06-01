@@ -52,6 +52,10 @@ function toCol(c) {
 	if (document.readyState == "complete") { updateHexes() }
 }
 
+function toggleModeKeyboard(ev) {
+	if (ev.keyCode === 13) toggleMode()
+}
+
 function toggleMode() {
 	document.body.classList.toggle("light")
 
