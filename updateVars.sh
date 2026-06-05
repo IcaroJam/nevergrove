@@ -4,7 +4,11 @@
 BUILDDIR=_build
 
 MODE=
-if [ "$1" = "light" ]; then MODE=Light; fi
+MODEDIR=dark
+if [ "$1" = "light" ]; then
+	MODE=Light
+	MODEDIR=light
+fi
 
 IMGGEN=false
 if [ "$1" = "imgGen" ] || [ "$2" = "imgGen" ]; then IMGGEN=true; fi
@@ -17,7 +21,11 @@ JACARANDA_COLS="jacaranda P purple yellow"
 COLORFILE=colors$MODE.sh
 SVGFILE=palette$MODE.svg
 
-source colors.sh
+if [ "$1" = "light" ]; then
+	source colorsLight.sh
+else
+	source colors.sh
+fi
 
 # Color Initialization #########################################################
 getCol () {
@@ -46,7 +54,7 @@ replaceCSS () {
 }
 
 # Iterate over the keys of the array
-if [ $COLORFILE -nt _public/style.css ]; then
+if [ $COLORFILE -nt _public/palette$MODE.css ]; then
 	echo "Updating demo page colors..."
 	for c in ${!colors[@]}; do
 		replaceCSS $c ${colors[$c]}
@@ -137,12 +145,12 @@ buildFirefoxTheme () {
 
 	local name=${1^}
 
-	local tgtdir=$BUILDDIR/firefox/$name
+	local tgtdir=$BUILDDIR/firefox/$MODEDIR/$name
 	local tgt=$tgtdir/manifest.json
-	if ! [ -x $tgtdir ] || [ $COLORFILE -nt $tgt ] || [ firefox/themeSrc.json -nt $tgt ]; then
+	if ! [ -x $tgtdir ] || [ $COLORFILE -nt $tgt ] || [ firefox/themeSrc$MODE.json -nt $tgt ]; then
 		echo "Updating Firefox $name theme..."
 		mkdir -p $tgtdir
-		cp firefox/themeSrc.json $tgt
+		cp firefox/themeSrc$MODE.json $tgt
 
 		replaceColors $name $2 $3 $4
 
@@ -166,7 +174,7 @@ buildVivaldiTheme () {
 
 	local name=${1^}
 
-	local tgtdir=$BUILDDIR/vivaldi/$name
+	local tgtdir=$BUILDDIR/vivaldi/$MODEDIR/$name
 	local tgt=$tgtdir/settings.json
 	if ! [ -x $tgtdir ] || [ vivaldi/bgs/$name.jpg -nt $tgt ] || [ $COLORFILE -nt $tgt ] || [ vivaldi/themeSrc.json -nt $tgt ]; then
 		echo "Updating Vivaldi $name theme..."
@@ -195,13 +203,14 @@ buildAlacrittyTheme () {
 	# $3 -> The accent color used for the variant
 	# $4 -> The inverse accent color used for the variant
 
-	local tgtdir=$BUILDDIR/alacritty
+	local tgtdir=$BUILDDIR/alacritty/$MODEDIR
 	local tgt=$tgtdir/nevergrove_$1.toml
 	if ! [ -x $tgtdir ] || [ $COLORFILE -nt $tgt ] || [ alacritty/themeSrc.toml -nt $tgt ]; then
 		echo "Updating Alacritty $1 theme..."
 		mkdir -p $tgtdir
 		cp alacritty/themeSrc.toml $tgt
 
+		sed -i "s/\$MODE/ ${MODE,}/" $tgt
 		replaceColors $1 $2 $3 $4
 		echo -e "Alacritty $1 theme updated!\n"
 	fi
@@ -219,7 +228,7 @@ buildFootTheme () {
 	# $3 -> The accent color used for the variant
 	# $4 -> The inverse accent color used for the variant
 
-	local tgtdir=$BUILDDIR/foot
+	local tgtdir=$BUILDDIR/foot/$MODEDIR
 	local tgt=$tgtdir/nevergrove_$1.ini
 	if ! [ -x $tgtdir ] || [ $COLORFILE -nt $tgt ] || [ foot/themeSrc.ini -nt $tgt ]; then
 		echo "Updating Foot $1 theme..."
@@ -245,11 +254,15 @@ buildVSCodeTheme () {
 	# $3 -> The accent color used for the variant
 	# $4 -> The inverse accent color used for the variant
 
-	local tgt=vscode/nevergrove-vscode/themes/nevergrove-$1-color-theme.json
+	local modesuffix=
+	if [ "$MODE" = "Light" ]; then modesuffix="-light"; fi
+
+	local tgt=vscode/nevergrove-vscode/themes/nevergrove-$1$modesuffix-color-theme.json
 	if [ $COLORFILE -nt $tgt ] || [ vscode/themeSrc.jsonc -nt $tgt ]; then
 		echo "Updating VSCode $1 theme..."
 		cp vscode/themeSrc.jsonc $tgt
 
+		sed -i "s/\$MODE/${MODEDIR}/" $tgt
 		replaceColors $1 $2 $3 $4
 		echo -e "VSCode $1 theme updated!\n"
 	fi
@@ -268,7 +281,10 @@ replaceCursorSwatch () {
 }
 
 buildCursorTheme () {
-	local tgt=breeze6-cursors/src/nevergrove-$1.svg
+	local modesuffix=
+	if [ "$MODE" = "Light" ]; then modesuffix="-light"; fi
+
+	local tgt=breeze6-cursors/src/nevergrove-$1$modesuffix.svg
 	if [ $COLORFILE -nt $tgt ] || [ breeze6-cursors/src/cursors.svg -nt $tgt ]; then
 		echo "Updating Breeze 6 cursors $1 theme..."
 		cp breeze6-cursors/src/cursors.svg $tgt
@@ -303,7 +319,11 @@ buildCursorTheme () {
 		replaceCursorSwatch red red
 		replaceCursorSwatch orange orange
 		replaceCursorSwatch teal teal
-		replaceCursorSwatch windowServer white
+		if [ "$MODE" = "Light" ]; then
+			replaceCursorSwatch windowServer black
+		else
+			replaceCursorSwatch windowServer white
+		fi
 
 		if $IMGGEN; then
 			inkscape $tgt -i expo -j -w 1800 -o _public/imgs/breeze/$1.png > /dev/null
@@ -313,8 +333,16 @@ buildCursorTheme () {
 	fi
 }
 
-buildCursorTheme $MAPLE_COLS
-buildCursorTheme $ASPEN_COLS
-buildCursorTheme $EUCALYPTUS_COLS
-buildCursorTheme $JACARANDA_COLS
-buildCursorTheme neutral white black black blue orange
+if [ "$MODE" = "Light" ]; then
+	buildCursorTheme $MAPLE_COLS
+	buildCursorTheme $ASPEN_COLS
+	buildCursorTheme $EUCALYPTUS_COLS
+	buildCursorTheme $JACARANDA_COLS
+	buildCursorTheme neutral black white white blue orange
+else
+	buildCursorTheme $MAPLE_COLS
+	buildCursorTheme $ASPEN_COLS
+	buildCursorTheme $EUCALYPTUS_COLS
+	buildCursorTheme $JACARANDA_COLS
+	buildCursorTheme neutral white black black blue orange
+fi
