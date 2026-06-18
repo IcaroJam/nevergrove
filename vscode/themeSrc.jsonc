@@ -1,6 +1,7 @@
 {
 	"name": "Nevergrove $VARIANT",
-	"type": "dark",
+	"type": "$MODE",
+	"semanticHighlighting": true,
 	"colors": {
 		"activityBar.activeBorder": "$ACCENT",
 		"activityBar.activeFocusBorder": "$ACCENT",
@@ -86,9 +87,9 @@
 		"dropdown.foreground": "$GRAY2",
 		"editor.background": "$BG1",
 		"editor.findMatchBackground": "$VIS",
-		"editor.findMatchForeground": "$WHITE",
+		"editor.findMatchForeground": "$SELECTEDTXT",
 		"editor.findMatchHighlightBackground": "$BGACCENT",
-		"editor.findMatchHighlightForeground": "$WHITE",
+		"editor.findMatchHighlightForeground": "$SELECTEDTXT",
 		"editor.findRangeHighlightBackground": "$BGACCENT64",
 		"editor.foldBackground": "$BG464",
 		"editor.foreground": "$FG",
@@ -105,12 +106,12 @@
 		"editor.symbolHighlightBackground": "$BG674",
 		"editor.wordHighlightBackground": "$BG674",
 		"editor.wordHighlightStrongBackground": "$FGDIM74",
-		"editorBracketHighlight.foreground1": "$RED",
-		"editorBracketHighlight.foreground2": "$YELLOW",
-		"editorBracketHighlight.foreground3": "$ACCENT",
-		"editorBracketHighlight.foreground4": "$BLUE",
-		"editorBracketHighlight.foreground5": "$ORANGE",
-		"editorBracketHighlight.foreground6": "$PURPLE",
+		"editorBracketHighlight.foreground1": "$ORANGEHI",
+		"editorBracketHighlight.foreground2": "$GREENHI",
+		"editorBracketHighlight.foreground3": "$BLUEHI",
+		"editorBracketHighlight.foreground4": "$LAVENDERHI",
+		"editorBracketHighlight.foreground5": "$PURPLEHI",
+		"editorBracketHighlight.foreground6": "$MULBERRYHI",
 		"editorBracketHighlight.unexpectedBracket.foreground": "$GRAY1",
 		"editorBracketMatch.background": "$BG5",
 		"editorBracketMatch.border": "$BG100",
@@ -234,7 +235,7 @@
 		"list.dropBackground": "$BG0",
 		"list.errorForeground": "$RED",
 		"list.focusBackground": "$VIS",
-		"list.focusForeground": "$WHITE",
+		"list.focusForeground": "$SELECTEDTXT",
 		"list.highlightForeground": "$ACCENT",
 		"list.hoverBackground": "$BG2",
 		"list.hoverForeground": "$FG",
@@ -281,7 +282,7 @@
 		"notificationCenterHeader.background": "$BG1",
 		"notificationCenterHeader.foreground": "$FG",
 		"notificationLink.foreground": "$ACCENT",
-		"notificationToast.border": "$BG3",
+		"notificationToast.border": "$ACCENT",
 		"notifications.background": "$BG0",
 		"notifications.foreground": "$FG",
 		"notificationsErrorIcon.foreground": "$RED",
@@ -316,7 +317,7 @@
 		"problemsWarningIcon.foreground": "$YELLOW",
 		"progressBar.background": "$ACCENT",
 		"quickInputList.focusBackground": "$VIS",
-		"quickInputList.focusForeground": "$WHITE",
+		"quickInputList.focusForeground": "$SELECTEDTXT",
 		"quickInputList.focusIconForeground": "$INVACCENT",
 		"quickInputTitle.background": "$BG1",
 		"sash.hoverBorder": "$BG6",
@@ -914,6 +915,34 @@
 	},
 	"tokenColors": [
 		{
+			"scope": [
+				"text",
+				"source",
+				"variable.other.readwrite",
+				"punctuation.definition.variable"
+			],
+			"settings": {
+				"foreground": "$FG"
+			}
+		},
+		{
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "$GRAY2"
+			}
+		},
+		{
+			"scope": [
+				"comment",
+				"string.comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "$GRAY0",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"scope": "keyword, storage.type.function, storage.type.class, storage.type.enum, storage.type.interface, storage.type.property, keyword.operator.new, keyword.operator.expression, keyword.operator.new, keyword.operator.delete, storage.type.extends",
 			"settings": {
 				"foreground": "$RED"
@@ -926,7 +955,7 @@
 			}
 		},
 		{
-			"scope": "storage, modifier, keyword.var, entity.name.tag, keyword.control.case, keyword.control.switch",
+			"scope": "storage, modifier, keyword.var, keyword.control.switch, keyword.control.case",
 			"settings": {
 				"foreground": "$ORANGE"
 			}
@@ -934,19 +963,37 @@
 		{
 			"scope": "keyword.operator",
 			"settings": {
+				"foreground": "$GRAY2"
+			}
+		},
+		{
+			"scope": "string",
+			"settings": {
+				"foreground": "$YELLOW"
+			}
+		},
+		{
+			"scope": "punctuation.definition.string, punctuation.definition.string.end, punctuation.definition.string.begin, punctuation.definition.string.template.begin, punctuation.definition.string.template.end",
+			"settings": {
+				"foreground": "$YELLOWHI"
+			}
+		},
+		{
+			"scope": "support.type.property-name, meta.object-literal.key string",
+			"settings": {
 				"foreground": "$ORANGE"
 			}
 		},
 		{
-			"scope": "string, punctuation.definition.string.end, punctuation.definition.string.begin, punctuation.definition.string.template.begin, punctuation.definition.string.template.end",
+			"scope": "punctuation.support.type.property-name.begin, punctuation.support.type.property-name.end, meta.object-literal.key punctuation.definition.string.begin, meta.object-literal.key punctuation.definition.string.end",
 			"settings": {
-				"foreground": "$YELLOW"
+				"foreground": "$ORANGEHI"
 			}
 		},
 		{
-			"scope": "entity.other.attribute-name",
+			"scope": "punctuation.separator.key-value",
 			"settings": {
-				"foreground": "$YELLOW"
+				"foreground": "$GRAY2"
 			}
 		},
 		{
@@ -962,9 +1009,39 @@
 			}
 		},
 		{
-			"scope": "keyword.control.at-rule, keyword.control.import, keyword.control.export, storage.type.namespace, punctuation.decorator, keyword.control.directive, keyword.preprocessor, punctuation.definition.preprocessor, punctuation.definition.directive, keyword.other.import, keyword.other.package, entity.name.type.namespace, entity.name.scope-resolution, keyword.other.using, keyword.package, keyword.import, keyword.map",
+			"scope": "keyword.control.at-rule, keyword.control.import, keyword.control.export, punctuation.decorator, keyword.control.directive, keyword.preprocessor, punctuation.definition.preprocessor, punctuation.definition.directive, keyword.other.import, keyword.other.package, entity.name.type.namespace, entity.name.scope-resolution, keyword.other.using, keyword.package, keyword.import, keyword.map",
 			"settings": {
 				"foreground": "$TEAL"
+			}
+		},
+		{
+			"scope": "keyword.control.directive.conditional, keyword.control.directive.endif, keyword.control.directive.define",
+			"settings": {
+				"foreground": "$GREEN"
+			}
+		},
+		{
+			"scope": "string.quoted.other.lt-gt.include, storage.type.namespace",
+			"settings": {
+				"foreground": "$BLUE"
+			}
+		},
+		{
+			"scope": "string.quoted.other.lt-gt.include punctuation.definition.string.begin, string.quoted.other.lt-gt.include punctuation.definition.string.end",
+			"settings": {
+				"foreground": "$BLUEHI"
+			}
+		},
+		{
+			"scope": "string.quoted.double.include",
+			"settings": {
+				"foreground": "$LAVENDER"
+			}
+		},
+		{
+			"scope": "string.quoted.double.include punctuation.definition.string.begin, string.quoted.double.include punctuation.definition.string.end",
+			"settings": {
+				"foreground": "$LAVENDERHI"
 			}
 		},
 		{
@@ -1000,19 +1077,19 @@
 		{
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "$PURPLE"
+				"foreground": "$ORANGE"
 			}
 		},
 		{
-			"scope": "constant.language.boolean",
+			"scope": "constant.language, constant.language.boolean",
 			"settings": {
-				"foreground": "$PURPLE"
+				"foreground": "$RED"
 			}
 		},
 		{
 			"scope": "entity.name.function.preprocessor",
 			"settings": {
-				"foreground": "$PURPLE"
+				"foreground": "$TEAL"
 			}
 		},
 		{
@@ -1022,134 +1099,123 @@
 			}
 		},
 		{
-			"scope": "constant.language, support.constant",
-			"settings": {
-				"foreground": "$PURPLE"
-			}
-		},
-		{
-			"scope": "variable, support.variable, meta.definition.variable",
+			"scope": "variable, meta.definition.variable",
 			"settings": {
 				"foreground": "$FG"
 			}
 		},
 		{
-			"scope": "variable.object.property, support.variable.property, variable.other.property, variable.other.object.property, variable.other.enummember, variable.other.member, meta.object-literal.key",
+			"scope": "variable.defaultLibrary, support.variable",
+			"settings": {
+				"foreground": "$TEAL"
+			}
+		},
+		{
+			"scope": "support.constant",
+			"settings": {
+				"foreground": "$BLUE"
+			}
+		},
+		{
+			"scope": "variable.object.property, support.variable.property, variable.other.property, variable.other.object.property, variable.other.enummember, variable.other.member",
 			"settings": {
 				"foreground": "$FG"
 			}
 		},
 		{
-			"scope": "punctuation, meta.brace, meta.delimiter, meta.bracket",
+			"scope": "heading.1.markdown, markup.heading.setext.1.markdown, heading.1.markdown punctuation.definition.heading.markdown",
 			"settings": {
-				"foreground": "$FG"
-			}
-		},
-		{
-			"scope": "heading.1.markdown, markup.heading.setext.1.markdown",
-			"settings": {
-				"foreground": "$RED",
+				"foreground": "$ORANGEHI",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "heading.2.markdown, markup.heading.setext.2.markdown",
+			"scope": "heading.2.markdown, markup.heading.setext.2.markdown, heading.2.markdown punctuation.definition.heading.markdown",
 			"settings": {
-				"foreground": "$ORANGE",
+				"foreground": "$GREENHI",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "heading.3.markdown",
+			"scope": "heading.3.markdown, heading.3.markdown punctuation.definition.heading.markdown",
 			"settings": {
-				"foreground": "$YELLOW",
+				"foreground": "$BLUEHI",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "heading.4.markdown",
+			"scope": "heading.4.markdown, heading.4.markdown punctuation.definition.heading.markdown",
 			"settings": {
-				"foreground": "$GREEN",
+				"foreground": "$LAVENDERHI",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "heading.5.markdown",
+			"scope": "heading.5.markdown, heading.5.markdown punctuation.definition.heading.markdown",
 			"settings": {
-				"foreground": "$BLUE",
+				"foreground": "$PURPLEHI",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "heading.6.markdown",
+			"scope": "heading.6.markdown, heading.6.markdown punctuation.definition.heading.markdown",
 			"settings": {
-				"foreground": "$PURPLE",
+				"foreground": "$MULBERRYHI",
 				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": "punctuation.definition.heading.markdown",
-			"settings": {
-				"foreground": "$GRAY1",
-				"fontStyle": "regular"
 			}
 		},
 		{
 			"scope": "string.other.link.title.markdown, constant.other.reference.link.markdown, string.other.link.description.markdown",
 			"settings": {
-				"foreground": "$PURPLE",
+				"foreground": "$GREEN",
 				"fontStyle": "regular"
 			}
 		},
 		{
-			"scope": "markup.underline.link.image.markdown, markup.underline.link.markdown",
+			"scope": "markup.underline.link.image.markdown",
 			"settings": {
-				"foreground": "$GREEN",
+				"foreground": "$LAVENDER",
 				"fontStyle": "underline"
 			}
 		},
 		{
-			"scope": "punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.italic.markdown, punctuation.definition.quote.begin.markdown, punctuation.definition.metadata.markdown, punctuation.separator.key-value.markdown, punctuation.definition.constant.markdown",
+			"scope": "markup.underline.link.markdown",
 			"settings": {
-				"foreground": "$GRAY1"
-			}
-		},
-		{
-			"scope": "punctuation.definition.bold.markdown",
-			"settings": {
-				"foreground": "$GRAY1",
-				"fontStyle": "regular"
-			}
-		},
-		{
-			"scope": "meta.separator.markdown, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown",
-			"settings": {
-				"foreground": "$GRAY1",
-				"fontStyle": "bold"
+				"foreground": "$BLUE",
+				"fontStyle": "underline"
 			}
 		},
 		{
 			"scope": "markup.italic",
 			"settings": {
+				"foreground": "$PINK",
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "markup.bold",
 			"settings": {
+				"foreground": "$MULBERRY",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "markup.bold markup.italic, markup.italic markup.bold",
 			"settings": {
+				"foreground": "$PURPLE",
 				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"scope": "markup.quote",
+			"settings": {
+				"foreground": "$TEAL"
 			}
 		},
 		{
 			"scope": "punctuation.definition.markdown, punctuation.definition.raw.markdown",
 			"settings": {
-				"foreground": "$YELLOW"
+				"foreground": "$YELLOWHI"
 			}
 		},
 		{
@@ -1161,13 +1227,13 @@
 		{
 			"scope": "markup.fenced_code.block.markdown, markup.inline.raw.string.markdown",
 			"settings": {
-				"foreground": "$GREEN"
+				"foreground": "$YELLOW"
 			}
 		},
 		{
 			"scope": "punctuation.definition.list.begin.markdown",
 			"settings": {
-				"foreground": "$RED"
+				"foreground": "$ORANGE"
 			}
 		},
 		{
@@ -1245,33 +1311,117 @@
 			}
 		},
 		{
-			"scope": "punctuation.separator.namespace.xml",
+			"scope": "meta.tag.metadata.doctype entity.name.tag.html, keyword.other.doctype.xml, entity.name.tag.xml",
 			"settings": {
-				"foreground": "$GRAY1"
+				"foreground": "$TEAL"
 			}
 		},
 		{
-			"scope": "entity.name.tag.html, entity.name.tag.xml, entity.name.tag.localname.xml",
+			"scope": "meta.tag.metadata.doctype entity.other.attribute-name.html, variable.language.documentroot.xml, meta.tag.preprocessor.xml entity.other.attribute-name.xml",
 			"settings": {
-				"foreground": "$ORANGE"
+				"foreground": "$BLUE"
 			}
 		},
 		{
-			"scope": "entity.other.attribute-name.html, entity.other.attribute-name.xml, entity.other.attribute-name.localname.xml",
+			"scope": "meta.tag.sgml.doctype.xml",
 			"settings": {
-				"foreground": "$YELLOW"
+				"foreground": "$LAVENDER"
 			}
 		},
 		{
-			"scope": "string.quoted.double.html, string.quoted.single.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html, punctuation.separator.key-value.html, punctuation.definition.string.begin.xml, punctuation.definition.string.end.xml, string.quoted.double.xml, string.quoted.single.xml, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.definition.tag.xml, meta.tag.xml, meta.tag.preprocessor.xml, meta.tag.other.html, meta.tag.block.any.html, meta.tag.inline.any.html",
+			"scope": "meta.tag.metadata.doctype punctuation.definition.tag.begin.html, meta.tag.metadata.doctype punctuation.definition.tag.end.html, meta.tag.sgml.doctype punctuation.definition.tag.xml, meta.tag.preprocessor.xml punctuation.definition.tag.xml, entity.name.tag",
 			"settings": {
 				"foreground": "$GREEN"
 			}
 		},
 		{
-			"scope": "variable.language.documentroot.xml, meta.tag.sgml.doctype.xml",
+			"scope": "entity.name.tag.html",
+			"settings": {
+				"foreground": "$GREEN"
+			}
+		},
+		{
+			"scope": "entity.other.attribute-name.html, entity.other.attribute-name.xml, entity.other.attribute-name.localname.xml, , entity.other.attribute-name.namespace.xml, invalid.deprecated.entity.other.attribute-name",
+			"settings": {
+				"foreground": "$ORANGE"
+			}
+		},
+		{
+			"scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.definition.tag.xml, meta.tag.other.html, meta.tag.block.any.html, meta.tag.inline.any.html",
+			"settings": {
+				"foreground": "$TEAL"
+			}
+		},
+		{
+			"scope": "constant.character, meta.tag.preprocessor.xml",
+			"settings": {
+				"foreground": "$GRAY2"
+			}
+		},
+		{
+			"scope": "meta.attribute.href string",
+			"settings": {
+				"foreground": "$BLUE"
+			}
+		},
+		{
+			"scope": "meta.attribute.href punctuation.definition.string.begin, meta.attribute.href punctuation.definition.string.end",
+			"settings": {
+				"foreground": "$BLUEHI"
+			}
+		},
+		{
+			"scope": "meta.attribute.src string, meta.tag.metadata.doctype.html string, meta.tag.preprocessor.xml string",
+			"settings": {
+				"foreground": "$LAVENDER"
+			}
+		},
+		{
+			"scope": "meta.attribute.src punctuation.definition.string.begin, meta.attribute.src punctuation.definition.string.end, , meta.tag.preprocessor.xml punctuation.definition.string.begin, meta.tag.preprocessor.xml punctuation.definition.string.end",
+			"settings": {
+				"foreground": "$LAVENDERHI"
+			}
+		},
+		{
+			"scope": "meta.attribute.id string",
+			"settings": {
+				"foreground": "$PINK"
+			}
+		},
+		{
+			"scope": "meta.attribute.id punctuation.definition.string.begin, meta.attribute.id punctuation.definition.string.end",
+			"settings": {
+				"foreground": "$PINKHI"
+			}
+		},
+		{
+			"scope": "meta.attribute.class string",
+			"settings": {
+				"foreground": "$RED"
+			}
+		},
+		{
+			"scope": "meta.attribute.class punctuation.definition.string.begin, meta.attribute.class punctuation.definition.string.end",
+			"settings": {
+				"foreground": "$REDHI"
+			}
+		},
+		{
+			"scope": "meta.attribute.style string",
 			"settings": {
 				"foreground": "$PURPLE"
+			}
+		},
+		{
+			"scope": "meta.attribute.style punctuation.definition.string.begin, meta.attribute.style punctuation.definition.string.end",
+			"settings": {
+				"foreground": "$PURPLEHI"
+			}
+		},
+		{
+			"scope": "punctuation.separator.namespace.xml, meta.tag.xml",
+			"settings": {
+				"foreground": "$GRAY2"
 			}
 		},
 		{
@@ -1391,7 +1541,7 @@
 		{
 			"scope": "punctuation.accessor.js, punctuation.separator.key-value.js, punctuation.separator.label.js, keyword.operator.accessor.js",
 			"settings": {
-				"foreground": "$GRAY1"
+				"foreground": "$GRAY2"
 			}
 		},
 		{
@@ -1610,12 +1760,12 @@
 				"foreground": "$GRAY1"
 			}
 		},
-		{
-			"scope": "keyword.control.directive.include.c, punctuation.definition.directive.c, keyword.control.directive.pragma.c, keyword.control.directive.line.c, keyword.control.directive.define.c, keyword.control.directive.conditional.c, keyword.control.directive.diagnostic.error.c, keyword.control.directive.undef.c, keyword.control.directive.conditional.ifdef.c, keyword.control.directive.endif.c, keyword.control.directive.conditional.ifndef.c, keyword.control.directive.conditional.if.c, keyword.control.directive.else.c",
-			"settings": {
-				"foreground": "$RED"
-			}
-		},
+		// {
+		// 	"scope": "keyword.control.directive.include.c, punctuation.definition.directive.c, keyword.control.directive.pragma.c, keyword.control.directive.line.c, keyword.control.directive.define.c, keyword.control.directive.conditional.c, keyword.control.directive.diagnostic.error.c, keyword.control.directive.undef.c, keyword.control.directive.conditional.ifdef.c, keyword.control.directive.endif.c, keyword.control.directive.conditional.ifndef.c, keyword.control.directive.conditional.if.c, keyword.control.directive.else.c",
+		// 	"settings": {
+		// 		"foreground": "$RED"
+		// 	}
+		// },
 		{
 			"scope": "punctuation.separator.pointer-access.c",
 			"settings": {
@@ -1640,12 +1790,12 @@
 				"foreground": "$GRAY1"
 			}
 		},
-		{
-			"scope": "keyword.control.directive.include.cpp, punctuation.definition.directive.cpp, keyword.control.directive.pragma.cpp, keyword.control.directive.line.cpp, keyword.control.directive.define.cpp, keyword.control.directive.conditional.cpp, keyword.control.directive.diagnostic.error.cpp, keyword.control.directive.undef.cpp, keyword.control.directive.conditional.ifdef.cpp, keyword.control.directive.endif.cpp, keyword.control.directive.conditional.ifndef.cpp, keyword.control.directive.conditional.if.cpp, keyword.control.directive.else.cpp, storage.type.namespace.definition.cpp, keyword.other.using.directive.cpp, storage.type.struct.cpp",
-			"settings": {
-				"foreground": "$RED"
-			}
-		},
+		// {
+		// 	"scope": "keyword.control.directive.include.cpp, punctuation.definition.directive.cpp, keyword.control.directive.pragma.cpp, keyword.control.directive.line.cpp, keyword.control.directive.define.cpp, keyword.control.directive.conditional.cpp, keyword.control.directive.diagnostic.error.cpp, keyword.control.directive.undef.cpp, keyword.control.directive.conditional.ifdef.cpp, keyword.control.directive.endif.cpp, keyword.control.directive.conditional.ifndef.cpp, keyword.control.directive.conditional.if.cpp, keyword.control.directive.else.cpp, storage.type.namespace.definition.cpp, keyword.other.using.directive.cpp, storage.type.struct.cpp",
+		// 	"settings": {
+		// 		"foreground": "$RED"
+		// 	}
+		// },
 		{
 			"scope": "punctuation.separator.pointer-access.cpp, punctuation.section.angle-brackets.begin.template.call.cpp, punctuation.section.angle-brackets.end.template.call.cpp",
 			"settings": {
@@ -2339,13 +2489,13 @@
 		{
 			"scope": "meta.scope.prerequisites.makefile",
 			"settings": {
-				"foreground": "$GREEN"
+				"foreground": "$ORANGE"
 			}
 		},
 		{
 			"scope": "string.source.cmake",
 			"settings": {
-				"foreground": "$GREEN"
+				"foreground": "$YELLOW"
 			}
 		},
 		{
@@ -2375,7 +2525,7 @@
 		{
 			"scope": "constant.character.map.viml, constant.character.map.key.viml",
 			"settings": {
-				"foreground": "$GREEN"
+				"foreground": "$YELLOW"
 			}
 		},
 		{
@@ -2405,7 +2555,7 @@
 		{
 			"scope": "string.quoted.double.dockerfile, string.quoted.single.dockerfile",
 			"settings": {
-				"foreground": "$GREEN"
+				"foreground": "$YELLOW"
 			}
 		},
 		{
@@ -2469,21 +2619,9 @@
 			}
 		},
 		{
-			"scope": "punctuation.separator.key-value.ini",
-			"settings": {
-				"foreground": "$ORANGE"
-			}
-		},
-		{
-			"scope": "string.quoted.double.ini, string.quoted.single.ini, punctuation.definition.string.begin.ini, punctuation.definition.string.end.ini",
-			"settings": {
-				"foreground": "$GREEN"
-			}
-		},
-		{
 			"scope": "keyword.other.definition.ini",
 			"settings": {
-				"foreground": "$TEAL"
+				"foreground": "$ORANGE"
 			}
 		},
 		{
@@ -2495,7 +2633,7 @@
 		{
 			"scope": "string.quoted.single.sql, punctuation.definition.string.end.sql, punctuation.definition.string.begin.sql, string.quoted.double.sql",
 			"settings": {
-				"foreground": "$GREEN"
+				"foreground": "$YELLOW"
 			}
 		},
 		{
@@ -2517,51 +2655,21 @@
 			}
 		},
 		{
-			"scope": "punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, punctuation.separator.dictionary.pair.json, punctuation.separator.array.json",
-			"settings": {
-				"foreground": "$GRAY1"
-			}
-		},
-		{
-			"scope": "support.type.property-name.json",
-			"settings": {
-				"foreground": "$ORANGE"
-			}
-		},
-		{
-			"scope": "string.quoted.double.json",
-			"settings": {
-				"foreground": "$GREEN"
-			}
-		},
-		{
-			"scope": "punctuation.separator.key-value.mapping.yaml",
-			"settings": {
-				"foreground": "$GRAY1"
-			}
-		},
-		{
-			"scope": "string.unquoted.plain.out.yaml, string.quoted.single.yaml, string.quoted.double.yaml, punctuation.definition.string.begin.yaml, punctuation.definition.string.end.yaml, string.unquoted.plain.in.yaml, string.unquoted.block.yaml",
-			"settings": {
-				"foreground": "$GREEN"
-			}
-		},
-		{
 			"scope": "punctuation.definition.anchor.yaml, punctuation.definition.block.sequence.item.yaml",
 			"settings": {
-				"foreground": "$TEAL"
+				"foreground": "$BLUE"
 			}
 		},
 		{
-			"scope": "keyword.key.toml",
+			"scope": "support.type.property-name.table.toml",
 			"settings": {
-				"foreground": "$ORANGE"
+				"foreground": "$RED"
 			}
 		},
 		{
-			"scope": "string.quoted.single.basic.line.toml, string.quoted.single.literal.line.toml, punctuation.definition.keyValuePair.toml",
+			"scope": "punctuation.definition.table.toml, punctuation.separator.dot.toml",
 			"settings": {
-				"foreground": "$GREEN"
+				"foreground": "$REDHI"
 			}
 		},
 		{
@@ -2574,13 +2682,6 @@
 			"scope": "entity.other.attribute-name.table.toml, punctuation.definition.table.toml, entity.other.attribute-name.table.array.toml, punctuation.definition.table.array.toml",
 			"settings": {
 				"foreground": "$PURPLE"
-			}
-		},
-		{
-			"scope": "comment, string.comment, punctuation.definition.comment",
-			"settings": {
-				"foreground": "$GRAY0",
-				"fontStyle": "italic"
 			}
 		},
 		{
