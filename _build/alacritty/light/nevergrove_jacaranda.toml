@@ -1,0 +1,44 @@
+# Colors (Nevergrove jacaranda light)
+
+[colors.primary]
+background = "#e4e4f1"
+foreground = "#474238"
+dim_foreground = "#969394"
+
+[colors.cursor]
+text = "#f1f2f9"
+cursor = "#6b6670"
+
+[colors.selection]
+text = "#242324"
+background = "#e7d2b3"
+
+[colors.normal]
+black   = "#f1f2f9"
+red     = "#be2e2d"
+green   = "#5f9933"
+yellow  = "#c88604"
+blue    = "#0d7697"
+magenta = "#aa45aa"
+cyan    = "#178c5a"
+white   = "#474238"
+
+[colors.bright]
+black   = "#cecede"
+red     = "#8c3131"
+green   = "#4b6f34"
+yellow  = "#8b630e"
+blue    = "#1a5566"
+magenta = "#7b3d7b"
+cyan    = "#1a6045"
+white   = "#32302a"
+
+[colors.dim]
+black   = "#242324"
+red     = "#e4bec8"
+green   = "#d1dfcd"
+yellow  = "#e3d7ca"
+blue    = "#c5d7e8"
+magenta = "#e1c2eb"
+cyan    = "#c6ddda"
+white   = "#969394"

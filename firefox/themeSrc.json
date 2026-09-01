@@ -15,7 +15,7 @@
 			"toolbar_field_border_focus": "$ACCENT",
 			"toolbar_field_focus": "$BG1",
 			"toolbar_field_highlight": "$VIS",
-			"toolbar_field_highlight_text": "$WHITE",
+			"toolbar_field_highlight_text": "$SELECTEDTXT",
 			"toolbar_field_text": "$FG",
 			"toolbar_field_text_focus": "",
 			"toolbar_text": "$FG",

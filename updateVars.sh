@@ -292,7 +292,7 @@ buildCursorTheme () {
 		if [ $# -eq 4 ]; then
 			replaceCursorSwatch defFill bg${2}1
 			replaceCursorSwatch outline fg
-			replaceCursorSwatch shadow bg${2}0
+			replaceCursorSwatch shadow black
 			replaceCursorSwatch accent $3
 			replaceCursorSwatch invaccent $4
 			replaceCursorSwatch infoBg bg${2}Blue
@@ -304,9 +304,9 @@ buildCursorTheme () {
 		else
 			replaceCursorSwatch defFill $3
 			replaceCursorSwatch outline $2
-			replaceCursorSwatch shadow $4
-			replaceCursorSwatch accent $5
-			replaceCursorSwatch invaccent $6
+			replaceCursorSwatch shadow black
+			replaceCursorSwatch accent $4
+			replaceCursorSwatch invaccent $5
 			replaceCursorSwatch infoBg $3
 			replaceCursorSwatch copyBg $3
 			replaceCursorSwatch stopBg $3
@@ -319,11 +319,8 @@ buildCursorTheme () {
 		replaceCursorSwatch red red
 		replaceCursorSwatch orange orange
 		replaceCursorSwatch teal teal
-		if [ "$MODE" = "Light" ]; then
-			replaceCursorSwatch windowServer black
-		else
-			replaceCursorSwatch windowServer white
-		fi
+		replaceCursorSwatch windowServer white
+		replaceCursorSwatch windowServerFg black
 
 		if $IMGGEN; then
 			inkscape $tgt -i expo -j -w 1800 -o _public/imgs/breeze/$1.png > /dev/null
@@ -338,11 +335,11 @@ if [ "$MODE" = "Light" ]; then
 	buildCursorTheme $ASPEN_COLS
 	buildCursorTheme $EUCALYPTUS_COLS
 	buildCursorTheme $JACARANDA_COLS
-	buildCursorTheme neutral black white white blue orange
+	buildCursorTheme neutral black white blue orange
 else
 	buildCursorTheme $MAPLE_COLS
 	buildCursorTheme $ASPEN_COLS
 	buildCursorTheme $EUCALYPTUS_COLS
 	buildCursorTheme $JACARANDA_COLS
-	buildCursorTheme neutral white black black blue orange
+	buildCursorTheme neutral white black blue orange
 fi

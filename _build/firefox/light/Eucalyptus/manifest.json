@@ -1,0 +1,53 @@
+{
+	"manifest_version": 2,
+	"version": "1.0",
+	"name": "Nevergrove Eucalyptus Light",
+	"theme": {
+		"images": {},
+		"properties": {},
+		"colors": {
+			"frame": "#e4edf1",
+			"frame_inactive": "#dce4ea",
+			"toolbar": "#d4dde2",
+			"toolbar_bottom_separator": "#b6c8c3",
+			"toolbar_field": "#e4edf1",
+			"toolbar_field_border": "#ced7de",
+			"toolbar_field_border_focus": "#178c5a",
+			"toolbar_field_focus": "#e4edf1",
+			"toolbar_field_highlight": "#e2b5d0",
+			"toolbar_field_highlight_text": "#242324",
+			"toolbar_field_text": "#474238",
+			"toolbar_field_text_focus": "",
+			"toolbar_text": "#474238",
+			"toolbar_top_separator": "#c3d1d5",
+			"toolbar_vertical_separator": "#c3d1d5",
+			"button_background_active": "#b6c8c3",
+			"button_background_hover": "#c3d1d5",
+			"icons": "#178c5a",
+			"icons_attention": "#ad2967",
+			"popup": "#ced7de",
+			"popup_border": "#178c5a",
+			"popup_highlight": "#e2b5d0",
+			"popup_highlight_text": "#f5f5f4",
+			"popup_text": "#474238",
+			"sidebar": "#e4edf1",
+			"sidebar_border": "#c3d1d5",
+			"sidebar_highlight": "#e2b5d0",
+			"sidebar_highlight_text": "#f5f5f4",
+			"sidebar_text": "#474238",
+			"ntp_background": "#e4edf1",
+			"ntp_card_background": "#d4dde2",
+			"ntp_text": "#474238",
+			"tab_background_text": "#474238",
+			"tab_line": "#178c5a",
+			"tab_loading": "#178c5a",
+			"tab_selected": "#d4dde2",
+			"tab_text": "#474238"
+		}
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "Nevergrove-Eucalyptus-Light-firefox@nafnec.dev"
+		}
+	}
+}

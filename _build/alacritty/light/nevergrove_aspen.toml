@@ -1,0 +1,44 @@
+# Colors (Nevergrove aspen light)
+
+[colors.primary]
+background = "#f1eae4"
+foreground = "#474238"
+dim_foreground = "#9c968e"
+
+[colors.cursor]
+text = "#f9f4f1"
+cursor = "#716d65"
+
+[colors.selection]
+text = "#242324"
+background = "#bac5e0"
+
+[colors.normal]
+black   = "#f9f4f1"
+red     = "#be2e2d"
+green   = "#5f9933"
+yellow  = "#c88604"
+blue    = "#0d7697"
+magenta = "#aa45aa"
+cyan    = "#178c5a"
+white   = "#474238"
+
+[colors.bright]
+black   = "#ded6ce"
+red     = "#8c3131"
+green   = "#4b6f34"
+yellow  = "#8b630e"
+blue    = "#1a5566"
+magenta = "#7b3d7b"
+cyan    = "#1a6045"
+white   = "#32302a"
+
+[colors.dim]
+black   = "#242324"
+red     = "#eec2be"
+green   = "#dbe3c3"
+yellow  = "#eddbc0"
+blue    = "#cfdbde"
+magenta = "#ebc6e1"
+cyan    = "#d0e1d0"
+white   = "#9c968e"

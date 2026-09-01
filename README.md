@@ -4,14 +4,16 @@
 	Nevergrove
 </h3>
 <h4 align="center">
-	An <a href="https://github.com/sainnhe/everforest">everforest</a>-inspired dark palette featuring deep, rich colors with the right amount of contrast.
+	An <a href="https://github.com/sainnhe/everforest">everforest</a>-inspired color palette featuring deep, rich colors with the right amount of contrast.
 </h4>
 
 ---
 
 ###### _See how it looks on the [site](https://icarojam.github.io/nevergrove/)!!_
 
-![An image featuring the various palette colours side by side](_public/imgs/expo.png)
+![An image featuring the various dark-mode palette colours side by side](_public/imgs/expo.png)
+
+![An image featuring the various light-mode palette colours side by side](_public/imgs/expoLight.png)
 
 Nevergrove comes in four distinct variants, each centered around a color:
 - Maple: Red

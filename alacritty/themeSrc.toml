@@ -1,4 +1,4 @@
-# Colors (Nevergrove $VARIANT)
+# Colors (Nevergrove $VARIANT$MODE)
 
 [colors.primary]
 background = "$BG1"
@@ -10,7 +10,7 @@ text = "$BG0"
 cursor = "$GRAY2"
 
 [colors.selection]
-text = "$WHITE"
+text = "$SELECTEDTXT"
 background = "$VIS"
 
 [colors.normal]

@@ -1,0 +1,44 @@
+# Colors (Nevergrove eucalyptus light)
+
+[colors.primary]
+background = "#e4edf1"
+foreground = "#474238"
+dim_foreground = "#969794"
+
+[colors.cursor]
+text = "#f1f6f9"
+cursor = "#66706a"
+
+[colors.selection]
+text = "#242324"
+background = "#e2b5d0"
+
+[colors.normal]
+black   = "#f1f6f9"
+red     = "#be2e2d"
+green   = "#5f9933"
+yellow  = "#c88604"
+blue    = "#0d7697"
+magenta = "#aa45aa"
+cyan    = "#178c5a"
+white   = "#474238"
+
+[colors.bright]
+black   = "#ced7de"
+red     = "#8c3131"
+green   = "#4b6f34"
+yellow  = "#8b630e"
+blue    = "#1a5566"
+magenta = "#7b3d7b"
+cyan    = "#1a6045"
+white   = "#32302a"
+
+[colors.dim]
+black   = "#242324"
+red     = "#e4c5c8"
+green   = "#d1e6cd"
+yellow  = "#e3deca"
+blue    = "#c5dee8"
+magenta = "#e1c9eb"
+cyan    = "#c6e4da"
+white   = "#969794"

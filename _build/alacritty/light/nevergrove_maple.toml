@@ -1,0 +1,44 @@
+# Colors (Nevergrove maple light)
+
+[colors.primary]
+background = "#f1e4e6"
+foreground = "#474238"
+dim_foreground = "#9c938f"
+
+[colors.cursor]
+text = "#f9f1f2"
+cursor = "#716565"
+
+[colors.selection]
+text = "#242324"
+background = "#b9e1d2"
+
+[colors.normal]
+black   = "#f9f1f2"
+red     = "#be2e2d"
+green   = "#5f9933"
+yellow  = "#c88604"
+blue    = "#0d7697"
+magenta = "#aa45aa"
+cyan    = "#178c5a"
+white   = "#474238"
+
+[colors.bright]
+black   = "#dececf"
+red     = "#8c3131"
+green   = "#4b6f34"
+yellow  = "#8b630e"
+blue    = "#1a5566"
+magenta = "#7b3d7b"
+cyan    = "#1a6045"
+white   = "#32302a"
+
+[colors.dim]
+black   = "#242324"
+red     = "#eebebf"
+green   = "#dbdfc4"
+yellow  = "#edd7c1"
+blue    = "#cfd7df"
+magenta = "#ebc2e2"
+cyan    = "#d0ddd1"
+white   = "#9c938f"

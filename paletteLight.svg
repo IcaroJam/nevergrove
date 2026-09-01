@@ -25,15 +25,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="3.6024038"
-     inkscape:cx="624.99933"
-     inkscape:cy="453.16963"
+     inkscape:zoom="1.9145299"
+     inkscape:cx="591.79018"
+     inkscape:cy="402.44866"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="palette">
+     inkscape:current-layer="expo">
     <inkscape:grid
        id="grid1"
        units="mm"
@@ -74,7 +74,7 @@
        inkscape:swatch="solid"
        inkscape:label="mulberryHi">
       <stop
-         style="stop-color:#792b4f;stop-opacity:1;"
+         style="stop-color:#792b4e;stop-opacity:1;"
          offset="0"
          id="stop190" />
     </linearGradient>
@@ -83,7 +83,7 @@
        inkscape:swatch="solid"
        inkscape:label="pinkHi">
       <stop
-         style="stop-color:#813781;stop-opacity:1;"
+         style="stop-color:#7b3d7b;stop-opacity:1;"
          offset="0"
          id="stop189" />
     </linearGradient>
@@ -92,7 +92,7 @@
        inkscape:swatch="solid"
        inkscape:label="purpleHi">
       <stop
-         style="stop-color:#5b2d80;stop-opacity:1;"
+         style="stop-color:#5a3479;stop-opacity:1;"
          offset="0"
          id="stop188" />
     </linearGradient>
@@ -101,7 +101,7 @@
        inkscape:swatch="solid"
        inkscape:label="lavenderHi">
       <stop
-         style="stop-color:#364078;stop-opacity:1;"
+         style="stop-color:#343d7a;stop-opacity:1;"
          offset="0"
          id="stop187" />
     </linearGradient>
@@ -110,7 +110,7 @@
        inkscape:swatch="solid"
        inkscape:label="blueHi">
       <stop
-         style="stop-color:#165064;stop-opacity:1;"
+         style="stop-color:#1a5566;stop-opacity:1;"
          offset="0"
          id="stop186" />
     </linearGradient>
@@ -119,7 +119,7 @@
        inkscape:swatch="solid"
        inkscape:label="tealHi">
       <stop
-         style="stop-color:#1b553d;stop-opacity:1;"
+         style="stop-color:#1a6045;stop-opacity:1;"
          offset="0"
          id="stop185" />
     </linearGradient>
@@ -128,7 +128,7 @@
        inkscape:swatch="solid"
        inkscape:label="greenHi">
       <stop
-         style="stop-color:#3f6222;stop-opacity:1;"
+         style="stop-color:#4b6f34;stop-opacity:1;"
          offset="0"
          id="stop184" />
     </linearGradient>
@@ -137,7 +137,7 @@
        inkscape:swatch="solid"
        inkscape:label="yellowHi">
       <stop
-         style="stop-color:#7f5a10;stop-opacity:1;"
+         style="stop-color:#8b630e;stop-opacity:1;"
          offset="0"
          id="stop183" />
     </linearGradient>
@@ -146,7 +146,7 @@
        inkscape:swatch="solid"
        inkscape:label="orangeHi">
       <stop
-         style="stop-color:#91461c;stop-opacity:1;"
+         style="stop-color:#924a25;stop-opacity:1;"
          offset="0"
          id="stop182" />
     </linearGradient>
@@ -155,7 +155,7 @@
        inkscape:swatch="solid"
        inkscape:label="redHi">
       <stop
-         style="stop-color:#913131;stop-opacity:1;"
+         style="stop-color:#8c3131;stop-opacity:1;"
          offset="0"
          id="stop181" />
     </linearGradient>
@@ -164,7 +164,7 @@
        inkscape:swatch="solid"
        inkscape:label="fgHi">
       <stop
-         style="stop-color:#2e2a24;stop-opacity:1;"
+         style="stop-color:#32302a;stop-opacity:1;"
          offset="0"
          id="stop180" />
     </linearGradient>
@@ -182,7 +182,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRMulberry">
       <stop
-         style="stop-color:#ebc1d2;stop-opacity:1;"
+         style="stop-color:#edc0d1;stop-opacity:1;"
          offset="0"
          id="stop120" />
     </linearGradient>
@@ -191,7 +191,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgYMulberry">
       <stop
-         style="stop-color:#ebc4d1;stop-opacity:1;"
+         style="stop-color:#edc4d0;stop-opacity:1;"
          offset="0"
          id="stop119" />
     </linearGradient>
@@ -200,7 +200,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgTMulberry">
       <stop
-         style="stop-color:#e5c6d7;stop-opacity:1;"
+         style="stop-color:#e3c7da;stop-opacity:1;"
          offset="0"
          id="stop118" />
     </linearGradient>
@@ -209,7 +209,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgPMulberry">
       <stop
-         style="stop-color:#e4c1d8;stop-opacity:1;"
+         style="stop-color:#e3c0da;stop-opacity:1;"
          offset="0"
          id="stop117" />
     </linearGradient>
@@ -218,7 +218,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRPink">
       <stop
-         style="stop-color:#e9c3e3;stop-opacity:1;"
+         style="stop-color:#ebc2e2;stop-opacity:1;"
          offset="0"
          id="stop116" />
     </linearGradient>
@@ -227,7 +227,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgYPink">
       <stop
-         style="stop-color:#e9c6e2;stop-opacity:1;"
+         style="stop-color:#ebc6e1;stop-opacity:1;"
          offset="0"
          id="stop115" />
     </linearGradient>
@@ -236,7 +236,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgTPink">
       <stop
-         style="stop-color:#e3c8e8;stop-opacity:1;"
+         style="stop-color:#e1c9eb;stop-opacity:1;"
          offset="0"
          id="stop114" />
     </linearGradient>
@@ -245,7 +245,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgPPink">
       <stop
-         style="stop-color:#e2c3e9;stop-opacity:1;"
+         style="stop-color:#e1c2eb;stop-opacity:1;"
          offset="0"
          id="stop113" />
     </linearGradient>
@@ -254,7 +254,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRLavender">
       <stop
-         style="stop-color:#d1cee2;stop-opacity:1;"
+         style="stop-color:#d3cde1;stop-opacity:1;"
          offset="0"
          id="stop112" />
     </linearGradient>
@@ -263,7 +263,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgYLavender">
       <stop
-         style="stop-color:#d1d1e1;stop-opacity:1;"
+         style="stop-color:#d3d1e0;stop-opacity:1;"
          offset="0"
          id="stop111" />
     </linearGradient>
@@ -272,7 +272,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgTLavender">
       <stop
-         style="stop-color:#cbd3e7;stop-opacity:1;"
+         style="stop-color:#c9d4ea;stop-opacity:1;"
          offset="0"
          id="stop110" />
     </linearGradient>
@@ -281,7 +281,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgPLavender">
       <stop
-         style="stop-color:#cacee8;stop-opacity:1;"
+         style="stop-color:#c9cdea;stop-opacity:1;"
          offset="0"
          id="stop109" />
     </linearGradient>
@@ -290,7 +290,7 @@
        inkscape:swatch="solid"
        inkscape:label="white">
       <stop
-         style="stop-color:#f0f0ef;stop-opacity:1;"
+         style="stop-color:#f5f5f4;stop-opacity:1;"
          offset="0"
          id="stop126" />
     </linearGradient>
@@ -339,7 +339,7 @@
        inkscape:label="visR"
        gradientTransform="translate(100,-30)">
       <stop
-         style="stop-color:#9ed1c0;stop-opacity:1;"
+         style="stop-color:#b9e1d2;stop-opacity:1;"
          offset="0"
          id="stop81" />
     </linearGradient>
@@ -384,7 +384,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgR2">
       <stop
-         style="stop-color:#e8dede;stop-opacity:1;"
+         style="stop-color:#eadcdc;stop-opacity:1;"
          offset="0"
          id="stop76" />
     </linearGradient>
@@ -394,7 +394,7 @@
        inkscape:label="bgR1"
        gradientTransform="matrix(1.3333333,0,0,1,-3.3333327,0)">
       <stop
-         style="stop-color:#efe6e7;stop-opacity:1;"
+         style="stop-color:#f1e4e6;stop-opacity:1;"
          offset="0"
          id="stop75" />
     </linearGradient>
@@ -404,7 +404,7 @@
        inkscape:label="bgR0"
        gradientTransform="matrix(1.0000172,0,0,1.0000172,38.993257,10.000003)">
       <stop
-         style="stop-color:#f8f2f3;stop-opacity:1;"
+         style="stop-color:#f9f1f2;stop-opacity:1;"
          offset="0"
          id="stop74" />
     </linearGradient>
@@ -413,7 +413,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRPurple">
       <stop
-         style="stop-color:#dac3e3;stop-opacity:1;"
+         style="stop-color:#dcc2e2;stop-opacity:1;"
          offset="0"
          id="stop73" />
     </linearGradient>
@@ -422,7 +422,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRBlue">
       <stop
-         style="stop-color:#cdd8e0;stop-opacity:1;"
+         style="stop-color:#cfd7df;stop-opacity:1;"
          offset="0"
          id="stop72" />
     </linearGradient>
@@ -431,7 +431,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRTeal">
       <stop
-         style="stop-color:#ceded2;stop-opacity:1;"
+         style="stop-color:#d0ddd1;stop-opacity:1;"
          offset="0"
          id="stop71" />
     </linearGradient>
@@ -440,7 +440,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRGreen">
       <stop
-         style="stop-color:#d9e0c5;stop-opacity:1;"
+         style="stop-color:#dbdfc4;stop-opacity:1;"
          offset="0"
          id="stop70" />
     </linearGradient>
@@ -449,7 +449,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRYellow">
       <stop
-         style="stop-color:#ebd8c2;stop-opacity:1;"
+         style="stop-color:#edd7c1;stop-opacity:1;"
          offset="0"
          id="stop69" />
     </linearGradient>
@@ -458,7 +458,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgROrange">
       <stop
-         style="stop-color:#ecccc0;stop-opacity:1;"
+         style="stop-color:#eecbbf;stop-opacity:1;"
          offset="0"
          id="stop68" />
     </linearGradient>
@@ -467,7 +467,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgRRed">
       <stop
-         style="stop-color:#ecbfc0;stop-opacity:1;"
+         style="stop-color:#eebebf;stop-opacity:1;"
          offset="0"
          id="stop67" />
     </linearGradient>
@@ -477,7 +477,7 @@
        inkscape:label="fgRDim"
        gradientTransform="translate(29.999998,112.50208)">
       <stop
-         style="stop-color:#9b948f;stop-opacity:1;"
+         style="stop-color:#9c938f;stop-opacity:1;"
          offset="0"
          id="stop66" />
     </linearGradient>
@@ -517,7 +517,7 @@
        inkscape:label="visY"
        gradientTransform="translate(140,-30)">
       <stop
-         style="stop-color:#a9bce5;stop-opacity:1;"
+         style="stop-color:#bac5e0;stop-opacity:1;"
          offset="0"
          id="stop62" />
     </linearGradient>
@@ -567,7 +567,7 @@
        inkscape:label="bgY2"
        gradientTransform="translate(180,112.50208)">
       <stop
-         style="stop-color:#e8e3de;stop-opacity:1;"
+         style="stop-color:#eae3dc;stop-opacity:1;"
          offset="0"
          id="stop57" />
     </linearGradient>
@@ -577,7 +577,7 @@
        inkscape:label="bgY1"
        gradientTransform="matrix(1.3333333,0,0,1,166.66667,112.50208)">
       <stop
-         style="stop-color:#efeae6;stop-opacity:1;"
+         style="stop-color:#f1eae4;stop-opacity:1;"
          offset="0"
          id="stop56" />
     </linearGradient>
@@ -587,7 +587,7 @@
        inkscape:label="bgY0"
        gradientTransform="matrix(1.0000172,0,0,1.0000172,278.99325,122.50208)">
       <stop
-         style="stop-color:#f8f4f2;stop-opacity:1;"
+         style="stop-color:#f9f4f1;stop-opacity:1;"
          offset="0"
          id="stop55" />
     </linearGradient>
@@ -596,7 +596,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgYPurple">
       <stop
-         style="stop-color:#dac6e2;stop-opacity:1;"
+         style="stop-color:#dcc6e1;stop-opacity:1;"
          offset="0"
          id="stop54" />
     </linearGradient>
@@ -605,7 +605,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgYBlue">
       <stop
-         style="stop-color:#cddbdf;stop-opacity:1;"
+         style="stop-color:#cfdbde;stop-opacity:1;"
          offset="0"
          id="stop53" />
     </linearGradient>
@@ -614,7 +614,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgYTeal">
       <stop
-         style="stop-color:#cee1d1;stop-opacity:1;"
+         style="stop-color:#d0e1d0;stop-opacity:1;"
          offset="0"
          id="stop52" />
     </linearGradient>
@@ -623,7 +623,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgYGreen">
       <stop
-         style="stop-color:#d9e3c4;stop-opacity:1;"
+         style="stop-color:#dbe3c3;stop-opacity:1;"
          offset="0"
          id="stop51" />
     </linearGradient>
@@ -632,7 +632,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgYYellow">
       <stop
-         style="stop-color:#ebdbc1;stop-opacity:1;"
+         style="stop-color:#eddbc0;stop-opacity:1;"
          offset="0"
          id="stop50" />
     </linearGradient>
@@ -641,7 +641,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgYOrange">
       <stop
-         style="stop-color:#eccfbf;stop-opacity:1;"
+         style="stop-color:#eecfbe;stop-opacity:1;"
          offset="0"
          id="stop49" />
     </linearGradient>
@@ -650,7 +650,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgYRed">
       <stop
-         style="stop-color:#ecc2bf;stop-opacity:1;"
+         style="stop-color:#eec2be;stop-opacity:1;"
          offset="0"
          id="stop48" />
     </linearGradient>
@@ -660,7 +660,7 @@
        inkscape:label="fgYDim"
        gradientTransform="translate(160,112.50208)">
       <stop
-         style="stop-color:#9b968f;stop-opacity:1;"
+         style="stop-color:#9c968e;stop-opacity:1;"
          offset="0"
          id="stop47" />
     </linearGradient>
@@ -700,7 +700,7 @@
        inkscape:label="visT"
        gradientTransform="translate(100,-29.99999)">
       <stop
-         style="stop-color:#ebadda;stop-opacity:1;"
+         style="stop-color:#e2b5d0;stop-opacity:1;"
          offset="0"
          id="stop43" />
     </linearGradient>
@@ -745,7 +745,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgT2">
       <stop
-         style="stop-color:#dee4e8;stop-opacity:1;"
+         style="stop-color:#dce4ea;stop-opacity:1;"
          offset="0"
          id="stop38" />
     </linearGradient>
@@ -755,7 +755,7 @@
        inkscape:label="bgT1"
        gradientTransform="matrix(1.3333333,0,0,1,-3.3333327,0)">
       <stop
-         style="stop-color:#e7ecee;stop-opacity:1;"
+         style="stop-color:#e4edf1;stop-opacity:1;"
          offset="0"
          id="stop37" />
     </linearGradient>
@@ -765,7 +765,7 @@
        inkscape:label="bgT0"
        gradientTransform="matrix(1.0000172,0,0,1.0000172,38.992815,10.000003)">
       <stop
-         style="stop-color:#f2f6f8;stop-opacity:1;"
+         style="stop-color:#f1f6f9;stop-opacity:1;"
          offset="0"
          id="stop36" />
     </linearGradient>
@@ -774,7 +774,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgTPurple">
       <stop
-         style="stop-color:#d4c8e8;stop-opacity:1;"
+         style="stop-color:#d2c9eb;stop-opacity:1;"
          offset="0"
          id="stop35" />
     </linearGradient>
@@ -783,7 +783,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgTBlue">
       <stop
-         style="stop-color:#c7dde5;stop-opacity:1;"
+         style="stop-color:#c5dee8;stop-opacity:1;"
          offset="0"
          id="stop34" />
     </linearGradient>
@@ -792,7 +792,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgTTeal">
       <stop
-         style="stop-color:#c8e3d7;stop-opacity:1;"
+         style="stop-color:#c6e4da;stop-opacity:1;"
          offset="0"
          id="stop33" />
     </linearGradient>
@@ -801,7 +801,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgTGreen">
       <stop
-         style="stop-color:#d3e5ca;stop-opacity:1;"
+         style="stop-color:#d1e6cd;stop-opacity:1;"
          offset="0"
          id="stop32" />
     </linearGradient>
@@ -810,7 +810,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgTYellow">
       <stop
-         style="stop-color:#e5ddc7;stop-opacity:1;"
+         style="stop-color:#e3deca;stop-opacity:1;"
          offset="0"
          id="stop31" />
     </linearGradient>
@@ -819,7 +819,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgTOrange">
       <stop
-         style="stop-color:#e6d1c5;stop-opacity:1;"
+         style="stop-color:#e4d2c8;stop-opacity:1;"
          offset="0"
          id="stop30" />
     </linearGradient>
@@ -828,7 +828,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgTRed">
       <stop
-         style="stop-color:#e6c4c5;stop-opacity:1;"
+         style="stop-color:#e4c5c8;stop-opacity:1;"
          offset="0"
          id="stop29" />
     </linearGradient>
@@ -837,7 +837,7 @@
        inkscape:swatch="solid"
        inkscape:label="fgTDim">
       <stop
-         style="stop-color:#979793;stop-opacity:1;"
+         style="stop-color:#969794;stop-opacity:1;"
          offset="0"
          id="stop28" />
     </linearGradient>
@@ -877,7 +877,7 @@
        inkscape:label="visP"
        gradientTransform="translate(140,-30)">
       <stop
-         style="stop-color:#efd3a2;stop-opacity:1;"
+         style="stop-color:#e7d2b3;stop-opacity:1;"
          offset="0"
          id="stop24" />
     </linearGradient>
@@ -927,7 +927,7 @@
        inkscape:label="bgP2"
        gradientTransform="translate(180,162.50208)">
       <stop
-         style="stop-color:#dedee8;stop-opacity:1;"
+         style="stop-color:#dcdcea;stop-opacity:1;"
          offset="0"
          id="stop19" />
     </linearGradient>
@@ -937,7 +937,7 @@
        inkscape:label="bgP1"
        gradientTransform="translate(170,162.50208)">
       <stop
-         style="stop-color:#e6e6ef;stop-opacity:1;"
+         style="stop-color:#e4e4f1;stop-opacity:1;"
          offset="0"
          id="stop18" />
     </linearGradient>
@@ -947,7 +947,7 @@
        inkscape:label="bgP0"
        gradientTransform="matrix(1.0000172,0,0,1.0000172,278.99258,172.50208)">
       <stop
-         style="stop-color:#f2f3f8;stop-opacity:1;"
+         style="stop-color:#f1f2f9;stop-opacity:1;"
          offset="0"
          id="stop17" />
     </linearGradient>
@@ -956,7 +956,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgPPurple">
       <stop
-         style="stop-color:#d3c3e9;stop-opacity:1;"
+         style="stop-color:#d2c2eb;stop-opacity:1;"
          offset="0"
          id="stop16" />
     </linearGradient>
@@ -965,7 +965,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgPBlue">
       <stop
-         style="stop-color:#c6d8e6;stop-opacity:1;"
+         style="stop-color:#c5d7e8;stop-opacity:1;"
          offset="0"
          id="stop15" />
     </linearGradient>
@@ -974,7 +974,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgPTeal">
       <stop
-         style="stop-color:#c7ded8;stop-opacity:1;"
+         style="stop-color:#c6ddda;stop-opacity:1;"
          offset="0"
          id="stop14" />
     </linearGradient>
@@ -983,7 +983,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgPGreen">
       <stop
-         style="stop-color:#d2e0cb;stop-opacity:1;"
+         style="stop-color:#d1dfcd;stop-opacity:1;"
          offset="0"
          id="stop13" />
     </linearGradient>
@@ -992,7 +992,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgPYellow">
       <stop
-         style="stop-color:#e4d8c8;stop-opacity:1;"
+         style="stop-color:#e3d7ca;stop-opacity:1;"
          offset="0"
          id="stop12" />
     </linearGradient>
@@ -1001,7 +1001,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgPOrange">
       <stop
-         style="stop-color:#e5ccc6;stop-opacity:1;"
+         style="stop-color:#e4cbc8;stop-opacity:1;"
          offset="0"
          id="stop11" />
     </linearGradient>
@@ -1010,7 +1010,7 @@
        inkscape:swatch="solid"
        inkscape:label="bgPRed">
       <stop
-         style="stop-color:#e5bfc6;stop-opacity:1;"
+         style="stop-color:#e4bec8;stop-opacity:1;"
          offset="0"
          id="stop10" />
     </linearGradient>
@@ -1020,7 +1020,7 @@
        inkscape:label="fgPDim"
        gradientTransform="translate(160,162.50207)">
       <stop
-         style="stop-color:#979493;stop-opacity:1;"
+         style="stop-color:#969394;stop-opacity:1;"
          offset="0"
          id="stop9" />
     </linearGradient>
@@ -1029,7 +1029,7 @@
        inkscape:swatch="solid"
        inkscape:label="mulberry">
       <stop
-         style="stop-color:#b82e6e;stop-opacity:1;"
+         style="stop-color:#ad2967;stop-opacity:1;"
          offset="0"
          id="stop144" />
     </linearGradient>
@@ -1038,7 +1038,7 @@
        inkscape:swatch="solid"
        inkscape:label="pink">
       <stop
-         style="stop-color:#ba3bba;stop-opacity:1;"
+         style="stop-color:#aa45aa;stop-opacity:1;"
          offset="0"
          id="stop145" />
     </linearGradient>
@@ -1048,7 +1048,7 @@
        inkscape:label="purple"
        gradientTransform="matrix(1.0000346,0,0,0.99999978,1009.9934,690.00834)">
       <stop
-         style="stop-color:#7d2fbb;stop-opacity:1;"
+         style="stop-color:#7b38b2;stop-opacity:1;"
          offset="0"
          id="stop8" />
     </linearGradient>
@@ -1057,7 +1057,7 @@
        inkscape:swatch="solid"
        inkscape:label="lavender">
       <stop
-         style="stop-color:#3b4eb0;stop-opacity:1;"
+         style="stop-color:#364bb5;stop-opacity:1;"
          offset="0"
          id="stop146" />
     </linearGradient>
@@ -1067,7 +1067,7 @@
        inkscape:label="blue"
        gradientTransform="translate(530,467.50625)">
       <stop
-         style="stop-color:#177ea1;stop-opacity:1;"
+         style="stop-color:#0d7697;stop-opacity:1;"
          offset="0"
          id="stop7" />
     </linearGradient>
@@ -1077,7 +1077,7 @@
        inkscape:label="teal"
        gradientTransform="translate(508.99994,467.50625)">
       <stop
-         style="stop-color:#1f8e5f;stop-opacity:1;"
+         style="stop-color:#178c5a;stop-opacity:1;"
          offset="0"
          id="stop6" />
     </linearGradient>
@@ -1087,7 +1087,7 @@
        inkscape:label="green"
        gradientTransform="translate(470,467.50625)">
       <stop
-         style="stop-color:#5b9b27;stop-opacity:1;"
+         style="stop-color:#5f9933;stop-opacity:1;"
          offset="0"
          id="stop5" />
     </linearGradient>
@@ -1097,7 +1097,7 @@
        inkscape:label="yellow"
        gradientTransform="translate(489.00036,467.50625)">
       <stop
-         style="stop-color:#c2850a;stop-opacity:1;"
+         style="stop-color:#c88604;stop-opacity:1;"
          offset="0"
          id="stop4" />
     </linearGradient>
@@ -1107,7 +1107,7 @@
        inkscape:label="orange"
        gradientTransform="translate(410,467.50625)">
       <stop
-         style="stop-color:#d35b18;stop-opacity:1;"
+         style="stop-color:#c7561e;stop-opacity:1;"
          offset="0"
          id="stop3" />
     </linearGradient>
@@ -1117,7 +1117,7 @@
        inkscape:label="red"
        gradientTransform="translate(389.00038,477.50625)">
       <stop
-         style="stop-color:#d12f2e;stop-opacity:1;"
+         style="stop-color:#be2e2d;stop-opacity:1;"
          offset="0"
          id="stop2" />
     </linearGradient>
@@ -6685,7 +6685,7 @@
      id="expo"
      inkscape:label="Expo"
      transform="translate(-29.999998,37.497922)"
-     inkscape:export-filename="_public\imgs\expo.png"
+     inkscape:export-filename="_public\imgs\expoLight.png"
      inkscape:export-xdpi="300"
      inkscape:export-ydpi="300">
     <rect
@@ -7864,22 +7864,22 @@
        d="M 10,89.999996 H 20 V 140 H 10 Z"
        inkscape:label="f" />
     <path
-       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#f1a60d;fill-opacity:0.32000002;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
+       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#f1a60d;fill-opacity:0.27000001;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
        id="path71-1"
-       d="m 119.99999,130 h 10 v 10.00001 h -10 z"
+       d="m 119.99999,129.99999 h 10 V 140 h -10 z"
        inkscape:label="vP" />
     <path
-       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#df209f;fill-opacity:0.32000002;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
+       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#df2079;fill-opacity:0.27000001;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
        id="path103"
        d="m 119.99999,120.00001 h 10 v 10 h -10 z"
        inkscape:label="vT" />
     <path
-       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#2662d9;fill-opacity:0.32000002;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
+       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#2662d9;fill-opacity:0.27000001;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
        id="path104"
        d="m 119.99999,110 h 10 v 10.00001 h -10 z"
        inkscape:label="vY" />
     <path
-       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#33cc99;fill-opacity:0.32000002;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
+       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#24db9e;fill-opacity:0.27000001;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
        id="path105"
        d="m 119.99999,100 h 10 v 10 h -10 z"
        inkscape:label="vR" />

@@ -53,10 +53,11 @@ function toCol(c) {
 }
 
 function toggleModeKeyboard(ev) {
-	if (ev.keyCode === 13) toggleMode()
+	if (ev.keyCode === 13) toggleMode(ev)
 }
 
-function toggleMode() {
+function toggleMode(ev) {
+	ev.preventDefault()
 	document.body.classList.toggle("light")
 
 	if (document.readyState == "complete") { updateHexes() }
@@ -70,12 +71,51 @@ function loadSwatches() {
 	})
 }
 
-async function updateHexes() {
+function updateHexes() {
 	const vars = window.getComputedStyle(document.body)
 	swatches.forEach(s => {
 		const color = s.querySelector("span:first-of-type").innerHTML
 		s.lastElementChild.innerHTML = vars.getPropertyValue(`--${color}`)
+		adjustColorFromBrightness(s.firstElementChild)
 	})
+}
+
+// Taken from https://stackoverflow.com/a/5624139
+function hexToRgb(hex) {
+	var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex)
+	return result ? {
+		r: parseInt(result[1], 16),
+		g: parseInt(result[2], 16),
+		b: parseInt(result[3], 16)
+	} : null
+}
+
+function rgbFromString(rgb) {
+	const arr = rgb.split(/[(),]/)
+	return {
+		r: arr[1],
+		g: arr[2],
+		b: arr[3]
+	}
+}
+
+// Based on http://alienryderflex.com/hsp.html
+function isLightColor(r, g, b) {
+	return Math.sqrt(0.299 * r * r + 0.587 * g * g + 0.114 * b * b) > 127.5
+}
+
+function adjustColorFromBrightness(el) {
+	const colName = el.style.backgroundColor.substring(4, el.style.backgroundColor.length - 1)
+	const color = window.getComputedStyle(document.body).getPropertyValue(colName)
+	const rgb = color[0] === "#" ? hexToRgb(color) : rgbFromString(color)
+
+	el.style.color = isLightColor(rgb.r, rgb.g, rgb.b) ? "var(--black)" : "var(--white)"
+}
+
+function copyToClipboard(el) {
+	navigator.clipboard.writeText(el.lastElementChild.innerHTML)
+	el.classList.toggle("colorCopied")
+	setTimeout(() => el.classList.toggle("colorCopied"), 1500)
 }
 
 // window.onload = toCol("P")

@@ -1,0 +1,44 @@
+# Colors (Nevergrove eucalyptus )
+
+[colors.primary]
+background = "#262d31"
+foreground = "#e6d9bc"
+dim_foreground = "#827e75"
+
+[colors.cursor]
+text = "#1d2325"
+cursor = "#99a39d"
+
+[colors.selection]
+text = "#ebebea"
+background = "#4f344b"
+
+[colors.normal]
+black   = "#1d2325"
+red     = "#ea6c6b"
+green   = "#9bc775"
+yellow  = "#e2b864"
+blue    = "#6cadc6"
+magenta = "#cf7dcf"
+cyan    = "#72c094"
+white   = "#e6d9bc"
+
+[colors.bright]
+black   = "#414a50"
+red     = "#e49b9b"
+green   = "#bed4ab"
+yellow  = "#e4cb9a"
+blue    = "#a5c8d4"
+magenta = "#d9abd9"
+cyan    = "#a8d2ba"
+white   = "#efe9dc"
+
+[colors.dim]
+black   = "#1a191a"
+red     = "#4b3437"
+green   = "#3c4e3a"
+yellow  = "#4b4737"
+blue    = "#324750"
+magenta = "#493652"
+cyan    = "#334c44"
+white   = "#827e75"
