@@ -113,6 +113,8 @@ main {
 
 		& .code {
 			border-radius: var(--round);
+			border: 1px solid var(--bg0);
+			outline: 1px solid var(--bg3);
 			background-color: var(--bg1);
 			padding: 1rem;
 			overflow-x: auto;
@@ -185,16 +187,16 @@ a {
 		background-color: var(--bg3);
 		color: inherit;
 		font-family: inherit;
-		border: none;
+		border: 2px solid var(--bg4);
 		border-radius: var(--round);
 		box-shadow: 0 4px 0 var(--bg2);
 		font-size: 1em;
 
 		&:hover, &:active { color: var(--bg0); }
-		&#maple:hover, &#maple:active { background-color: var(--red); box-shadow: 0 4px 0 var(--bgRed); }
-		&#aspen:hover, &#aspen:active { background-color: var(--yellow); box-shadow: 0 4px 0 var(--bgYellow); }
-		&#eucalyptus:hover, &#eucalyptus:active { background-color: var(--teal); box-shadow: 0 4px 0 var(--bgTeal); }
-		&#jacaranda:hover, &#jacaranda:active { background-color: var(--purple); box-shadow: 0 4px 0 var(--bgPurple); }
+		&#maple:hover, &#maple:active { background-color: var(--red); box-shadow: 0 4px 0 var(--bgRed); border-color: var(--bgRed); }
+		&#aspen:hover, &#aspen:active { background-color: var(--yellow); box-shadow: 0 4px 0 var(--bgYellow); border-color: var(--bgYellow); }
+		&#eucalyptus:hover, &#eucalyptus:active { background-color: var(--teal); box-shadow: 0 4px 0 var(--bgTeal); border-color: var(--bgTeal); }
+		&#jacaranda:hover, &#jacaranda:active { background-color: var(--purple); box-shadow: 0 4px 0 var(--bgPurple); border-color: var(--bgPurple); }
 	}
 
 	& > div {
@@ -271,6 +273,8 @@ a {
 	margin: 2rem 0 2rem 0;
 	width: fit-content;
 	border-radius: var(--size);
+	border: 1px solid var(--bg0);
+	outline: 1px solid var(--bg4);
 	overflow: hidden;
 	font-size: clamp(0.6rem, 1.25vw, 0.9rem);
 
