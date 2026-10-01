@@ -1,7 +1,7 @@
 # Colors (Nevergrove $VARIANT$MODE)
 
 [colors.primary]
-background = "$BG1"
+background = "$EDITORCOL"
 foreground = "$FG"
 dim_foreground = "$FGDIM"
 

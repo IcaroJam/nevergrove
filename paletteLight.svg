@@ -26,14 +26,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.9145299"
-     inkscape:cx="591.79018"
-     inkscape:cy="402.44866"
+     inkscape:cx="468.26116"
+     inkscape:cy="309.99777"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="expo">
+     inkscape:current-layer="palette">
     <inkscape:grid
        id="grid1"
        units="mm"
@@ -110,7 +110,7 @@
        inkscape:swatch="solid"
        inkscape:label="blueHi">
       <stop
-         style="stop-color:#1a5566;stop-opacity:1;"
+         style="stop-color:#1a4b66;stop-opacity:1;"
          offset="0"
          id="stop186" />
     </linearGradient>
@@ -119,7 +119,7 @@
        inkscape:swatch="solid"
        inkscape:label="tealHi">
       <stop
-         style="stop-color:#1a6045;stop-opacity:1;"
+         style="stop-color:#1a6042;stop-opacity:1;"
          offset="0"
          id="stop185" />
     </linearGradient>
@@ -128,7 +128,7 @@
        inkscape:swatch="solid"
        inkscape:label="greenHi">
       <stop
-         style="stop-color:#4b6f34;stop-opacity:1;"
+         style="stop-color:#5f6f34;stop-opacity:1;"
          offset="0"
          id="stop184" />
     </linearGradient>
@@ -1029,7 +1029,7 @@
        inkscape:swatch="solid"
        inkscape:label="mulberry">
       <stop
-         style="stop-color:#ad2967;stop-opacity:1;"
+         style="stop-color:#c52673;stop-opacity:1;"
          offset="0"
          id="stop144" />
     </linearGradient>
@@ -1038,7 +1038,7 @@
        inkscape:swatch="solid"
        inkscape:label="pink">
       <stop
-         style="stop-color:#aa45aa;stop-opacity:1;"
+         style="stop-color:#c742c7;stop-opacity:1;"
          offset="0"
          id="stop145" />
     </linearGradient>
@@ -1048,7 +1048,7 @@
        inkscape:label="purple"
        gradientTransform="matrix(1.0000346,0,0,0.99999978,1009.9934,690.00834)">
       <stop
-         style="stop-color:#7b38b2;stop-opacity:1;"
+         style="stop-color:#8438c7;stop-opacity:1;"
          offset="0"
          id="stop8" />
     </linearGradient>
@@ -1057,7 +1057,7 @@
        inkscape:swatch="solid"
        inkscape:label="lavender">
       <stop
-         style="stop-color:#364bb5;stop-opacity:1;"
+         style="stop-color:#435dd0;stop-opacity:1;"
          offset="0"
          id="stop146" />
     </linearGradient>
@@ -1067,7 +1067,7 @@
        inkscape:label="blue"
        gradientTransform="translate(530,467.50625)">
       <stop
-         style="stop-color:#0d7697;stop-opacity:1;"
+         style="stop-color:#3a94c5;stop-opacity:1;"
          offset="0"
          id="stop7" />
     </linearGradient>
@@ -1077,7 +1077,7 @@
        inkscape:label="teal"
        gradientTransform="translate(508.99994,467.50625)">
       <stop
-         style="stop-color:#178c5a;stop-opacity:1;"
+         style="stop-color:#279b65;stop-opacity:1;"
          offset="0"
          id="stop6" />
     </linearGradient>
@@ -1087,7 +1087,7 @@
        inkscape:label="green"
        gradientTransform="translate(470,467.50625)">
       <stop
-         style="stop-color:#5f9933;stop-opacity:1;"
+         style="stop-color:#7faa0e;stop-opacity:1;"
          offset="0"
          id="stop5" />
     </linearGradient>
@@ -1097,7 +1097,7 @@
        inkscape:label="yellow"
        gradientTransform="translate(489.00036,467.50625)">
       <stop
-         style="stop-color:#c88604;stop-opacity:1;"
+         style="stop-color:#e09600;stop-opacity:1;"
          offset="0"
          id="stop4" />
     </linearGradient>
@@ -1107,7 +1107,7 @@
        inkscape:label="orange"
        gradientTransform="translate(410,467.50625)">
       <stop
-         style="stop-color:#c7561e;stop-opacity:1;"
+         style="stop-color:#dc5919;stop-opacity:1;"
          offset="0"
          id="stop3" />
     </linearGradient>
@@ -1117,7 +1117,7 @@
        inkscape:label="red"
        gradientTransform="translate(389.00038,477.50625)">
       <stop
-         style="stop-color:#be2e2d;stop-opacity:1;"
+         style="stop-color:#d02525;stop-opacity:1;"
          offset="0"
          id="stop2" />
     </linearGradient>

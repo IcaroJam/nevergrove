@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.379779"
-     inkscape:cx="490.65829"
-     inkscape:cy="314.18075"
+     inkscape:zoom="1.9513022"
+     inkscape:cx="866.85703"
+     inkscape:cy="393.32709"
      inkscape:window-width="1920"
      inkscape:window-height="1166"
      inkscape:window-x="-11"
@@ -110,7 +110,7 @@
        inkscape:swatch="solid"
        inkscape:label="blueHi">
       <stop
-         style="stop-color:#a5c8d4;stop-opacity:1;"
+         style="stop-color:#a5c7d4;stop-opacity:1;"
          offset="0"
          id="stop186" />
     </linearGradient>
@@ -128,7 +128,7 @@
        inkscape:swatch="solid"
        inkscape:label="greenHi">
       <stop
-         style="stop-color:#bed4ab;stop-opacity:1;"
+         style="stop-color:#c0d4ab;stop-opacity:1;"
          offset="0"
          id="stop184" />
     </linearGradient>
@@ -1038,7 +1038,7 @@
        inkscape:swatch="solid"
        inkscape:label="pink">
       <stop
-         style="stop-color:#cf7dcf;stop-opacity:1;"
+         style="stop-color:#cd7acd;stop-opacity:1;"
          offset="0"
          id="stop145" />
     </linearGradient>
@@ -1067,7 +1067,7 @@
        inkscape:label="blue"
        gradientTransform="translate(530,467.50625)">
       <stop
-         style="stop-color:#6cadc6;stop-opacity:1;"
+         style="stop-color:#6eadc4;stop-opacity:1;"
          offset="0"
          id="stop7" />
     </linearGradient>
@@ -1077,7 +1077,7 @@
        inkscape:label="teal"
        gradientTransform="translate(508.99994,467.50625)">
       <stop
-         style="stop-color:#72c094;stop-opacity:1;"
+         style="stop-color:#74be94;stop-opacity:1;"
          offset="0"
          id="stop6" />
     </linearGradient>
@@ -1087,7 +1087,7 @@
        inkscape:label="green"
        gradientTransform="translate(470,467.50625)">
       <stop
-         style="stop-color:#9bc775;stop-opacity:1;"
+         style="stop-color:#9ec577;stop-opacity:1;"
          offset="0"
          id="stop5" />
     </linearGradient>

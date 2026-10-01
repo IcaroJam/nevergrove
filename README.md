@@ -82,33 +82,42 @@ For installation steps and further info visit [the repo!](https://github.com/Ica
 
 Maple
 ![](_public/imgs/vscode/maple.png)
+![](_public/imgs/vscode/maple-light.png)
 
 Aspen
 ![](_public/imgs/vscode/aspen.png)
+![](_public/imgs/vscode/aspen-light.png)
 
 Eucalyptus
 ![](_public/imgs/vscode/eucalyptus.png)
+![](_public/imgs/vscode/eucalyptus-light.png)
 
 Jacaranda
 ![](_public/imgs/vscode/jacaranda.png)
+![](_public/imgs/vscode/jacaranda-light.png)
 
 ### Breeze 6 Cursors
 For installation steps and further info visit [the repo!](https://github.com/IcaroJam/breeze6-cursors-nevergrove)
 
 Maple
 ![](_public/imgs/breeze/maple.png)
+![](_public/imgs/breeze/maple-light.png)
 
 Aspen
 ![](_public/imgs/breeze/aspen.png)
+![](_public/imgs/breeze/aspen-light.png)
 
 Eucalyptus
 ![](_public/imgs/breeze/eucalyptus.png)
+![](_public/imgs/breeze/eucalyptus-light.png)
 
 Jacaranda
 ![](_public/imgs/breeze/jacaranda.png)
+![](_public/imgs/breeze/jacaranda-light.png)
 
 Neutral
 ![](_public/imgs/breeze/neutral.png)
+![](_public/imgs/breeze/neutral-light.png)
 
 ## Developing
 The project is structured so that any color changes made in inkscape can be automatically matched in the rest of the files by simply running the `updateVars.sh` script.

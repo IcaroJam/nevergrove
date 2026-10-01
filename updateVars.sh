@@ -70,10 +70,13 @@ replaceColors () {
 	# $4 -> The inverse accent color used for the variant
 
 	selectedTxt=white
+	editorCol=bg${2}1
 	if [ "$MODE" = "Light" ]; then
-	selectedTxt=black
+		selectedTxt=black
+		editorCol=bg${2}0
 	fi
 	sed -i "s/\$SELECTEDTXT/${colors[$selectedTxt]}/" $tgt
+	sed -i "s/\$EDITORCOL/${colors[$editorCol]}/" $tgt
 
 	sed -i "s/\$VARIANT/$1/" $tgt
 
@@ -323,7 +326,7 @@ buildCursorTheme () {
 		replaceCursorSwatch windowServerFg black
 
 		if $IMGGEN; then
-			inkscape $tgt -i expo -j -w 1800 -o _public/imgs/breeze/$1.png > /dev/null
+			inkscape $tgt -i expo -j -w 1800 -o _public/imgs/breeze/$1$modesuffix.png > /dev/null
 		fi
 
 		echo -e "Breeze 6 cursors $1 theme updated!\n"
